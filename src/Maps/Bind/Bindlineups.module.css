@@ -1,0 +1,25 @@
+.container{
+    flex-grow: 1;
+    height: calc(100vh - 80px);
+    background-image: url("../../Media/bind_background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.lineup_selector{
+    width: 40rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+.lineup_detail{
+    width: 100%;
+    backgrounD: orange;
+    height: 100%;
+}

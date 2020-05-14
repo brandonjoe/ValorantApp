@@ -11,7 +11,7 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className={classes.right}>
-                    <img className={classes.sova_image} src={sova_image}></img>
+                    <img className={classes.sova_image} alt={"sova"}src={sova_image}></img>
                     <div className={classes.sova_text}>SOVA</div>
                 </div>
             </div>

@@ -10,10 +10,10 @@ const Maps = () => {
                 <div className={classes.section_title}>
                     <h1 className={classes.title}>Maps</h1>
                 </div>
-                <div className={classes.map_selection}>
+                
                 <AppConsumer>
                     {(value) => (
-                        <div>
+                      <div className={classes.map_selection}>
                             <Link className={classes.link} onClick={() => value.updateBind()} to={"/bind"}>
                           <Map title={'Bind'} />
                             </Link>
@@ -25,8 +25,7 @@ const Maps = () => {
                     )}
                 </AppConsumer>
                   
-                        
-                </div>
+            
             </div>
         </div>
     );

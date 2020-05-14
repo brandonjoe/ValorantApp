@@ -6,7 +6,9 @@ const AppContext = React.createContext();
 class AppProvider extends Component {
     state={
         lineups: [],
-        detailLineup: {}
+        detailLineup: {},
+        currentMap: ''
+        
     }
     componentWillMount(){
         
@@ -19,7 +21,11 @@ class AppProvider extends Component {
             tempLineups = [...tempLineups, singleItem];
         })
         this.setState(() => {
-            return {lineups: tempLineups }
+            return {lineups: tempLineups,
+                    currentMap: 'Bind',
+                    detailLineup: bind_detail
+                    
+            }
             
         }) 
     }
@@ -30,7 +36,10 @@ class AppProvider extends Component {
             tempLineups = [...tempLineups, singleItem];
         })
         this.setState(() => {
-            return {lineups: tempLineups }
+            return {lineups: tempLineups,
+                    currentMap: 'Haven',
+                    detailLineup: haven_detail
+                }
             
         }) 
     }
@@ -46,6 +55,12 @@ class AppProvider extends Component {
             }
         })
     }
+    showEasy = () => {
+        const tempLineups = [];
+        this.state.lineups.forEach(item => {
+            console.log(item)
+        })
+    }
     
     render() {
         return (
@@ -54,7 +69,8 @@ class AppProvider extends Component {
                     ...this.state,
                     setDetailLineup: this.setDetailLineup,
                     updateBind: this.updateBind,
-                    updateHaven: this.updateHaven
+                    updateHaven: this.updateHaven,
+                    showEasy: this.showEasy
                 }
             }
            >
@@ -65,5 +81,4 @@ class AppProvider extends Component {
 }
 
 const AppConsumer = AppContext.Consumer;
-
-export {AppProvider, AppConsumer};
+export {AppProvider, AppConsumer, AppContext};

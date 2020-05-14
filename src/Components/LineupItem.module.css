@@ -1,7 +1,11 @@
 .container{
     height: 15rem;
-    background: blue;
+    width: 80%;
+    background: rgba(15, 25, 35, 0.753);
+    margin-top: 1rem;
+    
 }
 .main{
     height: 100%;
+    color: rgb(236, 230, 230);
 }

@@ -1,0 +1,42 @@
+.container{
+    flex-grow: 1;
+    height: calc(100vh - 80px);
+    background-image: url("../Media/bind_background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-center;
+    align-items: flex-start;
+}
+.lineup_selector{
+    margin-top: 2rem;
+    min-width: 20%;
+    max-height: calc(100vh - 30rem);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.lineup_selector_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lineup_detail{
+    max-width: 80%;
+    flex-grow: 1;
+    border-left: 2px solid rgb(221, 221, 221);
+    height: 100%;
+}
+.map_title{
+    font-size: 3rem;
+    font-family: 'ValorantFont', sans-serif;
+}

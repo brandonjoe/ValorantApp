@@ -18,7 +18,7 @@ class LineupDetail extends Component {
                             {info}
                             </div>
                             <div>
-                            <iframe src="https://player.vimeo.com/video/418358446" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            <iframe src="https://player.vimeo.com/video/418358446" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
                             </div>
                            
                         </div>

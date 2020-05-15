@@ -66,8 +66,8 @@ export const bind_data = [
 ]
 export const bind_detail = {
     id:1,
-    title: "A site Haven bolt",
-    difficulty: "Medium",
+    title: "BIND 1 site Haven bolt",
+    difficulty: "Easy",
     essential: true,
     info: "Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit."
 }

@@ -7,9 +7,6 @@ import Filter from './Filter.js'
 
 class Lineups extends Component {
 
-    componentWillMount () {
-        console.log(window.location.pathname)
-    }
     render() {
         return (
 

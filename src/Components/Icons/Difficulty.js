@@ -4,11 +4,11 @@ import classes from './Difficulty.module.css';
 const Difficulty = (props) => {
     const difficulty = props.color;
     let icon;
-    if (difficulty == "Easy"){
+    if (difficulty === "Easy") {
         icon = classes.colorGreen
-    } else if (difficulty == "Medium"){
+    } else if (difficulty === "Medium") {
         icon = classes.colorYellow
-    } else if (difficulty == "Hard"){
+    } else if (difficulty === "Hard") {
         icon = classes.colorRed
     }
     return (

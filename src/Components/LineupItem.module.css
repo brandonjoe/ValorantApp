@@ -20,3 +20,12 @@
     height: 100%;
     color: rgb(236, 230, 230);
 }
+.active{
+    background-color: olivedrab;
+}
+.attacking{
+    background-color: orange;
+}
+.defending{
+    background-color: purple;
+}

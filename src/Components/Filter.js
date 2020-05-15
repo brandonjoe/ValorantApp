@@ -17,7 +17,9 @@ class Filter extends Component {
                                 <h1 style={{ backgroundColor: value.selectedFilters.medium ? "yellow" : "grey" }} onClick={() => value.toggleMedium()}>Medium</h1>
                                 <h1 style={{ backgroundColor: value.selectedFilters.hard ? "red" : "grey" }} onClick={() => value.toggleHard()}>Hard</h1>
                                 <h1 style={{ backgroundColor: value.isEssential ? "blue" : "grey" }} onClick={() => value.toggleEssential()}>Essential</h1>
-                                <h1 onClick={() => value.resetPage()}>Reset</h1>
+                                <h1 style={{ backgroundColor: value.selectedSide.attacking ? "orange" : "grey" }} onClick={() => value.toggleAttacking()}>Attacking</h1>
+                                <h1 style={{ backgroundColor: value.selectedSide.defending ? "purple" : "grey" }} onClick={() => value.toggleDefending()}>Defending</h1>
+
                             </div>
 
                         )

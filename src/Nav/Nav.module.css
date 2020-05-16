@@ -2,3 +2,53 @@
     height: 80px;
     background-color: rgb(31, 35, 38);
 }
+.nav_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home_btn{
+    color: white;
+}
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .nav_buttons{
+      margin: 0;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdowncontent a:hover {background-color: #ff5959}
+  
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #525252;
+  }

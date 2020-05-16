@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ValorantApp/static/css/main.056f1724.chunk.css",
+    "main.js": "/ValorantApp/static/js/main.d5b1a44a.chunk.js",
+    "main.js.map": "/ValorantApp/static/js/main.d5b1a44a.chunk.js.map",
+    "runtime-main.js": "/ValorantApp/static/js/runtime-main.b24765df.js",
+    "runtime-main.js.map": "/ValorantApp/static/js/runtime-main.b24765df.js.map",
+    "static/js/2.3d625943.chunk.js": "/ValorantApp/static/js/2.3d625943.chunk.js",
+    "static/js/2.3d625943.chunk.js.map": "/ValorantApp/static/js/2.3d625943.chunk.js.map",
+    "index.html": "/ValorantApp/index.html",
+    "precache-manifest.0ebd80706c611a486e500284ea47f4d1.js": "/ValorantApp/precache-manifest.0ebd80706c611a486e500284ea47f4d1.js",
+    "service-worker.js": "/ValorantApp/service-worker.js",
+    "static/css/main.056f1724.chunk.css.map": "/ValorantApp/static/css/main.056f1724.chunk.css.map",
+    "static/js/2.3d625943.chunk.js.LICENSE.txt": "/ValorantApp/static/js/2.3d625943.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ValorantApp/static/media/ValorantFont.6eb0f684.ttf",
+    "static/media/Lineups.module.css": "/ValorantApp/static/media/bind_background.a3359ef4.jpg",
+    "static/media/Intro.module.css": "/ValorantApp/static/media/intro_background.36ad8f19.jpg",
+    "static/media/intro_sova.png": "/ValorantApp/static/media/intro_sova.228298c9.png",
+    "static/media/Maps.module.css": "/ValorantApp/static/media/maps_background.35501dd0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b24765df.js",
+    "static/js/2.3d625943.chunk.js",
+    "static/css/main.056f1724.chunk.css",
+    "static/js/main.d5b1a44a.chunk.js"
+  ]
+}

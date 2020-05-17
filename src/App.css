@@ -16,3 +16,8 @@ body {
   font-family: 'DrukWide';
   src:  url('./Fonts/DrukWide.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }  
+@font-face {
+  font-family: 'Roboto';
+  src:  url('./Fonts/Roboto-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+

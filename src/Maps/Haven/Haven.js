@@ -7,7 +7,7 @@ import Lineups from '../../Components/Lineups.js';
 class Haven extends Component {
     
     componentWillMount(){
-        this.context.updateHaven()
+        this.context.updateMap("haven")
     }
 
     

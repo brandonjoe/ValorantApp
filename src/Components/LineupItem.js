@@ -4,6 +4,7 @@ import classes from './LineupItem.module.css';
 import Difficulty from './Icons/Difficulty.js';
 import Essential from './Icons/Essential.js';
 class LineupItem extends Component {
+    
     render() {
         const {id, title, info, essential, difficulty, isActive, side} = this.props.lineup;
         let essential_icon;
@@ -25,7 +26,7 @@ class LineupItem extends Component {
         return (
              <AppConsumer>
                     {(value) => (
-            <div className={`${classes.container} ${activeclass}`}>
+            <div  className={`${classes.container} ${activeclass}`}>
                
                         <div className={classes.main} onClick={() => value.setDetailLineup(id)}>
                             <h1>{title}</h1>

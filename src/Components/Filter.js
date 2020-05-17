@@ -3,32 +3,58 @@ import classes from './Filter.module.css';
 import { AppConsumer } from '../State/context';
 
 class Filter extends Component {
-    render() {
-        return (
-            <div className={classes.container}>
-                <h1>Filters</h1>
+	render() {
+		return (
+			<div className={classes.container}>
+				<h1>Filters</h1>
 
-                <AppConsumer>
-                    {(value) => {
-
-                        return (
-                            <div className={classes.main}>
-                                <h1 style={{ backgroundColor: value.selectedFilters.easy ? "green" : "grey" }} onClick={() => value.toggleEasy()}>Easy</h1>
-                                <h1 style={{ backgroundColor: value.selectedFilters.medium ? "yellow" : "grey" }} onClick={() => value.toggleMedium()}>Medium</h1>
-                                <h1 style={{ backgroundColor: value.selectedFilters.hard ? "red" : "grey" }} onClick={() => value.toggleHard()}>Hard</h1>
-                                <h1 style={{ backgroundColor: value.isEssential ? "blue" : "grey" }} onClick={() => value.toggleEssential()}>Essential</h1>
-                                <h1 style={{ backgroundColor: value.selectedSide.attacking ? "orange" : "grey" }} onClick={() => value.toggleAttacking()}>Attacking</h1>
-                                <h1 style={{ backgroundColor: value.selectedSide.defending ? "purple" : "grey" }} onClick={() => value.toggleDefending()}>Defending</h1>
-
-                            </div>
-
-                        )
-                    }}
-                </AppConsumer>
-
-            </div>
-        );
-    }
+				<AppConsumer>
+					{(value) => {
+						return (
+							<div className={classes.main}>
+								<h1
+									style={{ backgroundColor: value.selectedFilters.easy ? 'green' : 'grey' }}
+									onClick={() => value.toggleFilter('easy')}
+								>
+									Easy
+								</h1>
+								<h1
+									style={{ backgroundColor: value.selectedFilters.medium ? 'yellow' : 'grey' }}
+									onClick={() => value.toggleFilter('medium')}
+								>
+									Medium
+								</h1>
+								<h1
+									style={{ backgroundColor: value.selectedFilters.hard ? 'red' : 'grey' }}
+									onClick={() => value.toggleFilter('hard')}
+								>
+									Hard
+								</h1>
+								<h1
+									style={{ backgroundColor: value.isEssential ? 'blue' : 'grey' }}
+									onClick={() => value.toggleFilter('essential')}
+								>
+									Essential
+								</h1>
+								<h1
+									style={{ backgroundColor: value.selectedSide.attacking ? 'orange' : 'grey' }}
+									onClick={() => value.toggleFilter('attacking')}
+								>
+									Attacking
+								</h1>
+								<h1
+									style={{ backgroundColor: value.selectedSide.defending ? 'purple' : 'grey' }}
+									onClick={() => value.toggleFilter('defending')}
+								>
+									Defending
+								</h1>
+							</div>
+						);
+					}}
+				</AppConsumer>
+			</div>
+		);
+	}
 }
 
 export default Filter;

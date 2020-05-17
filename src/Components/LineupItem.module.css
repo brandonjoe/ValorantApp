@@ -3,7 +3,7 @@
     width: 80%;
     background: rgba(15, 25, 35, 0.753);
     margin-top: 1rem;
-    
+    opacity: 1;
 }
 .essential_icon{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

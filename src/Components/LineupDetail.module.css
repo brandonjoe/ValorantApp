@@ -1,5 +1,6 @@
 .container{
     padding: 6rem 3rem 0rem 3rem;
+    opacity: 1;
 }
 .main{
     display: flex;

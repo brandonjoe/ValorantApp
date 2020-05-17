@@ -1,7 +1,7 @@
 export const bind_data = [
     {
         id:1,
-        title: "BIND 1 site Haven bolt",
+        title: "BIND 1",
         isActive: true,
         difficulty: "Easy",
         side: "Attacking",
@@ -31,7 +31,7 @@ export const bind_data = [
     },
     {
         id:4,
-        title: "BIND 4 site Haven bolt",
+        title: "BIND 4 sitebolt",
         isActive: false,
         difficulty: "Easy",
         side: "Attacking",
@@ -61,7 +61,7 @@ export const bind_data = [
     },
     {
         id:7,
-        title: "BIND 7 site Haven bolt",
+        title: "BIND 7 sitebolt",
         isActive: false,
         difficulty: "Easy",
         side: "Attacking",
@@ -91,7 +91,7 @@ export const bind_data = [
 ]
 export const bind_detail = {
     id:1,
-    title: "BIND 1 site Haven bolt",
+    title: "BIND 1",
     isActive: true,
     difficulty: "Easy",
     side: "Attacking",

@@ -32,3 +32,4 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+a:visited { text-decoration: none !important;}

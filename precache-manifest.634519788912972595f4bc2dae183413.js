@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1f014b3f099cd215e9c2443cde92e00",
+    "revision": "252106fbcb21e2650172068ea449feed",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "97b23e944ad2bd5d1249",
-    "url": "/ValorantApp/static/css/main.15393480.chunk.css"
+    "revision": "055f090ab7c66b8f2dd5",
+    "url": "/ValorantApp/static/css/main.69632942.chunk.css"
   },
   {
-    "revision": "17e88f65a8807afb7ed3",
-    "url": "/ValorantApp/static/js/2.375811d7.chunk.js"
+    "revision": "999229d59e0a5414151c",
+    "url": "/ValorantApp/static/js/2.1ba40c02.chunk.js"
   },
   {
     "revision": "723894b771c1fe011b0df55ec646ea2d",
-    "url": "/ValorantApp/static/js/2.375811d7.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/2.1ba40c02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97b23e944ad2bd5d1249",
-    "url": "/ValorantApp/static/js/main.dbdac32c.chunk.js"
+    "revision": "055f090ab7c66b8f2dd5",
+    "url": "/ValorantApp/static/js/main.19ea07c7.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e389c5e310dc537b083e0e25ea6eab5",
     "url": "/ValorantApp/static/media/DrukWide.7e389c5e.ttf"
+  },
+  {
+    "revision": "11eabca2251325cfc5589c9c6fb57b46",
+    "url": "/ValorantApp/static/media/Roboto-Regular.11eabca2.ttf"
   },
   {
     "revision": "561f38b1f4570de0fb8a39d691ab058c",
@@ -52,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ValorantApp/static/media/map_1.21b975b1.jpg"
   },
   {
-    "revision": "334dd6379ab425266f26dd4e09470517",
-    "url": "/ValorantApp/static/media/map_2.334dd637.jpg"
+    "revision": "baf6020fc137be0427a1a35e03ebbd23",
+    "url": "/ValorantApp/static/media/map_2.baf6020f.jpg"
   },
   {
     "revision": "d3885979f2706e916fd6bbf16e19940c",

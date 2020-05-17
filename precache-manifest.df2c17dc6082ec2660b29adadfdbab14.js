@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e22f08027346e53e41209db4a01cbc13",
+    "revision": "c1f014b3f099cd215e9c2443cde92e00",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "ef86e9b115b5d8afca9a",
-    "url": "/ValorantApp/static/css/main.e0583ab7.chunk.css"
+    "revision": "97b23e944ad2bd5d1249",
+    "url": "/ValorantApp/static/css/main.15393480.chunk.css"
   },
   {
-    "revision": "08150ec677306fc1b970",
-    "url": "/ValorantApp/static/js/2.30a83c9e.chunk.js"
+    "revision": "17e88f65a8807afb7ed3",
+    "url": "/ValorantApp/static/js/2.375811d7.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ValorantApp/static/js/2.30a83c9e.chunk.js.LICENSE.txt"
+    "revision": "723894b771c1fe011b0df55ec646ea2d",
+    "url": "/ValorantApp/static/js/2.375811d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef86e9b115b5d8afca9a",
-    "url": "/ValorantApp/static/js/main.712e27aa.chunk.js"
+    "revision": "97b23e944ad2bd5d1249",
+    "url": "/ValorantApp/static/js/main.dbdac32c.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "561f38b1f4570de0fb8a39d691ab058c",
     "url": "/ValorantApp/static/media/Tungsten-Bold.561f38b1.ttf"
-  },
-  {
-    "revision": "e5f00a00fb5726c16bd3c025da459aff",
-    "url": "/ValorantApp/static/media/V_Logomark_White.e5f00a00.png"
   },
   {
     "revision": "6eb0f68429b89c1a30f84f1a11875bd7",
@@ -50,6 +46,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "228298c9d1782a5ad65ee2784246901d",
     "url": "/ValorantApp/static/media/intro_sova.228298c9.png"
+  },
+  {
+    "revision": "21b975b15963dffc56deade9cb6c22d3",
+    "url": "/ValorantApp/static/media/map_1.21b975b1.jpg"
+  },
+  {
+    "revision": "334dd6379ab425266f26dd4e09470517",
+    "url": "/ValorantApp/static/media/map_2.334dd637.jpg"
+  },
+  {
+    "revision": "d3885979f2706e916fd6bbf16e19940c",
+    "url": "/ValorantApp/static/media/map_3.d3885979.jpg"
   },
   {
     "revision": "35501dd0598f4ba4380dc12d6c262d98",

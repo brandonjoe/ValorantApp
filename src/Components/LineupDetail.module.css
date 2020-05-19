@@ -1,49 +1,105 @@
-.container{
-    padding: 6rem 3rem 0rem 3rem;
-    opacity: 1;
+.container {
+	opacity: 1;
+	height: 100%;
 }
-.main{
-    display: flex;
-    flex-direction: row;
-    
+.main {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
 }
-.info{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main_left {
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+	background: rgba(15, 25, 35, 0.918);
+	height: 100%;
+	border-right: 1px solid white;
 }
-.textbox{
-    
-    padding: 3rem;
-    clip-path: polygon(5% 0, 100% 0, 100% 95%, 95% 100%, 0 100%, 0% 5%);
-    background-color: rgba(15, 25, 35, 0.801);
-    color: rgb(240, 231, 231);
-    width: 80%;
-    height: 80%;
+.info {
+	padding-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 8rem;
+	border-left: 1px solid rgb(145, 145, 145);
+	height: 100%;
 }
-.info_media{
-    width: fit-content;
-    
+.textbox {
+	color: rgb(240, 231, 231);
 }
-.video{
+.filter{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid white;
+	width: fit-content;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+.filter_icons{
 
 }
+.title{
+	padding-left: 1rem;
+	font-size: 2.5rem;
+	font-family: 'GoodTimes', 'Roboto', sans-serif;
+}
+.info_media {
+	width: fit-content;
+}
+.info_text_container{
+	position: relative;
+	width: 90%;
+	height: fit-content;
 
-.essential_icon{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: fit-content;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 3px 5px 3px 5px;
-    border-radius: 5px;
-    color: white;
-    background-color: blue;
-    font-size: 1.5rem;
 }
-.attacking{
-    background-color: orange;
+.info_text{
+	font-size: 1.6rem;
+	padding: 2rem;
 }
-.defending{
-    background-color: purple;
+.info_text::before{
+	box-sizing: border-box;
+	content: "";
+    display: inline-block;
+	position: absolute;
+	height: calc(50% - .4rem);
+	width: 100%;
+	color: black;
+    border: 1px solid rgba(184, 184, 184, 0.733);
+	left: 0;
+	top: 0;
+    border-bottom: 0;
+}
+.video {
+}
+.difficulty{
+	padding: 3px 5px 3px 5px !important;
+}
+.icon {
+	margin-left: 1rem;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	width: fit-content;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 3px 5px 3px 5px;
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(53, 142, 197);
+	font-size: 1.5rem;
+}
+.attacking {
+	background-color: rgb(248, 150, 0);
+}
+.defending {
+	background-color: rgb(99,56,126);
+}
+.colorGreen{
+    background-color: rgb(98, 163, 29);
+}
+.colorYellow{
+    background-color: rgb(163, 157, 94);
+}
+.colorRed{
+    background-color: rgb(175, 41, 41);
 }

@@ -6,17 +6,17 @@
     width: fit-content;
     font-weight: 400;
     letter-spacing: 1px;
-    padding: 3px 5px 3px 5px;
+    padding: 1px 3px 1px 3px;
     border-radius: 5px;
     color: white;
-    
+    font-size: 1.2rem;
 }
 .colorGreen{
-    background-color: rgb(119, 230, 1);
+    background-color: rgb(98, 163, 29);
 }
 .colorYellow{
-    background-color: rgb(197, 191, 9);
+    background-color: rgb(163, 157, 94);
 }
 .colorRed{
-    background-color: rgb(226, 55, 55);
+    background-color: rgb(175, 41, 41);
 }

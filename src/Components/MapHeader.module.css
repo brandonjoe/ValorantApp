@@ -1,0 +1,53 @@
+.container{
+    height: 13rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(73, 69, 69, 0.699); 
+  background-blend-mode: multiply;
+}
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+}
+.map{
+    border-bottom: 1px solid rgb(102, 102, 102);
+    width: 12.9rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    color: rgb(226, 226, 226);
+    font-family: 'DrukWide';
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+}
+.line{
+    height: 100%;
+    border-left: 1px solid rgb(145, 145, 145);
+    margin-left: 8rem;
+}
+.title{
+    color: rgb(218, 218, 218);
+    font-size: 4rem;
+    font-weight: 300;
+    width: 40rem;
+    font-family: "DrukWide", 'Roboto', sans-serif;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    letter-spacing: 3px;
+    padding-left: 2rem;
+}
+.location{
+    color:rgb(235, 88, 100);
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    margin-bottom: 0;
+    line-height: 100%;
+    padding-left: 2rem;
+}

@@ -20,31 +20,30 @@ class AppProvider extends Component {
 			attacking: false
 		}
 	};
-	componentDidMount() {}
-
+	//updates the map, takes the map name as a parameter and loads the correct data
 	updateMap = (map) => {
+
 		let tempLineups = [];
-		let data_points = this.getCurrentMap();
+        let data_points = this.getCurrentMap();
 		data_points.forEach((item) => {
 			item.isActive = false;
 			tempLineups.push(item);
 		});
 		tempLineups[0].isActive = true;
 		let setStateMap = '';
-        let setStateDetail;
-
-		if ((map == 'bind')) {
+		let setStateDetail;
+		if (map === 'bind') {
 			setStateMap = 'Bind';
 			setStateDetail = bind_detail;
-        }
-        if ((map == 'haven')) {
+		}
+		if (map === 'haven') {
 			setStateMap = 'Haven';
 			setStateDetail = haven_detail;
-        }
-        if ((map == 'split')) {
+		}
+		if (map === 'split') {
 			setStateMap = 'Split';
 			setStateDetail = split_detail;
-        }
+		}
 		this.setState(() => {
 			return {
 				lineups: tempLineups,
@@ -82,12 +81,13 @@ class AppProvider extends Component {
 			};
 		});
 	};
+	// Toggles filters, takes easy, medium, hard, essential, attacking, defending as parameters
 	toggleFilter = (filter) => {
 		let setFilter;
 		let item_filter;
-        let stateFilters = {};
-        let stateEssential;
-        let stateSelectedSide ={}
+		let stateFilters = {};
+		let stateEssential;
+		let stateSelectedSide = {};
 		if (filter === 'easy') {
 			setFilter = this.state.selectedFilters.easy;
 			item_filter = 'Easy';
@@ -95,12 +95,12 @@ class AppProvider extends Component {
 				easy: true,
 				medium: false,
 				hard: false
-            };
-            stateEssential = false;
-            stateSelectedSide = {
-                attacking: false,
-                defending: false
-            }
+			};
+			stateEssential = false;
+			stateSelectedSide = {
+				attacking: false,
+				defending: false
+			};
 		} else if (filter === 'medium') {
 			setFilter = this.state.selectedFilters.medium;
 			item_filter = 'Medium';
@@ -108,12 +108,12 @@ class AppProvider extends Component {
 				easy: false,
 				medium: true,
 				hard: false
-            };
-            stateEssential = false;
-            stateSelectedSide = {
-                attacking: false,
-                defending: false
-            }
+			};
+			stateEssential = false;
+			stateSelectedSide = {
+				attacking: false,
+				defending: false
+			};
 		} else if (filter === 'hard') {
 			setFilter = this.state.selectedFilters.hard;
 			item_filter = 'Hard';
@@ -121,75 +121,73 @@ class AppProvider extends Component {
 				easy: false,
 				medium: false,
 				hard: true
-            };
-            stateEssential = false;
-            stateSelectedSide = {
-                attacking: false,
-                defending: false
-            }
-		} else if (filter === "essential") {
-            setFilter = this.state.isEssential;
+			};
+			stateEssential = false;
+			stateSelectedSide = {
+				attacking: false,
+				defending: false
+			};
+		} else if (filter === 'essential') {
+			setFilter = this.state.isEssential;
 			stateFilters = {
 				easy: false,
 				medium: false,
 				hard: false
-            };
-            stateEssential = true;
-            stateSelectedSide = {
-                attacking: false,
-                defending: false
-            }
-        } else if (filter === "attacking"){
-            setFilter = this.state.selectedSide.attacking;
-            item_filter = "Attacking";
-            stateFilters = {
+			};
+			stateEssential = true;
+			stateSelectedSide = {
+				attacking: false,
+				defending: false
+			};
+		} else if (filter === 'attacking') {
+			setFilter = this.state.selectedSide.attacking;
+			item_filter = 'Attacking';
+			stateFilters = {
 				easy: false,
 				medium: false,
 				hard: false
-            };
-            stateEssential = false;
-            stateSelectedSide = {
-                attacking: true,
-                defending: false
-            }
-        } else if (filter === "defending") {
-            setFilter = this.state.selectedSide.defending;
-            item_filter = "Defending"
-            stateFilters = {
+			};
+			stateEssential = false;
+			stateSelectedSide = {
+				attacking: true,
+				defending: false
+			};
+		} else if (filter === 'defending') {
+			setFilter = this.state.selectedSide.defending;
+			item_filter = 'Defending';
+			stateFilters = {
 				easy: false,
 				medium: false,
 				hard: false
-            };
-            stateEssential = false;
-            stateSelectedSide = {
-                attacking: false,
-                defending: true
-            }
-        }
+			};
+			stateEssential = false;
+			stateSelectedSide = {
+				attacking: false,
+				defending: true
+			};
+		}
 		if (setFilter === false) {
 			const tempLineups = [];
 			let data_points = this.getCurrentMap();
 			data_points.forEach((item) => {
-                item.isActive = false;
-                if(filter === "easy" || "medium" || "hard") {
-                    if (item.difficulty === item_filter) {
-                        tempLineups.push(item);
-                    }
-                } 
-                if (filter === "essential") {
-                    if (item.essential === true) {
-                        tempLineups.push(item);
-                    }
-                } 
-                if (filter === "attacking" || "defending"){
-                    if(item.side === item_filter){
-                        tempLineups.push(item);
-                    }
-                }
-				
+				item.isActive = false;
+				if (filter === 'easy' || 'medium' || 'hard') {
+					if (item.difficulty === item_filter) {
+						tempLineups.push(item);
+					}
+				}
+				if (filter === 'essential') {
+					if (item.essential === true) {
+						tempLineups.push(item);
+					}
+				}
+				if (filter === 'attacking' || 'defending') {
+					if (item.side === item_filter) {
+						tempLineups.push(item);
+					}
+				}
 			});
 			tempLineups[0].isActive = true;
-
 			this.setState(() => {
 				return {
 					lineups: tempLineups,
@@ -199,22 +197,25 @@ class AppProvider extends Component {
 					selectedSide: stateSelectedSide
 				};
 			});
-        }
-        if (setFilter === true) {
+		}
+		if (setFilter === true) {
 			this.resetPage();
 		}
 	};
 	resetPage = () => {
-        if (this.state.currentMap === 'Bind' || window.location.pathname.includes('bind')) {
-			this.updateMap("bind")
-		} else if (this.state.currentMap === 'Haven' || window.location.pathname.includes('haven')) {
-			this.updateMap('haven')
-		} else if (this.state.currentMap === 'Split' || window.location.pathname.includes('split')) {
-			this.updateMap('split')
+		if (this.state.currentMap == 'Bind' || window.location.pathname.includes('bind')) {
+			this.updateMap('bind');
+		} else if (this.state.currentMap == 'Haven' || window.location.pathname.includes('haven')) {
+			this.updateMap('haven');
+		} else if (this.state.currentMap == 'Split' || window.location.pathname.includes('split')) {
+			this.updateMap('split');
 		}
 	};
 
 	//functions needed only inside context.js
+
+	//gets the current map name based off of state, or the path title. state doesn't get updated on a link change when you might need the new map
+	//so that's why we also check the location. might break if there's bad path management, but there should never be 2 different maps in a single path
 	getCurrentMap = () => {
 		let data_points;
 		if (this.state.currentMap === 'Bind' || window.location.pathname.includes('bind')) {
@@ -225,8 +226,8 @@ class AppProvider extends Component {
 			data_points = split_data;
 		}
 		return data_points;
-    };
-    getLineup = (id) => {
+	};
+	getLineup = (id) => {
 		const lineup = this.state.lineups.find((item) => item.id === id);
 		return lineup;
 	};
@@ -239,8 +240,7 @@ class AppProvider extends Component {
 					setDetailLineup: this.setDetailLineup,
 					updateMap: this.updateMap,
 					toggleFilter: this.toggleFilter,
-					resetPage: this.resetPage,
-
+					resetPage: this.resetPage
 				}}
 			>
 				{this.props.children}

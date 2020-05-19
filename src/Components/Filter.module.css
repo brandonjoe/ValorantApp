@@ -1,9 +1,60 @@
 .container{
-
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
+
 .main{
+    
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    font-family: "GoodTimes", 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+.title::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: -4rem;
+    width: 2rem;
+    border-top: 1px solid;
+    border: 1px solid rgb(230, 230, 224);
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+}
+.title::after{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    right: -4rem;
+    width: 2rem;
+    border-top: 1px solid;
+    border: 1px solid rgb(230, 230, 224);
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+}
+.filter{
+
+    padding: 1px 3px 1px 3px;
+    border-radius: 3px;
+    margin: 0 4px 3px 4px;
+    color: white;
+    font-weight: 400;
+}
+.filter:hover{
+    cursor: pointer;
 }

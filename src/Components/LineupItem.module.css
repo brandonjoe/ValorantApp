@@ -1,31 +1,83 @@
-.container{
-    height: 15rem;
-    width: 80%;
-    background: rgba(15, 25, 35, 0.753);
-    margin-top: 1rem;
-    opacity: 1;
+.container {
+	width: 90%;
+	height: fit-content;
+	background: rgba(15, 25, 35, 0.856);
+	margin-top: 1rem;
+	opacity: 1;
+	clip-path: polygon(3% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+	background-image: linear-gradient(135deg, rgb(202, 58, 70) 50%, transparent 51%);
+	background-size: 100px 100px; /* some initial size to get the slanted appearance */
+	background-position: -50px -50px; /* negative positioning to hide it initially */
+	background-repeat: no-repeat;
+	transition: all ease 0.8s;
 }
-.essential_icon{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: fit-content;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 3px 5px 3px 5px;
-    border-radius: 5px;
-    color: white;
-    background-color: blue;
-    font-size: 1.5rem;
+.container:hover {
+	background-size: 200% 200%; /* 200% because gradient is colored only for 50% */
+	background-position: 0px 0px; /* bring it fully into view */
+	color: #fff;
 }
-.main{
-    height: 100%;
-    color: rgb(236, 230, 230);
+.background {
+	background-color: white;
+	height: 0%;
+	width: 100%;
+	position: absolute;
 }
-.active{
-    background-color: olivedrab;
+.essential_icon {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	width: fit-content;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 1px 3px 1px 3px;
+	border-radius: 3px;
+	color: white;
+	background-color: rgb(53, 142, 197);
+	font-size: 1.2rem;
 }
-.attacking{
-    background-color: orange;
+.title {
+	padding-left: .5rem;
+	font-family: 'GoodTimes';
+	font-weight: 300;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+	font-weight: 300;
+	letter-spacing: 2px;
 }
-.defending{
-    background-color: purple;
+.main {
+	border-left: 1px solid rgba(177, 177, 177, 0.863);
+	margin-left: 2rem;
+	padding-bottom: 2rem;
+	padding-right: .5rem;
+	height: 100%;
+	color: rgb(236, 230, 230);
+}
+
+.active {
+	background-color: rgb(202, 58, 70);
+}
+.attacking {
+	background-color: rgb(255, 123, 0);
+}
+.defending {
+	background-color: rgb(99,56,126);
+}
+.filters {
+	padding-left: .4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: "GoodTimes";
+	border-bottom: 1px solid rgba(177, 177, 177, 0.863);
+}
+.filters > div {
+	margin-right: .4rem;
+}
+.info_text {
+	padding: .3rem 0 0 .5rem;
+	font-family: 'Roboto', 'Times New Roman', Times, serif;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.4rem;
 }

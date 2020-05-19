@@ -4,7 +4,6 @@
     z-index: 15;
     height: 47rem;
     width: 25rem;
-  
     -webkit-box-shadow: 8px 26px 40px 75px rgba(0,0,0,1);
     -moz-box-shadow: 8px 26px 40px 75px rgba(0,0,0,1);
     box-shadow: 8px 26px 40px 75px rgba(0,0,0,1);
@@ -53,7 +52,7 @@
     text-decoration: underline;
     clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
     transition: clip-path 275ms ease;
-    text-decoration-color: rgb(255,70,85);;
+    text-decoration-color: rgb(255,70,85);
   }
   .main:hover  h1::before {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -61,30 +60,40 @@
   .box{
     height: 4rem;
     width: 4rem;
+    bottom: 0rem;
     position: absolute;
-    left: -4rem;
-    margin-top: -4rem;
-    border: 1px solid #000000;
+    border: 1px solid #cfcfcf;
+    background-image: linear-gradient(rgb(255,70,85), rgb(255,70,85));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .6s, color .6s;
+  }
+  .main:hover + .box{
+    background-size: 100% 100%;
   }
   .box::before{
+    box-sizing: border-box;
     content: "";
     display: block;
     position: absolute;
     height: .1rem;
     width: 100%;
-    border-top: 1px solid #8b978f;
+    border-top: 1px solid #b5b9b6;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     top: 50%;
+    
   }
   .box::after{
     content: "";
     display: block;
     position: absolute;
-    height: 1.2rem;
-    width: 1.2rem;
+    height: .8rem;
+    width: .8rem;
     background-color: #0f1923;
-    top: calc(50% - .6rem);
-    left: calc(50% - .6rem);
-    border: 4px solid #ece8e1;
+    top: calc(50% - .5rem);
+    left: calc(50% - .5rem);
+    border: 1px solid #ece8e1;
   }
+  

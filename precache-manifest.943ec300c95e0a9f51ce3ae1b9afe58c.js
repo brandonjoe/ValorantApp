@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1e11421782a8bf108691f1170a08181",
+    "revision": "b4e74552e7bdcbc6950a013417fec7e6",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "88512dc9d7a24cec10f2",
-    "url": "/ValorantApp/static/css/main.4e3dd102.chunk.css"
+    "revision": "3ba3e73e5505bac758ab",
+    "url": "/ValorantApp/static/css/main.1f8a0d00.chunk.css"
   },
   {
-    "revision": "8df2000a6162044abf49",
-    "url": "/ValorantApp/static/js/2.d874afda.chunk.js"
+    "revision": "66706d5be6fe74a19b07",
+    "url": "/ValorantApp/static/js/2.3b2cbe15.chunk.js"
   },
   {
     "revision": "723894b771c1fe011b0df55ec646ea2d",
-    "url": "/ValorantApp/static/js/2.d874afda.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/2.3b2cbe15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "88512dc9d7a24cec10f2",
-    "url": "/ValorantApp/static/js/main.773db8d8.chunk.js"
+    "revision": "3ba3e73e5505bac758ab",
+    "url": "/ValorantApp/static/js/main.f049586b.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",
@@ -44,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ValorantApp/static/media/bind_background.a3359ef4.jpg"
   },
   {
+    "revision": "5ec44d9c8f448e9e248382edaa10aaa3",
+    "url": "/ValorantApp/static/media/bind_map.5ec44d9c.jpg"
+  },
+  {
     "revision": "39636dd7d7cd4a3a84d9a73a23b30770",
     "url": "/ValorantApp/static/media/good-times.regular.39636dd7.ttf"
+  },
+  {
+    "revision": "3558e44455bb95c731cc850d333a0460",
+    "url": "/ValorantApp/static/media/haven_map.3558e444.jpg"
   },
   {
     "revision": "36ad8f197ea5908f9322945a1cd1845a",
@@ -70,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35501dd0598f4ba4380dc12d6c262d98",
     "url": "/ValorantApp/static/media/maps_background.35501dd0.jpg"
+  },
+  {
+    "revision": "4bf8fff0aa19a84e21d27623c490e1d4",
+    "url": "/ValorantApp/static/media/split_map.4bf8fff0.jpg"
   }
 ]);

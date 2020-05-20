@@ -1,3 +1,1 @@
-WIP: https://brandonjoe.github.io/ValorantApp/
-
-far from done
+i removed it

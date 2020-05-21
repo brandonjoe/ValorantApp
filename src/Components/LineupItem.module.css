@@ -15,6 +15,7 @@
 	background-size: 200% 200%; /* 200% because gradient is colored only for 50% */
 	background-position: 0px 0px; /* bring it fully into view */
 	color: #fff;
+	cursor: pointer;
 }
 .background {
 	background-color: white;

@@ -12,7 +12,7 @@ function App() {
 			<ScrollToTop>
 				<Switch>
 					<Route path={'/'} exact component={Landing} />
-					<Route path={'/bind'}  component={Bind} />
+					<Route path={'/bind'} exact component={Bind} />
 					<Route path={'/haven'}  component={Haven} />
           			<Route path={'/split'}  component={Split} />
 				</Switch>

@@ -2,30 +2,8 @@ import React, { Component } from 'react';
 import { AppConsumer } from '../State/context';
 import classes from './LineupItem.module.css';
 import Difficulty from './Icons/Difficulty.js';
-import Essential from './Icons/Essential.js';
-import { TweenLite, Expo } from 'gsap';
-class LineupItem extends Component {
-    constructor(props) {
-		super(props);
-		// cards, elements tha will be used in the tween
-		this.lineupItem = null;
 
-		this.lineupItemTweenIn = null;
-    }
-    animateTweenIn() {
-        this.lineupListTween = TweenLite.to(this.lineupItem, 1, {
-            height: '100%',
-            backgroundColor: "red",
-            ease: Expo.easeOut
-		});
-    }
-    animateTweenOut() {
-        this.lineupListTween = TweenLite.to(this.lineupItem, 1, {
-            height: '100%',
-            backgroundColor: "white",
-            ease: Expo.easeOut
-		});
-    }
+class LineupItem extends Component {
 
 	render() {
 
@@ -61,10 +39,12 @@ class LineupItem extends Component {
 		} else {
 			dart_side = '';
 		}
+
 		return (
 			<AppConsumer>
 				{(value) => (
-					<div  className={`${classes.container} ${activeclass}`}>
+					
+					<div onClick={() => {}} className={`${classes.container} ${activeclass}`}>
                         <div ref={(div) => (this.lineupItem = div)}  className={classes.background}></div>
 						<div className={classes.main} onClick={() => value.setDetailLineup(id)}>
 							<h1 className={classes.title}>{title}</h1>

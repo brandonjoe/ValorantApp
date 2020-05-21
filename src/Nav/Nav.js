@@ -19,19 +19,18 @@ const Nav = () => {
 							<div className={classes.dropdown}>
 								<button className={classes.dropbtn}>Maps</button>
 								<div className={classes.dropdowncontent}>
-									<Link className={classes.link} onClick={() => value.updateMap('bind')} to={'/bind'}>
+									<Link className={classes.link}  to={'/bind'}>
 										<h1>Bind</h1>
 									</Link>
 									<Link
 										className={classes.link}
-										onClick={() => value.updateMap('haven')}
 										to={'/haven'}
 									>
 										<h1>Haven</h1>
 									</Link>
 									<Link
 										className={classes.link}
-										onClick={() => value.updateMap('split')}
+						
 										to={'/split'}
 									>
 										<h1>Split</h1>

@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect  } from 'react';
+
 import { bind_data, bind_detail } from '../Data/bind_data.js';
 import { haven_data, haven_detail } from '../Data/haven_data.js';
 import { split_data, split_detail } from '../Data/split_data.js';
@@ -8,7 +9,7 @@ class AppProvider extends Component {
 	state = {
 		lineups: [],
 		detailLineup: {},
-		currentMap: '',
+		currentMap: 'Bind',
 		selectedFilters: {
 			easy: false,
 			medium: false,
@@ -18,7 +19,11 @@ class AppProvider extends Component {
 		selectedSide: {
 			defending: false,
 			attacking: false
-		}
+		},
+		prevTitle: "",
+		prevInfo: "",
+		loading: true
+		
 	};
 	//updates the map, takes the map name as a parameter and loads the correct data
 	updateMap = (map) => {
@@ -65,6 +70,7 @@ class AppProvider extends Component {
 
 	setDetailLineup = (id) => {
 		const lineup = this.getLineup(id);
+		
 		let tempLineups = [];
 		this.state.lineups.forEach((item) => {
 			if (item.id === id) {
@@ -74,10 +80,14 @@ class AppProvider extends Component {
 			}
 			tempLineups.push(item);
 		});
+		console.log(this.state.detailLineup.title)
 		this.setState(() => {
 			return {
 				lineups: tempLineups,
-				detailLineup: lineup
+				detailLineup: lineup,
+				prevTitle: this.state.detailLineup.title,
+				prevInfo: this.state.detailLineup.info,
+				loading: true
 			};
 		});
 	};
@@ -211,18 +221,24 @@ class AppProvider extends Component {
 			this.updateMap('split');
 		}
 	};
+	hideSpinner = () => {
+        this.setState({
+          loading: false
+        });
+      };
 
 	//functions needed only inside context.js
 
 	//gets the current map name based off of state, or the path title. state doesn't get updated on a link change when you might need the new map
 	//so that's why we also check the location. might break if there's bad path management, but there should never be 2 different maps in a single path
 	getCurrentMap = () => {
+		console.log(this.state.currentMap)
 		let data_points;
-		if (this.state.currentMap === 'Bind' || window.location.pathname.includes('bind')) {
+		if (window.location.pathname.includes('bind')) {
 			data_points = bind_data;
-		} else if (this.state.currentMap === 'Haven' || window.location.pathname.includes('haven')) {
+		} else if (window.location.pathname.includes('haven')) {
 			data_points = haven_data;
-		} else if (this.state.currentMap === 'Split' || window.location.pathname.includes('split')) {
+		} else if ( window.location.pathname.includes('split')) {
 			data_points = split_data;
 		}
 		return data_points;
@@ -232,7 +248,9 @@ class AppProvider extends Component {
 		return lineup;
 	};
 
+	
 	render() {
+
 		return (
 			<AppContext.Provider
 				value={{
@@ -240,7 +258,8 @@ class AppProvider extends Component {
 					setDetailLineup: this.setDetailLineup,
 					updateMap: this.updateMap,
 					toggleFilter: this.toggleFilter,
-					resetPage: this.resetPage
+					resetPage: this.resetPage,
+					hideSpinner: this.hideSpinner
 				}}
 			>
 				{this.props.children}

@@ -62,7 +62,7 @@ class Filter extends Component {
 									className={classes.filter}
 									style={{
 										backgroundColor: value.selectedSide.attacking
-											? 'rgb(248,166,72)'
+											? 'rgb(255, 123, 0)'
 											: 'rgb(88, 88, 88)'
 									}}
 									onClick={() => value.toggleFilter('attacking')}

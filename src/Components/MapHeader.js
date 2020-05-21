@@ -19,7 +19,7 @@ const MapHeader = (props) => {
     let location;
 	if (props.mapTitle === 'Bind') {
         map = bind_map;
-        location = "Morroco";
+        location = "Morocco";
 	} else if (props.mapTitle == "Haven"){
         map = haven_map;
         location = "Bhutan";

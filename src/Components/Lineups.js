@@ -33,21 +33,7 @@ class Lineups extends Component {
 			delay: .5
 		});
 	}
-	animateDetail= () => {
-		// this.detailItemTween = TweenLite.from(this.detailItem, 2, {
-		// 	opacity: 0,
-		// 	ease: Expo.easeOut,
-		// 	delay: 0
-		// });
-		// setTimeout(() => {
-		// 	this.detailItemTween = TweenLite.to(this.detailItem, 1, {
-		// 		opacity: 1,
-		// 		ease: Expo.easeOut,
-		// 		delay: 0
-		// 	});
-		// }, 1000)
-	}
-	y
+
 	render() {
 		return (
 			<div className={classes.container}>
@@ -57,7 +43,7 @@ class Lineups extends Component {
 							<Filter  />
 						</div>
 						
-						<div ref={(div) => (this.lineupList = div)} onClick={() => {this.animateDetail()}} className={classes.lineup_selector_main}>
+						<div ref={(div) => (this.lineupList = div)}  className={classes.lineup_selector_main}>
 							<AppConsumer>
 								{(value) => {
 									return value.lineups.map((lineup) => {

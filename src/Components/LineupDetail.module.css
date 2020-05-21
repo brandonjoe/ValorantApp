@@ -1,19 +1,22 @@
 .container {
 	opacity: 1;
 	height: 100%;
+	
 }
 .main {
 	display: flex;
 	flex-direction: row;
-	height: 100%;
+	height: inherit;
+	
+	
 }
-.main_left {
-	display: flex;
-	flex-direction: column;
-	margin-right: 5rem;
+.main_left{
+	
 	background: rgba(15, 25, 35, 0.918);
-	height: 100%;
 	border-right: 1px solid white;
+	position: relative;
+	overflow-y: auto;
+	height: calc(100vh - 210px)
 }
 .info {
 	padding-top: 3rem;
@@ -24,25 +27,24 @@
 	margin-left: 8rem;
 	border-left: 1px solid rgb(145, 145, 145);
 	height: 100%;
+	padding-bottom: 4rem;
 }
 .textbox {
 	color: rgb(240, 231, 231);
 }
 .filter{
-	display: flex;
-	flex-direction: row;
-	border-bottom: 1px solid white;
-	width: fit-content;
-	padding-right: 1rem;
-	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid rgb(145, 145, 145);
 }
-.filter_icons{
 
-}
 .title{
+	height: 4yrem;
 	padding-left: 1rem;
 	font-size: 2.5rem;
+	margin: 0;
 	font-family: 'GoodTimes', 'Roboto', sans-serif;
+	
 }
 .info_media {
 	width: fit-content;
@@ -56,13 +58,27 @@
 .info_text{
 	font-size: 1.6rem;
 	padding: 2rem;
+	margin: 0;
 }
-.info_text::before{
+.filterbox{
+	margin-top: 1rem;
+	padding-top: 1rem;
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	flex-wrap: wrap;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+
+}
+.filterbox::before{
 	box-sizing: border-box;
 	content: "";
-    display: inline-block;
+    display: block;
 	position: absolute;
-	height: calc(50% - .4rem);
+	height: calc(50% - .9rem);
 	width: 100%;
 	color: black;
     border: 1px solid rgba(184, 184, 184, 0.733);
@@ -70,8 +86,18 @@
 	top: 0;
     border-bottom: 0;
 }
-.video {
+.filterbox::after{
+	box-sizing: border-box;
+    content: "";
+    display: block;
+    position: absolute;
+    height: calc(50% - .9rem);
+    width: 100%;
+	border: 1px solid rgba(184, 184, 184, 0.733);
+	bottom: 0;
+    border-top: 0;
 }
+
 .difficulty{
 	padding: 3px 5px 3px 5px !important;
 }
@@ -89,7 +115,7 @@
 	font-size: 1.5rem;
 }
 .attacking {
-	background-color: rgb(248, 150, 0);
+	background-color: rgb(255, 123, 0);
 }
 .defending {
 	background-color: rgb(99,56,126);
@@ -102,4 +128,8 @@
 }
 .colorRed{
     background-color: rgb(175, 41, 41);
+}
+.images{
+    height: 100%;
+    width: 100%;
 }

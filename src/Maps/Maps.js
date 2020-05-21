@@ -21,7 +21,6 @@ const Maps = () => {
 							<Link
 								className={classes.link}
 								style={{ textDecoration: 'none' }}
-								onClick={() => value.updateMap('bind')}
 								to={'/bind'}
 							>
 								<Map title={'Bind'} location={'Morocco'} map={map_1} />
@@ -30,7 +29,6 @@ const Maps = () => {
 							<Link
 								className={classes.link}
 								style={{ textDecoration: 'none' }}
-								onClick={() => value.updateMap('haven')}
 								to={'/haven'}
 							>
 								<Map title={'Haven'} location={'Bhutan'} map={map_2} />
@@ -39,7 +37,6 @@ const Maps = () => {
 							<Link
 								className={classes.link}
 								style={{ textDecoration: 'none' }}
-								onClick={() => value.updateMap('split')}
 								to={'/split'}
 							>
 								<Map title={'Split'} location={'Tokyo'} map={map_3} />

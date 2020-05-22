@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ea09859fe0c7e5ff9a73e112870bfd9",
+    "revision": "dbd31bb9fac52af387d9c1f5e8dfdc1b",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "18085179b74d3421c7b8",
+    "revision": "6e7d3f8c2c582810c901",
     "url": "/ValorantApp/static/css/2.d97600f8.chunk.css"
   },
   {
-    "revision": "918a54835c7c2dc566b4",
-    "url": "/ValorantApp/static/css/main.f6e59a04.chunk.css"
+    "revision": "9582417120f69b27b2ff",
+    "url": "/ValorantApp/static/css/main.c6495cb5.chunk.css"
   },
   {
-    "revision": "18085179b74d3421c7b8",
-    "url": "/ValorantApp/static/js/2.f350bb1f.chunk.js"
+    "revision": "6e7d3f8c2c582810c901",
+    "url": "/ValorantApp/static/js/2.11920ce9.chunk.js"
   },
   {
     "revision": "51ccd56507b155fc340d16b580bc1a5d",
-    "url": "/ValorantApp/static/js/2.f350bb1f.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/2.11920ce9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "918a54835c7c2dc566b4",
-    "url": "/ValorantApp/static/js/main.cba89947.chunk.js"
+    "revision": "9582417120f69b27b2ff",
+    "url": "/ValorantApp/static/js/main.0ef48dd5.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ValorantApp/static/media/intro_background.36ad8f19.jpg"
   },
   {
-    "revision": "228298c9d1782a5ad65ee2784246901d",
-    "url": "/ValorantApp/static/media/intro_sova.228298c9.png"
+    "revision": "14191abe5efe5f05a441b83f269575f0",
+    "url": "/ValorantApp/static/media/intro_sova.14191abe.png"
   },
   {
     "revision": "21b975b15963dffc56deade9cb6c22d3",

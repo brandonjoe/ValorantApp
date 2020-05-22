@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ValorantApp/static/css/main.f6e59a04.chunk.css",
-    "main.js": "/ValorantApp/static/js/main.cba89947.chunk.js",
-    "main.js.map": "/ValorantApp/static/js/main.cba89947.chunk.js.map",
+    "main.css": "/ValorantApp/static/css/main.c6495cb5.chunk.css",
+    "main.js": "/ValorantApp/static/js/main.0ef48dd5.chunk.js",
+    "main.js.map": "/ValorantApp/static/js/main.0ef48dd5.chunk.js.map",
     "runtime-main.js": "/ValorantApp/static/js/runtime-main.b24765df.js",
     "runtime-main.js.map": "/ValorantApp/static/js/runtime-main.b24765df.js.map",
     "static/css/2.d97600f8.chunk.css": "/ValorantApp/static/css/2.d97600f8.chunk.css",
-    "static/js/2.f350bb1f.chunk.js": "/ValorantApp/static/js/2.f350bb1f.chunk.js",
-    "static/js/2.f350bb1f.chunk.js.map": "/ValorantApp/static/js/2.f350bb1f.chunk.js.map",
+    "static/js/2.11920ce9.chunk.js": "/ValorantApp/static/js/2.11920ce9.chunk.js",
+    "static/js/2.11920ce9.chunk.js.map": "/ValorantApp/static/js/2.11920ce9.chunk.js.map",
     "index.html": "/ValorantApp/index.html",
-    "precache-manifest.bc61c7cf09aced0e941d5a0c25c30119.js": "/ValorantApp/precache-manifest.bc61c7cf09aced0e941d5a0c25c30119.js",
+    "precache-manifest.e1c8021fc009e71674768e2354aab502.js": "/ValorantApp/precache-manifest.e1c8021fc009e71674768e2354aab502.js",
     "service-worker.js": "/ValorantApp/service-worker.js",
     "static/css/2.d97600f8.chunk.css.map": "/ValorantApp/static/css/2.d97600f8.chunk.css.map",
-    "static/css/main.f6e59a04.chunk.css.map": "/ValorantApp/static/css/main.f6e59a04.chunk.css.map",
-    "static/js/2.f350bb1f.chunk.js.LICENSE.txt": "/ValorantApp/static/js/2.f350bb1f.chunk.js.LICENSE.txt",
+    "static/css/main.c6495cb5.chunk.css.map": "/ValorantApp/static/css/main.c6495cb5.chunk.css.map",
+    "static/js/2.11920ce9.chunk.js.LICENSE.txt": "/ValorantApp/static/js/2.11920ce9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ValorantApp/static/media/good-times.regular.39636dd7.ttf",
     "static/media/Lineups.module.css": "/ValorantApp/static/media/bind_background.a3359ef4.jpg",
     "static/media/bind_map.jpg": "/ValorantApp/static/media/bind_map.5ec44d9c.jpg",
     "static/media/haven_map.jpg": "/ValorantApp/static/media/haven_map.3558e444.jpg",
     "static/media/Intro.module.css": "/ValorantApp/static/media/intro_background.36ad8f19.jpg",
-    "static/media/intro_sova.png": "/ValorantApp/static/media/intro_sova.228298c9.png",
+    "static/media/intro_sova.png": "/ValorantApp/static/media/intro_sova.14191abe.png",
     "static/media/map_1.jpg": "/ValorantApp/static/media/map_1.21b975b1.jpg",
     "static/media/map_2.jpg": "/ValorantApp/static/media/map_2.baf6020f.jpg",
     "static/media/map_3.jpg": "/ValorantApp/static/media/map_3.d3885979.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.b24765df.js",
     "static/css/2.d97600f8.chunk.css",
-    "static/js/2.f350bb1f.chunk.js",
-    "static/css/main.f6e59a04.chunk.css",
-    "static/js/main.cba89947.chunk.js"
+    "static/js/2.11920ce9.chunk.js",
+    "static/css/main.c6495cb5.chunk.css",
+    "static/js/main.0ef48dd5.chunk.js"
   ]
 }

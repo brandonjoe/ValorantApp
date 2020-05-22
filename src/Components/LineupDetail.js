@@ -12,7 +12,7 @@ const LineupDetail = (props) => {
 	useEffect(() => {
 		TweenMax.from(container, 2, { opacity: 0, ease: Expo.easeOut, delay: 1 });
 	}, []);
-	const { id, title, info, video, essential, difficulty, side, image1, image2 } = props.lineupdetails;
+	const { id, title, info, video, essential, difficulty, side, image1, image2, map } = props.lineupdetails;
 	let essential_icon;
 	let dart_side;
 	let difficulty_level;
@@ -75,6 +75,12 @@ const LineupDetail = (props) => {
 						<div className={classes.main_right}>
 							<div className={classes.info_media}>
 								<Video />
+							</div>
+							<div classes={classes.map_container}>
+								<div className={classes.map_wrapper}>
+								<img src={map} className={classes.map}></img>
+								</div>
+								
 							</div>
 						</div>
 					</div>

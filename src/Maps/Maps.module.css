@@ -1,4 +1,5 @@
 .container{
+    box-sizing: border-box;
 height: 800px;
 background-image: url('../Media/maps_background.jpg');
 background-size: cover;
@@ -10,7 +11,7 @@ background-repeat: no-repeat;
     width: 100%;
     display: flex;
     flex-direction: row;
-
+    justify-content: flex-end;
 }
 
 .section_title{
@@ -18,22 +19,24 @@ background-repeat: no-repeat;
     width: 20%;
 }
 .map_selection{
-    flex-grow: 1;
+    box-sizing: border-box;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    
     border-left: 2px solid rgb(54, 54, 54);
 }
 .title{
+    margin: 0;
     position: absolute;
     top: 50%;
-    right: 10px;
-    font-size: 8rem;
+    right: 10rem;
+    letter-spacing: 3px;
+    font-size: 10rem;
     transform: rotate(-90deg) translate(50%, 100%);
     text-align: center;
-    font-family: 'DrukWide', sans-serif;
+    font-family: 'Tungsten-Bold', sans-serif;
     color: rgba(107, 107, 107, 0.897); 
     /* -webkit-text-stroke: 1px rgb(83, 83, 83) */
 }

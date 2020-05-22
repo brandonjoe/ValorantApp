@@ -1,4 +1,5 @@
 .container{
+    box-sizing: border-box;
     overflow: hidden;
     flex-grow: 1;
     height: calc(100vh - 200px);
@@ -8,26 +9,73 @@
     background-repeat: no-repeat;
 }
 .main{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100%;
+   
 }
+.background_text{
+    color: rgba(0, 0, 0, 0); 
+    position: absolute;
+    top: 0rem;
+    font-size: 25rem;
+    font-family: "ValorantFont", sans-serif;
+    -webkit-text-stroke: 1px rgba(71, 71, 71, 0.589);
+    line-height: 25rem;
+}
+.header{
+    position: relative;
+    height: 100%;
+    width: 20%;
+}
+.title{
+    margin: 0;
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    width: calc(100vh - 200px);
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
+    /* transform: rotate(90deg) translate(50%, 100%); */
+    text-align: center;
+    font-family: 'Tungsten-Bold', sans-serif;
+    color: rgb(236, 215, 215); 
+    /* -webkit-text-stroke: 1px rgb(83, 83, 83) */
+}
+.main_wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    float: right;
+    border-left: 2px solid rgb(212, 212, 212);
+    box-sizing: border-box;
+}
+
 .left{
     height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     width: 50%;
-    
 }
+
 .right{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 50%;
+    max-width: 50%;
     height: 100%;
 }
 .info{
@@ -38,7 +86,7 @@
     clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
 }
 .sova_image{
-    max-width: 800px;
+    width: 60rem;
     z-index: 10
 }
 .sova_text{

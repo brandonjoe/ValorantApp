@@ -13,7 +13,8 @@ class Video extends Component {
                        <iframe
 									src={value.detailLineup.video}
 									className={classes.video}
-
+                                    loop="1"
+                                    autoplay="1"
 									frameBorder="0"
 									allow="autoplay; fullscreen"
 									allowFullScreen

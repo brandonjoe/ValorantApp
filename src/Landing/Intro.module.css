@@ -7,6 +7,18 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+   z-index: 000;
+}
+
+.block3{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 10rem;
+    width: 60rem;
+ bottom: -10rem;
+    right: 0;
+    background-color: rgb(15,25,35);
 }
 .main{
     position: relative;
@@ -61,16 +73,7 @@
     border-left: 2px solid rgb(236, 215, 215);
     box-sizing: border-box;
 }
-.block{
-    z-index: 10;
-    width: 40rem;
-    height: 15rem;
-    bottom: 0;
-    right: 20%;
-    position: absolute;
-    background: rgb(15,25,35);
 
-}
 .left{
     height: 100%;
     display: flex;
@@ -78,10 +81,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     min-width: 40%;
+    height: 100%;
+    border-right: 1px solid rgb(236, 215, 215);
+    ;
 }
 .main_title{
     position: relative;
-    margin-top: 15rem;
+    margin-top: 20%;
     color:rgb(236, 215, 215);
     font-size: 7rem;
     font-family: "DrukWide";
@@ -111,9 +117,10 @@
     height: 100%;
 }
 .info{
+    box-sizing: border-box;
     position: relative;
     height: 100%;
-    width: 100%;
+    width: calc(100% - 7rem);
    font-family: "GoodTimes";
    border-left: 1px solid rgb(236, 215, 215);
    margin-left: 7rem;
@@ -121,9 +128,13 @@
    /* background: rgba(15, 25, 35, 0.719); */
 }
 .info_text{
+    border-top: 1px solid rgb(236, 215, 215);
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
+    padding: 4rem 2rem 4rem 2rem;
+    margin: 0;
+    background: rgb(15,25,35);
 }
 .origin{
     padding: 1rem;
@@ -146,20 +157,75 @@
     position: relative;
 
 }
-
+.sova_image_container{
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-left: 0;
+}
+.inner{
+    height: 100%;
+    width: 100%;
+}
 .sova_image{
     position: relative;
     width: 90rem;
     z-index: 10;
     bottom: -20rem;
 }
+.block{
+    border-top: 1px solid rgb(236, 215, 215);
+    z-index: 10;
+    width: 40rem;
+    height: 15rem;
+    bottom: 0;
+    left: 29rem;
+    position: absolute;
+    background: rgb(15,25,35);
+    width: 100%;
+}
+.block2{
+    border-top: 1px solid rgb(236, 215, 215);
+    z-index: 0;
+    width: 40rem;
+    height: 15rem;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(15,25,35);
+    width: 100%;
+}
+
+.zindex{
+    z-index: -1;
+}
+
 .sova_text{
     position: absolute;
     font-size: 20rem;
-    right: -20rem;
+    right: -10rem;
+    top: -10rem;
     transform: rotate(90deg);
     font-family: 'DrukWide';
-    z-index: 1;
+    z-index: -1;
     color: rgba(0, 0, 0, 0); 
     -webkit-text-stroke: 1px rgb(236,232,225);
 }
+.video_player{
+    height: 100%;
+    background: rgb(15,25,35);
+}
+.video{
+    
+    height: 300px;
+    width: fit-content !important;
+    padding: 4px;
+    
+}
+
+@media only screen and (max-height: 1080px) {
+    .container{
+        min-height: 900px !important;
+    }
+  }

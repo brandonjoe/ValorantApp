@@ -3,6 +3,7 @@ import Intro from './Intro.js'
 import Nav from '../Nav/Nav.js'
 import Maps from '../Maps/Maps.js'
 import classes from './Landing.module.css';
+import Objective from './Objective.js'
 import { ParallaxProvider } from 'react-scroll-parallax';
 const Landing = () => {
     return (
@@ -11,6 +12,7 @@ const Landing = () => {
             
             <Nav />
             <Intro />
+            <Objective />
             <Maps />
         </div>
         </ParallaxProvider>

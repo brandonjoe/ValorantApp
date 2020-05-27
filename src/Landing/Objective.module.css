@@ -1,0 +1,28 @@
+.container{
+    box-sizing: border-box;
+    height: 1100px;
+    position: relative;
+    background-image: url('../Media/objective_background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.block{
+    z-index: 400;
+    position: absolute;
+    width: 30%;
+    height: 10rem;
+    top: 0;
+    right: 0;
+    background: rgb(15,25,35);
+    border-bottom: 1px solid rgb(236, 215, 215);
+}
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Media/hunter.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

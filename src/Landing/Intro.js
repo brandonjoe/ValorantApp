@@ -29,7 +29,6 @@ class Intro extends Component {
 								<div className={classes.origin}> Origin: &nbsp; Russia</div>
 								<div className={classes.origin}> Codename: &nbsp; Hunter</div>
 								<h2 className={classes.info_text}>
-									{' '}
 									Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision.
 									His custom bow and incredible scouting abilities ensure that even if you run, you
 									cannot hide. <br />

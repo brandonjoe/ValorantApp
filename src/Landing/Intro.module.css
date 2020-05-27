@@ -128,6 +128,7 @@
    /* background: rgba(15, 25, 35, 0.719); */
 }
 .info_text{
+    position: relative;
     border-top: 1px solid rgb(236, 215, 215);
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
@@ -136,6 +137,7 @@
     margin: 0;
     background: rgb(15,25,35);
 }
+
 .origin{
     padding: 1rem;
     font-size: 1.2rem;
@@ -150,7 +152,7 @@
     position: absolute;
     height: .5rem;
     width: 1.2rem;
-    background-color: rgb(5,16,34);
+    background-color: rgb(15,25,35);
 }
 .sova_image_box{
     height: 100%;
@@ -224,7 +226,7 @@
     
 }
 
-@media only screen and (max-height: 1080px) {
+@media only screen and (max-height: 1090px) {
     .container{
         min-height: 900px !important;
     }

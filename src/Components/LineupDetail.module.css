@@ -92,7 +92,7 @@
     display: block;
     position: absolute;
     height: calc(50% - .9rem);
-    width: 90%;
+    width: 100%;
 	border: 1px solid rgba(184, 184, 184, 0.733);
 	bottom: 0;
     border-top: 0;

@@ -1,28 +1,194 @@
 .container{
     box-sizing: border-box;
-    height: 1100px;
+    height: 1200px;
     position: relative;
-    background-image: url('../Media/objective_background.jpg');
+    background: rgb(236,232,225);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .block{
     z-index: 400;
     position: absolute;
     width: 30%;
-    height: 10rem;
+    height: 17rem;
     top: 0;
     right: 0;
     background: rgb(15,25,35);
-    border-bottom: 1px solid rgb(236, 215, 215);
+    /* border-bottom: 1px solid rgb(236, 215, 215); */
 }
-.background{
+.background_text{
+    color: rgba(0, 0, 0, 0); 
     position: absolute;
+    top: 0rem;
+    width: 100%;
+    text-align: center;
+    font-size: 25rem;
+    font-family: "ValorantFont", sans-serif;
+    -webkit-text-stroke: 1px rgba(202, 202, 202, 0.589);
+    line-height: 25rem;
+}
+.hunter_image{
+    top: 10rem;
     height: 100%;
     width: 100%;
-    background-image: url('../Media/hunter.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.header{
+    position: relative;
+    height: 100%;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.logo_block{
+    width: 13rem;
+    height: 20rem;
+    background: rgb(218,60,75);
+}
+.right{
+    position: relative;
+    height: 100%;
+    min-width: 20%;
+}
+.main_wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    float: right;
+    border-left: 2px solid rgb(155, 155, 155);
+    border-right: 2px solid rgb(167, 167, 167);
+    box-sizing: border-box;
+}
+.whiteline_left{
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    margin-left: 7rem;
+    border-left: 1px solid rgb(194, 194, 194);
+}
+.title{
+    font-family: 'Tungsten-Bold';
+    font-size: 13rem;
+    display: flex;
+    width: 100%;
+    color: rgb(15,25,35);
+    letter-spacing: 1px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title_text_1{
+    position: relative;
+    border-top: 2px solid rgb(255,70,85);
+    margin-top: 10rem;
+    padding-left: 7rem;
+    padding-right: 2rem;
+    width: fit-content;
+}
+.title_text_1::before{
+    content: '';
+    height: .5rem;
+    width: 1rem;
+    left: 0;
+    top: -.5rem;
+    position: absolute;
+    background:rgb(255,70,85);
+}
+.title_text_1::after{
+    content: '';
+    height: .5rem;
+    border-bottom: 1px solid rgb(255,70,85);
+    width: 2rem;
+    right: 1px;
+    position: absolute;
+    background:rgb(15,25,35);
+}
+
+.title_text_2{
+    position: relative;
+    text-align: right;
+    padding-right: 7rem;
+    padding-left: 2rem;
+    width: fit-content;
+    align-self: flex-end;
+    border-bottom: 2px solid rgb(255,70,85);
+}
+.title_text_2::before{
+    content: '';
+    height: .5rem;
+    border-top: 1px solid rgb(255,70,85);
+    width: 3rem;
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    background:rgb(15,25,35);
+}
+.title_text_2::after{
+    content: '';
+    height: .5rem;
+    width: 1rem;
+    right: 0;
+    bottom: -.5rem;
+    position: absolute;
+    background:rgb(255,70,85);
+}
+
+.first_section{
+    padding-top: 5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: rgb(126, 125, 121);
+    line-height: 3rem;
+    letter-spacing: 1px;
+}
+.first_section_left{
+
+    width: 50%;
+    height: 100%;
+}
+.first_section_right{
+    width: 50%;
+    height: 100%;
+}
+.first_text{
+    position: relative;
+    margin-left: 7rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    margin-right: 5rem;
+}
+.first_text::before{
+    content: '';
+    height: 1rem;
+    width: 1rem;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background:rgb(139,151,143);
+}
+.first_text::after{
+    content: '///';
+    right: 30%;
+    bottom: -2rem;
+    position: absolute;
+    color: rgb(255,70,85);
 }

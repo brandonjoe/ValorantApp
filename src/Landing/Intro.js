@@ -15,6 +15,7 @@ class Intro extends Component {
 		return (
 			<div className={classes.container}>
 				<div className={classes.main}>
+					<div className={classes.right_line}></div>
 					<div className={classes.background_text}>vALORANT</div>
 					<div className={classes.header}>
 						<h1 className={classes.title}>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20dab107dfaceeccd13c913ac72c656b",
+    "revision": "35f3060f6066bbc55793f6f1b0d70242",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "a6ea788b13f1e4d56233",
+    "revision": "8234813c51425e9b25ea",
     "url": "/ValorantApp/static/css/2.d97600f8.chunk.css"
   },
   {
-    "revision": "0bc895a91166eada31fd",
-    "url": "/ValorantApp/static/css/main.47923e1b.chunk.css"
+    "revision": "f7afd777bd1dbc6a0ba0",
+    "url": "/ValorantApp/static/css/main.89ae9d51.chunk.css"
   },
   {
-    "revision": "a6ea788b13f1e4d56233",
-    "url": "/ValorantApp/static/js/2.2050b0d7.chunk.js"
+    "revision": "8234813c51425e9b25ea",
+    "url": "/ValorantApp/static/js/2.36cf4741.chunk.js"
   },
   {
     "revision": "51ccd56507b155fc340d16b580bc1a5d",
-    "url": "/ValorantApp/static/js/2.2050b0d7.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/2.36cf4741.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0bc895a91166eada31fd",
-    "url": "/ValorantApp/static/js/main.65b03114.chunk.js"
+    "revision": "f7afd777bd1dbc6a0ba0",
+    "url": "/ValorantApp/static/js/main.7c7e3ba7.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",
@@ -60,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ValorantApp/static/media/haven_map.3558e444.jpg"
   },
   {
-    "revision": "1511b9b7d4cd9f8e5a305a5451d68674",
-    "url": "/ValorantApp/static/media/hunter.1511b9b7.png"
-  },
-  {
     "revision": "36ad8f197ea5908f9322945a1cd1845a",
     "url": "/ValorantApp/static/media/intro_background.36ad8f19.jpg"
   },
@@ -86,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35501dd0598f4ba4380dc12d6c262d98",
     "url": "/ValorantApp/static/media/maps_background.35501dd0.jpg"
+  },
+  {
+    "revision": "81012674e47cb546e4d0d2467f7822a0",
+    "url": "/ValorantApp/static/media/objective_2.81012674.jpg"
   },
   {
     "revision": "4bf8fff0aa19a84e21d27623c490e1d4",

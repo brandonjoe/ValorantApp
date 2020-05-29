@@ -6,8 +6,8 @@ import Maps from '../Maps.js';
 import { AppConsumer, AppContext } from '../../State/context.js';
 
 class Bind extends Component {
-	componentWillMount() {
-		this.context.updateMap('bind');
+	componentDidMount() {
+		this.context.updateMap('bind', this.context.newDetail);
 	}
 
 	render() {

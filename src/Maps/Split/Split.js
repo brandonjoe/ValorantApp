@@ -9,7 +9,7 @@ import {AppConsumer, AppContext} from '../../State/context.js';
 class Split extends Component {
     
 componentWillMount(){
-    this.context.updateMap("split")
+    this.context.updateMap("split", 0)
 }
 
 

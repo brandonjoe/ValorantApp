@@ -22,11 +22,11 @@ class AppProvider extends Component {
 		},
 		prevTitle: "",
 		prevInfo: "",
-		loading: true
-		
+		loading: true,
+		newDetail: 0
 	};
 	//updates the map, takes the map name as a parameter and loads the correct data
-	updateMap = (map) => {
+	updateMap = (map, direct) => {
 
 		let tempLineups = [];
         let data_points = this.getCurrentMap();
@@ -34,7 +34,7 @@ class AppProvider extends Component {
 			item.isActive = false;
 			tempLineups.push(item);
 		});
-		tempLineups[0].isActive = true;
+		tempLineups[direct].isActive = true;
 		let setStateMap = '';
 		let setStateDetail;
 		if (map === 'bind') {
@@ -49,6 +49,10 @@ class AppProvider extends Component {
 			setStateMap = 'Split';
 			setStateDetail = split_detail;
 		}
+		if(direct != 0) {
+			setStateDetail = tempLineups[direct]
+		}
+		
 		this.setState(() => {
 			return {
 				lineups: tempLineups,
@@ -63,7 +67,8 @@ class AppProvider extends Component {
 				selectedSide: {
 					defending: false,
 					attacking: false
-				}
+				},
+				newDetail: 0
 			};
 		});
 	};
@@ -87,7 +92,8 @@ class AppProvider extends Component {
 				detailLineup: lineup,
 				prevTitle: this.state.detailLineup.title,
 				prevInfo: this.state.detailLineup.info,
-				loading: true
+				loading: true,
+
 			};
 		});
 	};
@@ -214,18 +220,26 @@ class AppProvider extends Component {
 	};
 	resetPage = () => {
 		if (this.state.currentMap == 'Bind' || window.location.pathname.includes('bind')) {
-			this.updateMap('bind');
+			this.updateMap('bind', 0);
 		} else if (this.state.currentMap == 'Haven' || window.location.pathname.includes('haven')) {
-			this.updateMap('haven');
+			this.updateMap('haven', 0);
 		} else if (this.state.currentMap == 'Split' || window.location.pathname.includes('split')) {
-			this.updateMap('split');
+			this.updateMap('split', 0);
 		}
 	};
 	hideSpinner = () => {
         this.setState({
           loading: false
-        });
+		});
+
       };
+	setDirectDetail = (num) => {
+		this.setState({
+			newDetail: num
+		})
+		console.log('aaaa')
+	}
+
 
 	//functions needed only inside context.js
 
@@ -259,7 +273,8 @@ class AppProvider extends Component {
 					updateMap: this.updateMap,
 					toggleFilter: this.toggleFilter,
 					resetPage: this.resetPage,
-					hideSpinner: this.hideSpinner
+					hideSpinner: this.hideSpinner,
+					setDirectDetail: this.setDirectDetail
 				}}
 			>
 				{this.props.children}

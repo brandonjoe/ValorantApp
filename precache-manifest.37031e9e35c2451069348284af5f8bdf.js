@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cff30de99a0a04c0851f926f0bc7a6c9",
+    "revision": "95d2a84407549cbf5b52056411416815",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "d6a38d2ee46c1345dfbb",
+    "revision": "573e12de7b1051bfb5ea",
     "url": "/ValorantApp/static/css/2.d97600f8.chunk.css"
   },
   {
-    "revision": "32610038e5c04eadecb2",
-    "url": "/ValorantApp/static/css/main.4e3a4277.chunk.css"
+    "revision": "3ac24a4c2a39fc45c3eb",
+    "url": "/ValorantApp/static/css/main.bc37e366.chunk.css"
   },
   {
-    "revision": "d6a38d2ee46c1345dfbb",
-    "url": "/ValorantApp/static/js/2.92d4137b.chunk.js"
+    "revision": "573e12de7b1051bfb5ea",
+    "url": "/ValorantApp/static/js/2.2dfbbe5d.chunk.js"
   },
   {
     "revision": "51ccd56507b155fc340d16b580bc1a5d",
-    "url": "/ValorantApp/static/js/2.92d4137b.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/2.2dfbbe5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32610038e5c04eadecb2",
-    "url": "/ValorantApp/static/js/main.f58af138.chunk.js"
+    "revision": "3ac24a4c2a39fc45c3eb",
+    "url": "/ValorantApp/static/js/main.046a39b3.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e389c5e310dc537b083e0e25ea6eab5",
     "url": "/ValorantApp/static/media/DrukWide.7e389c5e.ttf"
+  },
+  {
+    "revision": "feb54c607a1b887beca6153ff7833daa",
+    "url": "/ValorantApp/static/media/Interstate-light.feb54c60.ttf"
   },
   {
     "revision": "11eabca2251325cfc5589c9c6fb57b46",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5ec44d9c8f448e9e248382edaa10aaa3",
     "url": "/ValorantApp/static/media/bind_map.5ec44d9c.jpg"
+  },
+  {
+    "revision": "6a0eff9a3d6b4e5f5a9e2ef5d3df1875",
+    "url": "/ValorantApp/static/media/bow.6a0eff9a.png"
   },
   {
     "revision": "39636dd7d7cd4a3a84d9a73a23b30770",
@@ -80,16 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ValorantApp/static/media/map_3.d3885979.jpg"
   },
   {
-    "revision": "35501dd0598f4ba4380dc12d6c262d98",
-    "url": "/ValorantApp/static/media/maps_background.35501dd0.jpg"
-  },
-  {
     "revision": "c44c8201256df3d267142ac5c8caf966",
     "url": "/ValorantApp/static/media/objective_1.c44c8201.jpg"
   },
   {
     "revision": "81012674e47cb546e4d0d2467f7822a0",
     "url": "/ValorantApp/static/media/objective_2.81012674.jpg"
+  },
+  {
+    "revision": "62693d47b9e730232c150307f86a95d5",
+    "url": "/ValorantApp/static/media/recon.62693d47.png"
   },
   {
     "revision": "4bf8fff0aa19a84e21d27623c490e1d4",

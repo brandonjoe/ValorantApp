@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ValorantApp/static/css/main.24a059b2.chunk.css",
-    "main.js": "/ValorantApp/static/js/main.1d7e4403.chunk.js",
-    "main.js.map": "/ValorantApp/static/js/main.1d7e4403.chunk.js.map",
+    "main.js": "/ValorantApp/static/js/main.c6e49b1d.chunk.js",
+    "main.js.map": "/ValorantApp/static/js/main.c6e49b1d.chunk.js.map",
     "runtime-main.js": "/ValorantApp/static/js/runtime-main.b24765df.js",
     "runtime-main.js.map": "/ValorantApp/static/js/runtime-main.b24765df.js.map",
     "static/css/2.d97600f8.chunk.css": "/ValorantApp/static/css/2.d97600f8.chunk.css",
     "static/js/2.0d42931c.chunk.js": "/ValorantApp/static/js/2.0d42931c.chunk.js",
     "static/js/2.0d42931c.chunk.js.map": "/ValorantApp/static/js/2.0d42931c.chunk.js.map",
     "index.html": "/ValorantApp/index.html",
-    "precache-manifest.a370b24db7debd280128eb3bf00bf072.js": "/ValorantApp/precache-manifest.a370b24db7debd280128eb3bf00bf072.js",
+    "precache-manifest.1b3d8164e3d872a4a527c092e51d9e1d.js": "/ValorantApp/precache-manifest.1b3d8164e3d872a4a527c092e51d9e1d.js",
     "service-worker.js": "/ValorantApp/service-worker.js",
     "static/css/2.d97600f8.chunk.css.map": "/ValorantApp/static/css/2.d97600f8.chunk.css.map",
     "static/css/main.24a059b2.chunk.css.map": "/ValorantApp/static/css/main.24a059b2.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/css/2.d97600f8.chunk.css",
     "static/js/2.0d42931c.chunk.js",
     "static/css/main.24a059b2.chunk.css",
-    "static/js/main.1d7e4403.chunk.js"
+    "static/js/main.c6e49b1d.chunk.js"
   ]
 }

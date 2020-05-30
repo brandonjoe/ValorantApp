@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abff79165934c89603757de856b89170",
+    "revision": "0d6563f200eadd872a7ad9666a4bf1ad",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "89f5a3cdf2d1781872ab",
+    "revision": "1447cf2a92cf9d0201cc",
     "url": "/ValorantApp/static/css/2.d97600f8.chunk.css"
   },
   {
-    "revision": "e86639e5601baac7dd94",
-    "url": "/ValorantApp/static/css/main.96707d44.chunk.css"
+    "revision": "3e285a0140c4864dc964",
+    "url": "/ValorantApp/static/css/main.24a059b2.chunk.css"
   },
   {
-    "revision": "89f5a3cdf2d1781872ab",
-    "url": "/ValorantApp/static/js/2.a3bb0384.chunk.js"
+    "revision": "1447cf2a92cf9d0201cc",
+    "url": "/ValorantApp/static/js/2.0d42931c.chunk.js"
   },
   {
     "revision": "51ccd56507b155fc340d16b580bc1a5d",
-    "url": "/ValorantApp/static/js/2.a3bb0384.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/2.0d42931c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e86639e5601baac7dd94",
-    "url": "/ValorantApp/static/js/main.3ff73d00.chunk.js"
+    "revision": "3e285a0140c4864dc964",
+    "url": "/ValorantApp/static/js/main.1d7e4403.chunk.js"
   },
   {
     "revision": "ad04c6e302217efca6c9",

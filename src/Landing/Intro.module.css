@@ -1,13 +1,13 @@
 .container{
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: visible;
     flex-grow: 1;
     height: calc(100vh - 200px);
     background-image: url("../Media/intro_background.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-   z-index: 000;
+   z-index: 100;
 }
 
 .block3{
@@ -91,7 +91,7 @@
     min-width: 40%;
     height: 100%;
     border-right: 1px solid rgb(238, 238, 238);
-    ;
+    overflow: hidden;
 }
 .main_title{
     position: relative;
@@ -105,6 +105,7 @@
     letter-spacing: .5rem;
     margin-bottom: 0;
 }
+
 .main_title::after{
     content: "";
     display: block;
@@ -148,7 +149,7 @@
 .info_text{
     position: relative;
     border-top: 1px solid rgb(238, 238, 238);
-    font-family: "Roboto", sans-serif;
+    font-family: "Interstate", sans-serif;
     font-size: 1.6rem;
     font-weight: 200;
     padding: 4rem 2rem 2rem 2rem;

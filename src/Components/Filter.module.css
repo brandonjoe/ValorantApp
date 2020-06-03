@@ -19,7 +19,7 @@
 .title{
     font-family: "GoodTimes", 'Times New Roman', Times, serif;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(5,16,34);
     width: 80%;
     text-align: center;
 }
@@ -31,7 +31,7 @@
     left: -4rem;
     width: 2rem;
     border-top: 1px solid;
-    border: 1px solid rgb(230, 230, 224);
+    border: 1px solid rgb(5,16,34);
     -webkit-transform: rotate(45deg) translateY(-50%);
     transform: rotate(45deg) translateY(-50%);
 }
@@ -43,7 +43,7 @@
     right: -4rem;
     width: 2rem;
     border-top: 1px solid;
-    border: 1px solid rgb(230, 230, 224);
+    border: 1px solid rgb(5,16,34);
     -webkit-transform: rotate(45deg) translateY(-50%);
     transform: rotate(45deg) translateY(-50%);
 }

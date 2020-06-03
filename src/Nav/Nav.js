@@ -10,7 +10,7 @@ const Nav = () => {
 			{(value) => (
 				<div className={classes.container}>
 					<ul className={classes.nav_buttons}>
-						<li>
+						<li className={classes.home_btn}>
 							<Link to={'/'}>
 								<img src={home_icon} />
 							</Link>
@@ -35,9 +35,24 @@ const Nav = () => {
 									>
 										<h1>Split</h1>
 									</Link>
+									<Link
+										className={classes.link}
+						
+										to={'/ascent'}
+									>
+										<h1>Ascent</h1>
+									</Link>
 								</div>
 							</div>
 						</li>
+							<Link  className={classes.links} to={'/logs'} style={{ textDecoration: 'none' }}>
+								<div className={classes.links_text}>Logs</div>
+							</Link>
+							
+
+							<Link  className={classes.links} style={{ textDecoration: 'none' }}>
+								<div className={classes.links_text}>FAQ</div>
+							</Link>
 					</ul>
 				</div>
 			)}

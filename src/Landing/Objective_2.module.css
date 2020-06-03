@@ -1,0 +1,143 @@
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.background_text{
+    color: rgba(0, 0, 0, 0); 
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    text-align: center;
+    font-size: 30rem;
+    font-family: "ValorantFont", sans-serif;
+    -webkit-text-stroke: 1px rgba(163, 158, 144, 0.308);
+    line-height: 25rem;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;   
+}
+.left{
+    position: relative;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right{
+    height: 100%;
+    width: 40%;
+}
+.text{
+    position: relative;
+    margin-right: 7rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    color: rgb(126, 125, 121);
+    line-height: 3rem;
+    letter-spacing: 1px;
+}
+.right::before{
+    content: '';
+    height: 1rem;
+    width: 1rem;
+    top: 0;
+    position: absolute;
+    background:rgb(139,151,143);
+}
+.text::before{
+    content: '';
+    height: .7rem;
+    width: .3rem;
+    bottom: 1rem;
+    right: -5rem;
+    position: absolute;
+    background:rgb(255,70,85);
+}
+.text::after{
+    content: '';
+    height: .3rem;
+    width: 2rem;
+    bottom: 0;
+    right: -5rem;
+    position: absolute;
+    background:rgb(255,70,85);
+}
+.bow{
+    position: relative;
+    padding-right: 7rem;
+    float: right;
+}
+.left::after{
+    content: '';
+    position: absolute;
+    height: .3rem;
+    width: 3rem;
+    top: 30%;
+    right: 0;
+    background: rgb(255,70,85);
+}
+.left::before{
+    content: '';
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    bottom: 0;
+    left: 0;
+    background: rgb(255,70,85);
+}
+.block{
+    position: absolute;
+    height: 5rem;
+    width: 60%;
+    bottom: 0;
+    right: 0;
+    background: rgb(15,25,35);
+}
+.block::before{
+    content: "";
+    height: .5rem;
+    width: .5rem;
+    position: absolute;
+    top: 0;
+    background: rgb(172, 172, 172);
+}
+.block::after{
+    content: "//";
+    height: .5rem;
+    width: 4rem;
+    color: rgb(172, 172, 172);
+    font-size: .8rem;
+    position: absolute;
+    bottom: -7rem;
+    border-radius: 2px;
+    right: 30%;
+    background: rgb(172, 172, 172);
+}
+.bow_text{
+    position: relative;
+    top: -10rem;
+    right: 5rem;
+    color: rgb(15,25,35);
+    font-family: "Interstate", "Roboto", sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+.bow_text::before{
+    position: absolute;
+    content: "";
+    height: 1rem;
+    width: 10rem;
+    bottom: -.5rem;
+    left: -1.4rem;
+    background: rgb(255,70,85);
+    -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
+}

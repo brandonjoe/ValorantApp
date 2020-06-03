@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Lineups.module.css';
-import { AppConsumer, AppContext } from '../State/context.js';
+import { AppConsumer} from '../State/context.js';
 import LineupItem from './LineupItem.js';
 import LineupDetail from './LineupDetail.js';
 import Filter from './Filter.js';

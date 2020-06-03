@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import Nav from '../../Nav/Nav.js';
-import classes from './Bind.module.css';
+
 import Lineups from '../../Components/Lineups.js';
-import Maps from '../Maps.js';
 import { AppConsumer, AppContext } from '../../State/context.js';
 
-class Bind extends Component {
+class Ascent extends Component {
 	componentDidMount() {
-		this.context.updateMap('bind', this.context.newDetail);
+		this.context.updateMap('ascent', this.context.newDetail);
 	}
 
 	render() {
@@ -20,6 +19,6 @@ class Bind extends Component {
 	}
 }
 
-Bind.contextType = AppContext;
+Ascent.contextType = AppContext;
 
-export default Bind;
+export default Ascent;

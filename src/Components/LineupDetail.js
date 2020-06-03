@@ -40,6 +40,7 @@ const LineupDetail = (props) => {
 					<div className={classes.main}>
 						<div className={classes.main_left}>
 							<div className={classes.info}>
+								<div className={classes.block}></div>
 								<div className={classes.textbox}>
 									<h1 className={classes.title}>
 										<Scrambler

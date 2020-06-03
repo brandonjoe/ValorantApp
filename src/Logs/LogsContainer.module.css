@@ -1,0 +1,97 @@
+.container{
+    box-sizing: border-box;
+    height: calc(100vh - 80px);
+    background-image: url("../Media/logs_background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    
+}
+.container::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(80, 80, 80, 0);
+
+}
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+.left{
+    width: 20%;
+    height: 100%;
+}
+.right{
+    width: 20%;
+    height: 100%;
+}
+.middle{
+    box-sizing: border-box;
+    position: relative;
+    background: rgba(0, 0, 0, 0.575);
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-left: 1px solid rgb(197, 197, 197);
+    border-right: 1px solid rgb(197, 197, 197);
+}
+.whiteLine{
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    margin-left: 7rem;
+    border-left: 1px solid rgb(110, 110, 110);
+}
+.header{
+    color: rgb(223, 223, 223);
+    font-size: 5rem;
+    margin-left: 7rem;
+    padding-left: .5rem;
+    margin-top: 7rem;
+    position: relative;
+    padding-right: 4rem;
+    
+    font-family: "DrukWide", sans-serif;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 7rem;
+}
+.content_info{
+    margin-top: 7rem;
+    width: 40%;
+    height: fit-content;
+    margin-right: 3rem;
+    color: rgb(214, 214, 214);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.content_logs{
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding-top: 5rem;
+    width: 60%;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    background: rgba(0, 0, 0, 0.658);
+}
+.log_container{
+    height: 80%;
+    overflow-y: auto;
+    width: 100%;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+}

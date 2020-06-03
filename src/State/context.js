@@ -3,6 +3,8 @@ import React, { Component, useEffect  } from 'react';
 import { bind_data, bind_detail } from '../Data/bind_data.js';
 import { haven_data, haven_detail } from '../Data/haven_data.js';
 import { split_data, split_detail } from '../Data/split_data.js';
+import { ascent_data, ascent_detail } from '../Data/ascent_data.js';
+import { logs_data} from '../Data/logs_data.js';
 const AppContext = React.createContext();
 
 class AppProvider extends Component {
@@ -23,8 +25,10 @@ class AppProvider extends Component {
 		prevTitle: "",
 		prevInfo: "",
 		loading: true,
-		newDetail: 0
+		newDetail: 0,
+		logs: logs_data
 	};
+
 	//updates the map, takes the map name as a parameter and loads the correct data
 	updateMap = (map, direct) => {
 
@@ -49,6 +53,10 @@ class AppProvider extends Component {
 			setStateMap = 'Split';
 			setStateDetail = split_detail;
 		}
+		if (map === 'ascent') {
+			setStateMap = 'Ascent';
+			setStateDetail = ascent_detail;
+		}
 		if(direct != 0) {
 			setStateDetail = tempLineups[direct]
 		}
@@ -72,7 +80,19 @@ class AppProvider extends Component {
 			};
 		});
 	};
+	setLogs = () => {
+		let tempLogs = [];
+		logs_data.forEach((item) => {
+			console.log(item)
+			tempLogs.push(item)
+		})
+		this.setState(() => {
+			return{
+				logs: tempLogs
+			}
+		})
 
+	}
 	setDetailLineup = (id) => {
 		const lineup = this.getLineup(id);
 		
@@ -254,6 +274,8 @@ class AppProvider extends Component {
 			data_points = haven_data;
 		} else if ( window.location.pathname.includes('split')) {
 			data_points = split_data;
+		}else if ( window.location.pathname.includes('ascent')) {
+			data_points = ascent_data;
 		}
 		return data_points;
 	};
@@ -274,7 +296,8 @@ class AppProvider extends Component {
 					toggleFilter: this.toggleFilter,
 					resetPage: this.resetPage,
 					hideSpinner: this.hideSpinner,
-					setDirectDetail: this.setDirectDetail
+					setDirectDetail: this.setDirectDetail,
+					setLogs: this.setLogs
 				}}
 			>
 				{this.props.children}

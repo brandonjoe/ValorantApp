@@ -3,14 +3,13 @@ import classes from './Map.module.css';
 import { TweenLite, CSSPlugin, Expo } from 'gsap/all';
 
 const Map = (props) => {
-	const [ isShown, setIsShown ] = useState(false);
 	let map = useRef(null);
 
 	let mouseOver = () => {
-		TweenLite.to(map, 1, { scale: 1.05, ease: Expo.easeOut });
+		TweenLite.to(map, .8, { scale: 1.02, ease: Expo.easeOut });
 	};
 	let mouseLeave = () => {
-		TweenLite.to(map, 1, { scale: 1, ease: Expo.easeOut });
+		TweenLite.to(map, .8, { scale: 1, ease: Expo.easeOut });
 	};
 	let style = {
 		backgroundImage: `url(${props.map})`

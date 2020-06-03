@@ -23,16 +23,31 @@
     align-items: flex-end;
     overflow: visible;
     padding-bottom: 6rem;
-    background-color: rgba(17, 17, 17, 0.664);
+    background: rgba(18, 31, 44, 0.253);
+    border-right: 2px solid rgb(83, 83, 83);
 }
 .lineup_selector_main{
     overflow-y: auto;
     width: 100%;
     margin-left: 3rem;
     display: flex;
+    position: relative;
     flex-direction: column;
     padding-bottom: 4rem;
     align-items: flex-end;
+    border-top: 2px solid rgb(246,68,82);
+    border-bottom: 2px solid rgb(246,68,82);
+    background: rgba(18, 31, 44, 0.527);
+    height: 100%;
+}
+.lineup_selector_main::after{
+    content: '';
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(246,68,82);
 }
 
 .lineup_detail{

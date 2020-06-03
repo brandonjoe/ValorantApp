@@ -18,7 +18,6 @@ componentWillMount(){
             <div>
             <Nav />
             <Lineups />
-            <Maps />
         </div>
         );
     }

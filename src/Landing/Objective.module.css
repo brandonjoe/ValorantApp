@@ -1,6 +1,6 @@
 .container{
     box-sizing: border-box;
-    height: 1600px;
+    height: 1900px;
     position: relative;
     background: rgb(236,232,225);
     background-size: cover;
@@ -17,6 +17,23 @@
     right: 0;
     background: rgb(15,25,35);
     /* border-bottom: 1px solid rgb(236, 215, 215); */
+}
+.block_text{
+    color: rgba(187, 187, 187, 0.747);
+    position: absolute;
+    font-family: "Interstate", "Roboto", sans-serif;
+    font-size: 1rem;
+    bottom: .5rem; 
+    left: 10rem;
+}
+.block_text::after{
+    content: '';
+    position: absolute;
+    height: .2rem; 
+    bottom: .4rem;
+    right: -12rem;
+    width: 10rem;
+    background: rgb(218,60,75);
 }
 .background_text{
     color: rgba(0, 0, 0, 0); 
@@ -52,10 +69,31 @@
     align-items: flex-end;
 }
 .logo_block{
+    top: 0;
+    position: relative;
     width: 13rem;
-    height: 20rem;
+    height: 15rem;
     background: rgb(218,60,75);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 1px solid rgb(15,25,35);
 }
+.logo_block::after{
+    content: '';
+    position: absolute;
+    height: .5rem;
+    width: .5rem;
+    background: rgb(236, 236, 236);
+    right: 0;
+    
+}
+.dart{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
 
 .main_wrapper{
     position: relative;
@@ -79,6 +117,15 @@
     margin-left: 7rem;
     border-left: 1px solid rgb(194, 194, 194);
 }
+.whiteline_right{
+    box-sizing: border-box;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    border-right: 1px solid rgb(194, 194, 194);
+}
 .title{
     font-family: 'Tungsten-Bold';
     font-size: 13rem;
@@ -90,6 +137,8 @@
     justify-content: flex-start;
 }
 .title_text_1{
+    opacity: 0;
+    height: 100%;
     position: relative;
     border-top: 2px solid rgb(255,70,85);
     margin-top: 10rem;
@@ -237,19 +286,19 @@
     background:rgb(255,70,85);
 }
 .second_section{
-    height: 100%;
+    height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
+    top: -10rem;
+    position: relative;
 }
 .video_player{
+    box-sizing: border-box;
     width: 640px;
     height: 360px;
     position: relative;
-    top: -10rem;
-    box-sizing: border-box;
     -webkit-box-shadow: 21px 14px 41px -1px rgba(0,0,0,0.29);
     -moz-box-shadow: 21px 14px 41px -1px rgba(0,0,0,0.29);
     box-shadow: 21px 14px 41px -1px rgba(0,0,0,0.29);
@@ -260,12 +309,13 @@
 }
 .video::before{
     content: '';
-    height: .5rem;
-    width: .5rem; 
+    height: 3rem;
+    width: 3rem; 
     position: absolute;
-    bottom: 0;
+    bottom: 2rem;
     right: -15rem;
-    background: rgb(255,70,85);
+    border-radius: 2px;
+    background: rgba(180, 180, 180, 0.596);
     
     
 }

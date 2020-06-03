@@ -16,7 +16,6 @@ class Haven extends Component {
                 <div>
                 <Nav />
                 <Lineups />
-                <Maps />
             </div>
             );
         }

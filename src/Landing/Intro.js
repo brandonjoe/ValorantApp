@@ -3,7 +3,25 @@ import ReactPlayer from 'react-player';
 import classes from './Intro.module.css';
 import sova_image from '../Media/intro_sova.png';
 import { Parallax } from 'react-scroll-parallax';
+import { TweenLite, CSSPlugin, Expo } from 'gsap/all';
 class Intro extends Component {
+	constructor(props){
+		super(props);
+		// reference to the DOM node
+		this.header = null;
+		this.title = null;
+		this.text = null;
+		// reference to the animation
+		this.headerAnimation = null;
+		this.titleAnimation = null;
+		this.textAnimation = null;
+	  }
+	  componentDidMount(){
+		// use the node ref to create the animation
+		this.headerAnimation = TweenLite.from(this.header, 1, {x: -100, opacity: 0, ease: Expo.easeOut});
+		this.titleAnimation = TweenLite.from(this.title, 2, {x: -400, ease: Expo.easeOut, delay: 1});
+		this.textAnimation = TweenLite.from(this.text, 2, {x: 1000, ease: Expo.easeOut, delay: 1});
+	  }
 	render() {
 		let style = {
 			width: '100%',
@@ -17,7 +35,7 @@ class Intro extends Component {
 				<div className={classes.main}>
 					<div className={classes.right_line}></div>
 					<div className={classes.background_text}>vALORANT</div>
-					<div className={classes.header}>
+					<div ref={div => this.header = div} className={classes.header}>
 						<h1 className={classes.title}>
 							<span>03/12 &nbsp;&nbsp; //</span>
 							<span>INITIATOR</span>{' '}
@@ -25,11 +43,11 @@ class Intro extends Component {
 					</div>
 					<div className={classes.main_wrapper}>
 						<div className={classes.left}>
-							<h1 className={classes.main_title}>SOVA</h1>
+							<h1  ref={div => this.title = div}  className={classes.main_title}>SOVA</h1>
 							<div className={classes.info}>
 								<div className={classes.origin}> Origin: &nbsp; Russia</div>
 								<div className={classes.origin}> Codename: &nbsp; Hunter</div>
-								<h2 className={classes.info_text}>
+								<h2  className={classes.info_text}>
 									Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision.
 									His custom bow and incredible scouting abilities ensure that even if you run, you
 									cannot hide. <br />
@@ -55,19 +73,18 @@ class Intro extends Component {
 							<div className={classes.sova_image_container}>
 								<div className={classes.block} />
 								<div className={classes.block2} />
-								<Parallax
+								<Parallax 
 								styleOuter={style2}
 									className={classes.sova_image_box}
 									styleInner={style}
 									y={[ 20, -20 ]}
-									tagOuter="figure"
 								>
-									<img className={classes.sova_image} alt={'sova'} src={sova_image} />
+									<img  className={classes.sova_image} alt={'sova'} src={sova_image} />
 								</Parallax>
 							</div>
 
 							<Parallax className={classes.zindex} y={[ -80, 80 ]} tagOuter="figure">
-								<div className={classes.sova_text}>SOVA</div>
+								<div  className={classes.sova_text}>SOVA</div>
 							</Parallax>
 						</div>
 					</div>

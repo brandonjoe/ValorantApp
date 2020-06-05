@@ -103,7 +103,6 @@
     align-items: center;
     height: 100%;
     width: 80%;
-    float: right;
     border-left: 2px solid rgb(155, 155, 155);
     border-right: 2px solid rgb(167, 167, 167);
     box-sizing: border-box;

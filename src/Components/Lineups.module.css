@@ -16,13 +16,13 @@
     align-items: flex-start;
 }
 .lineup_selector{
-    width: 20% !important;
-    height: calc(100vh - 14rem);
+    position: relative;
+    width: 20%;
+    height: calc(100vh - 8rem);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     overflow: visible;
-    padding-bottom: 6rem;
     background: rgba(18, 31, 44, 0.253);
     border-right: 2px solid rgb(83, 83, 83);
 }
@@ -71,3 +71,12 @@
     flex-grow: 1;
     
 }
+
+@media only screen and (max-width: 1300px) {
+    .lineup_selector{
+        width: 300px;
+    }
+    .lineup_detail{
+        max-width: 100%;
+    }
+  }

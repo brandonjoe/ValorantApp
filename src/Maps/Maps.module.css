@@ -10,16 +10,17 @@ background: rgb(15,25,35);
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .right{
     position: relative;
     height: 100%;
-    width: 20%;
+    min-width: 20%;
 }
 .section_title{
     position: relative;
-    width: 20%;
+    height: 100%;
+    min-width: 20%;
 }
 .section_title::before{
     content: "";
@@ -71,6 +72,7 @@ clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    background: green;
 }
 .map_container::after{
     position: absolute;
@@ -150,3 +152,11 @@ box-shadow: 19px 24px 40px -9px rgba(0, 0, 0, 0.473);
     left: 0;
     border-right: 1px solid rgb(194, 194, 194);
 }
+@media only screen and (max-width: 1600px) {
+    .right{
+        min-width: 7%;
+    }
+    .map_selection{
+        width: 86%;
+    }
+  }

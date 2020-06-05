@@ -13,9 +13,7 @@ const Maps = () => {
 	return (
 		<div className={classes.container}>
 			<div className={classes.main}>
-				<div className={classes.section_title}>
-					<h1 className={classes.title}>Maps</h1>
-				</div>
+				<div className={classes.right} />
 
 				<AppConsumer>
 					{(value) => (
@@ -23,43 +21,25 @@ const Maps = () => {
 							<div className={classes.whiteline_left} />
 							<div className={classes.whiteline_right} />
 							<div className={classes.map_container}>
-							
-							
-							<Link
-								className={classes.link}
-								style={{ textDecoration: 'none' }}
-								to={'/bind'}
-							>
-								<Map title={'Bind'} location={'Morocco'} map={map_1} />
-							</Link>
+								<Link className={classes.link} style={{ textDecoration: 'none' }} to={'/bind'}>
+									<Map title={'Bind'} location={'Morocco'} map={map_1} />
+								</Link>
 
-							<Link
-								className={classes.link}
-								style={{ textDecoration: 'none' }}
-								to={'/haven'}
-							>
-								<Map title={'Haven'} location={'Bhutan'} map={map_2} />
-							</Link>
+								<Link className={classes.link} style={{ textDecoration: 'none' }} to={'/haven'}>
+									<Map title={'Haven'} location={'Bhutan'} map={map_2} />
+								</Link>
 
-							<Link
-								className={classes.link}
-								style={{ textDecoration: 'none' }}
-								to={'/split'}
-							>
-								<Map title={'Split'} location={'Tokyo'} map={map_3} />
-							</Link>
-							<Link
-								className={classes.link}
-								style={{ textDecoration: 'none' }}
-								to={'/ascent'}
-							>
-								<Map title={'Ascent'} location={'Venice'} map={map_4} />
-							</Link>
+								<Link className={classes.link} style={{ textDecoration: 'none' }} to={'/split'}>
+									<Map title={'Split'} location={'Tokyo'} map={map_3} />
+								</Link>
+								<Link className={classes.link} style={{ textDecoration: 'none' }} to={'/ascent'}>
+									<Map title={'Ascent'} location={'Venice'} map={map_4} />
+								</Link>
 							</div>
 						</div>
 					)}
 				</AppConsumer>
-				<div className={classes.right}></div>
+				<div className={classes.right} />
 			</div>
 		</div>
 	);

@@ -6,15 +6,20 @@ import '../Animation/detail.css';
 import { TweenMax, Expo } from 'gsap';
 import { Scrambler } from 'react-text-scrambler';
 import Images from './Media/Images.js';
+import Vimeo from '@u-wave/react-vimeo';
 
 const LineupDetail = (props) => {
 	let container = useRef(null);
 	useEffect(() => {
 		TweenMax.from(container, 2, { opacity: 0, ease: Expo.easeOut, delay: 1 });
 	}, []);
-	const { id, title, info, video, essential, difficulty, side, image1, image2, map } = props.lineupdetails;
+	let { id, title, info, video, essential, difficulty, side, image1, image2, map } = props.lineupdetails;
 	let essential_icon;
 	let dart_side;
+	if (typeof video == "undefined"){
+		video = "418734606"
+	}
+	
 	let difficulty_level;
 	if (difficulty === 'Easy') {
 		difficulty_level = <div className={`${classes.icon} ${classes.colorGreen}`}>{difficulty}</div>;
@@ -38,9 +43,10 @@ const LineupDetail = (props) => {
 			<AppConsumer>
 				{(value) => (
 					<div className={classes.main}>
+						<div className={classes.background_text}>{value.currentMap}</div>
 						<div className={classes.main_left}>
 							<div className={classes.info}>
-								<div className={classes.block}></div>
+								<div className={classes.block} />
 								<div className={classes.textbox}>
 									<h1 className={classes.title}>
 										<Scrambler
@@ -74,14 +80,15 @@ const LineupDetail = (props) => {
 							</div>
 						</div>
 						<div className={classes.main_right}>
-							<div className={classes.info_media}>
-								<Video />
+							<div className={classes.videoWrapper}>
+								<Vimeo video={video} className={classes.vimeo} muted={true} responsive={true} loop={true} showByline={false} showPortrait={false} showTitle={false} />
 							</div>
-							<div classes={classes.map_container}>
+							<div className={classes.map_container}>
 								<div className={classes.map_wrapper}>
-								<img src={map} className={classes.map}></img>
+									<div className={classes.map_block} />
+									<div className={classes.map_line} />
+									<img src={map} className={classes.map} />
 								</div>
-								
 							</div>
 						</div>
 					</div>

@@ -26,7 +26,8 @@ class AppProvider extends Component {
 		prevInfo: "",
 		loading: true,
 		newDetail: 0,
-		logs: logs_data
+		logs: logs_data,
+		sideLineupsOpen: false
 	};
 
 	//updates the map, takes the map name as a parameter and loads the correct data

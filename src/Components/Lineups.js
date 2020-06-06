@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import classes from './Lineups.module.css';
-import { AppConsumer} from '../State/context.js';
+import { AppConsumer, AppContext } from '../State/context.js';
 import LineupItem from './LineupItem.js';
 import LineupDetail from './LineupDetail.js';
 import Filter from './Filter.js';
 import MapHeader from './MapHeader.js';
+import Backdrop from './Backdrop'
 import '../Animation/detail.css';
 import { TweenLite, CSSPlugin, Expo } from 'gsap/all';
 
@@ -30,24 +31,64 @@ class Lineups extends Component {
 			opacity: 0,
 			y: -100,
 			ease: Expo.easeOut,
-			delay: .5
+			delay: 0.5
 		});
 	}
 
+	state = {
+		sideLineupsOpen: false
+	};
+
 	render() {
+		let backdrop;
+		let sideLineups;
+		let value = this.context;
+
+		if (value.sideLineupsOpen) {
+			backdrop = <Backdrop onClick={() => value.backdropClickHandler()} />
+			sideLineups = (<div className={classes.lineup_selector} style={{display: "block", zIndex: '5000'}}>
+				<div ref={(div) => (this.filterList = div)} className={classes.filter}>
+					<Filter />
+				</div>
+
+				<div ref={(div) => (this.lineupList = div)} className={classes.lineup_selector_main}>
+					<AppConsumer>
+						{(value) => {
+							return value.lineups.map((lineup) => {
+								return (
+									<LineupItem
+										className={classes.lineupItem}
+										key={lineup.id}
+										lineup={lineup}
+									/>
+								);
+							});
+						}}
+					</AppConsumer>
+				</div>
+			</div>)
+		  }
 		return (
 			<div className={classes.container}>
+				{backdrop}
+				{sideLineups}
 				<div className={classes.main}>
-					<div  className={classes.lineup_selector}>
+					<div className={classes.lineup_selector}>
 						<div ref={(div) => (this.filterList = div)} className={classes.filter}>
-							<Filter  />
+							<Filter />
 						</div>
-						
-						<div ref={(div) => (this.lineupList = div)}  className={classes.lineup_selector_main}>
+
+						<div ref={(div) => (this.lineupList = div)} className={classes.lineup_selector_main}>
 							<AppConsumer>
 								{(value) => {
 									return value.lineups.map((lineup) => {
-										return <LineupItem className={classes.lineupItem} key={lineup.id} lineup={lineup} />;
+										return (
+											<LineupItem
+												className={classes.lineupItem}
+												key={lineup.id}
+												lineup={lineup}
+											/>
+										);
 									});
 								}}
 							</AppConsumer>
@@ -57,13 +98,20 @@ class Lineups extends Component {
 					<div className={classes.lineup_detail}>
 						<AppConsumer>
 							{(value) => {
-								return <MapHeader mapTitle={value.currentMap} />
+								return (
+									<MapHeader
+										mapTitle={value.currentMap}
+									/>
+								);
 							}}
 						</AppConsumer>
 						<AppConsumer>
 							{(value) => {
-								return (<div ref={(div) => (this.detailItem = div)} className={classes.lineupDetailItem}><LineupDetail lineupdetails={value.detailLineup} /></div>)
-								
+								return (
+									<div ref={(div) => (this.detailItem = div)} className={classes.lineupDetailItem}>
+										<LineupDetail lineupdetails={value.detailLineup} />
+									</div>
+								);
 							}}
 						</AppConsumer>
 					</div>
@@ -72,5 +120,5 @@ class Lineups extends Component {
 		);
 	}
 }
-
+Lineups.contextType = AppContext;
 export default Lineups;

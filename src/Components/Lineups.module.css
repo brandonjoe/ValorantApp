@@ -12,10 +12,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-center;
+    justify-content: center;
     align-items: flex-start;
 }
-.lineup_selector{
+.lineup_selector{ z-index: 500;
     position: relative;
     width: 20%;
     height: calc(100vh - 8rem);
@@ -72,11 +72,22 @@
     
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
     .lineup_selector{
-        width: 300px;
+        width: 500px;
     }
-    .lineup_detail{
-        max-width: 100%;
-    }
+  }
+  @media only screen and (max-width: 700px) {
+      .lineup_selector{
+          display: none;
+          position: absolute;
+          width: 90%;
+          height: calc(100vh - 30rem);
+      }
+      .lineup_detail{
+          max-width: 100%;
+      }
+      .lineup_selector_main{
+          margin-left: 0;
+      }
   }

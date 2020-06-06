@@ -13,15 +13,14 @@
 }
 
 .image_container{
-    height: fit-content;
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
     margin-bottom: 4rem;
-    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.59);
-    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.59);
-    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.59);
+
 }
 .image{
-    width: 50rem;
+    width: 100%;
     display: block;
 }
 .overlay{
@@ -30,8 +29,13 @@
 
 }
 .main{
+    width: 80%;
     overflow: hidden;
-    height: inherit
+    height: inherit;
+    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.59);
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.59);
+    
 }
 .image_wrapper{
     position: relative;
@@ -119,3 +123,6 @@
 .box:hover{
     cursor: pointer;
 }
+@media only screen and (max-width: 1200px) {
+
+  }

@@ -51,8 +51,22 @@ align-items: center;
     line-height: 100%;
     padding-left: 2rem;
 }
-@media only screen and (max-width: 1400px) {
+.button{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
     .line{
         margin-left: 3rem;
+    }
+   }
+   @media only screen and (max-width: 700px) {
+    .line{
+        margin-left: 8rem;
+    }
+    .button{
+        display: block;
     }
    }

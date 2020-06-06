@@ -96,7 +96,7 @@ class AppProvider extends Component {
 	}
 	setDetailLineup = (id) => {
 		const lineup = this.getLineup(id);
-		
+	
 		let tempLineups = [];
 		this.state.lineups.forEach((item) => {
 			if (item.id === id) {
@@ -114,7 +114,7 @@ class AppProvider extends Component {
 				prevTitle: this.state.detailLineup.title,
 				prevInfo: this.state.detailLineup.info,
 				loading: true,
-
+				sideLineupsOpen: false
 			};
 		});
 	};
@@ -258,7 +258,20 @@ class AppProvider extends Component {
 		this.setState({
 			newDetail: num
 		})
+	}
+	lineupsToggleClickHandler = () => {
 		console.log('aaaa')
+		this.setState(prevState => {
+			return{ 
+				sideLineupsOpen: !prevState.sideLineupsOpen
+			}
+		})
+	}
+	backdropClickHandler = () => {
+		console.log('bbb')
+		this.setState({
+			sideLineupsOpen: false
+		})
 	}
 
 
@@ -298,8 +311,10 @@ class AppProvider extends Component {
 					resetPage: this.resetPage,
 					hideSpinner: this.hideSpinner,
 					setDirectDetail: this.setDirectDetail,
-					setLogs: this.setLogs
-				}}
+					setLogs: this.setLogs,
+					lineupsToggleClickHandler: this.lineupsToggleClickHandler,
+					backdropClickHandler: this.backdropClickHandler
+				}}y
 			>
 				{this.props.children}
 			</AppContext.Provider>

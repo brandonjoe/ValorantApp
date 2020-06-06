@@ -16,10 +16,10 @@ const LineupDetail = (props) => {
 	let { id, title, info, video, essential, difficulty, side, image1, image2, map } = props.lineupdetails;
 	let essential_icon;
 	let dart_side;
-	if (typeof video == "undefined"){
-		video = "418734606"
+	if (typeof video == 'undefined') {
+		video = '418734606';
 	}
-	
+
 	let difficulty_level;
 	if (difficulty === 'Easy') {
 		difficulty_level = <div className={`${classes.icon} ${classes.colorGreen}`}>{difficulty}</div>;
@@ -77,11 +77,41 @@ const LineupDetail = (props) => {
 								<div className={classes.images}>
 									<Images image1={image1} image2={image2} />
 								</div>
+								<div className={classes.right_container}>
+									<div className={`${classes.videoWrapper} `}>
+										<Vimeo
+											video={video}
+											className={classes.vimeo}
+											muted={true}
+											responsive={true}
+											loop={true}
+											showByline={false}
+											showPortrait={false}
+											showTitle={false}
+										/>
+									</div>
+									<div className={`${classes.map_container}`}>
+										<div className={classes.map_wrapper}>
+											<div className={classes.map_block} />
+											<div className={classes.map_line} />
+											<img src={map} className={classes.map} />
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div className={classes.main_right}>
 							<div className={classes.videoWrapper}>
-								<Vimeo video={video} className={classes.vimeo} muted={true} responsive={true} loop={true} showByline={false} showPortrait={false} showTitle={false} />
+								<Vimeo
+									video={video}
+									className={classes.vimeo}
+									muted={true}
+									responsive={true}
+									loop={true}
+									showByline={false}
+									showPortrait={false}
+									showTitle={false}
+								/>
 							</div>
 							<div className={classes.map_container}>
 								<div className={classes.map_wrapper}>

@@ -44,7 +44,7 @@ class LineupItem extends Component {
 			<AppConsumer>
 				{(value) => (
 					
-					<div onClick={() => {}} className={`${classes.container} ${activeclass}`}>
+					<div className={`${classes.container} ${activeclass}`}>
                         <div ref={(div) => (this.lineupItem = div)}  className={classes.background}></div>
 						<div className={classes.main} onClick={() => value.setDetailLineup(id)}>
 							<h1 className={classes.title}>{title}</h1>

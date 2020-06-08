@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ValorantApp/static/css/main.9a1db3ca.chunk.css",
-    "main.js": "/ValorantApp/static/js/main.9d313819.chunk.js",
-    "main.js.map": "/ValorantApp/static/js/main.9d313819.chunk.js.map",
+    "main.css": "/ValorantApp/static/css/main.54376133.chunk.css",
+    "main.js": "/ValorantApp/static/js/main.080742fc.chunk.js",
+    "main.js.map": "/ValorantApp/static/js/main.080742fc.chunk.js.map",
     "reactPlayerDailyMotion.js": "/ValorantApp/static/js/reactPlayerDailyMotion.f046699c.chunk.js",
     "reactPlayerDailyMotion.js.map": "/ValorantApp/static/js/reactPlayerDailyMotion.f046699c.chunk.js.map",
     "reactPlayerFacebook.js": "/ValorantApp/static/js/reactPlayerFacebook.8f86e0e3.chunk.js",
@@ -28,16 +28,16 @@
     "runtime-main.js": "/ValorantApp/static/js/runtime-main.f68b5e9e.js",
     "runtime-main.js.map": "/ValorantApp/static/js/runtime-main.f68b5e9e.js.map",
     "static/css/13.d97600f8.chunk.css": "/ValorantApp/static/css/13.d97600f8.chunk.css",
-    "static/js/13.bc4b09f8.chunk.js": "/ValorantApp/static/js/13.bc4b09f8.chunk.js",
-    "static/js/13.bc4b09f8.chunk.js.map": "/ValorantApp/static/js/13.bc4b09f8.chunk.js.map",
+    "static/js/13.036a61df.chunk.js": "/ValorantApp/static/js/13.036a61df.chunk.js",
+    "static/js/13.036a61df.chunk.js.map": "/ValorantApp/static/js/13.036a61df.chunk.js.map",
     "static/js/14.fcf7235c.chunk.js": "/ValorantApp/static/js/14.fcf7235c.chunk.js",
     "static/js/14.fcf7235c.chunk.js.map": "/ValorantApp/static/js/14.fcf7235c.chunk.js.map",
     "index.html": "/ValorantApp/index.html",
-    "precache-manifest.a114e143057dd0c9fd9466fedae1a0a3.js": "/ValorantApp/precache-manifest.a114e143057dd0c9fd9466fedae1a0a3.js",
+    "precache-manifest.77d0a55d342fc1bb5817d0d41578b0f3.js": "/ValorantApp/precache-manifest.77d0a55d342fc1bb5817d0d41578b0f3.js",
     "service-worker.js": "/ValorantApp/service-worker.js",
     "static/css/13.d97600f8.chunk.css.map": "/ValorantApp/static/css/13.d97600f8.chunk.css.map",
-    "static/css/main.9a1db3ca.chunk.css.map": "/ValorantApp/static/css/main.9a1db3ca.chunk.css.map",
-    "static/js/13.bc4b09f8.chunk.js.LICENSE.txt": "/ValorantApp/static/js/13.bc4b09f8.chunk.js.LICENSE.txt",
+    "static/css/main.54376133.chunk.css.map": "/ValorantApp/static/css/main.54376133.chunk.css.map",
+    "static/js/13.036a61df.chunk.js.LICENSE.txt": "/ValorantApp/static/js/13.036a61df.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ValorantApp/static/media/good-times.regular.39636dd7.ttf",
     "static/media/ascent_map.jpg": "/ValorantApp/static/media/ascent_map.0f62c0ef.jpg",
     "static/media/Lineups.module.css": "/ValorantApp/static/media/bind_background.d4c035b5.jpg",
@@ -50,7 +50,7 @@
     "static/media/map_1.jpg": "/ValorantApp/static/media/map_1.21b975b1.jpg",
     "static/media/map_2.jpg": "/ValorantApp/static/media/map_2.baf6020f.jpg",
     "static/media/map_3.jpg": "/ValorantApp/static/media/map_3.d3885979.jpg",
-    "static/media/map_4.jpg": "/ValorantApp/static/media/map_4.43ba588e.jpg",
+    "static/media/map_4.jpg": "/ValorantApp/static/media/map_4.c2292161.jpg",
     "static/media/Objective.module.css": "/ValorantApp/static/media/objective_1.c44c8201.jpg",
     "static/media/objective_2.jpg": "/ValorantApp/static/media/objective_2.70fbd1b2.jpg",
     "static/media/recon.png": "/ValorantApp/static/media/recon.62693d47.png",
@@ -59,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.f68b5e9e.js",
     "static/css/13.d97600f8.chunk.css",
-    "static/js/13.bc4b09f8.chunk.js",
-    "static/css/main.9a1db3ca.chunk.css",
-    "static/js/main.9d313819.chunk.js"
+    "static/js/13.036a61df.chunk.js",
+    "static/css/main.54376133.chunk.css",
+    "static/js/main.080742fc.chunk.js"
   ]
 }

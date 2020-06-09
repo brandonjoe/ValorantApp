@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ValorantApp/precache-manifest.8e38c8e4884241040b442df89c61fb9a.js"
+  "/ValorantApp/precache-manifest.2a1ef19bd887e726213a343c2d58a00e.js"
 );
 
 self.addEventListener('message', (event) => {

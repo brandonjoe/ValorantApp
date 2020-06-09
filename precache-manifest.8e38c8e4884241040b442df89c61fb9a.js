@@ -1,79 +1,79 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24b0e331a4bde7fe695e73d2a0d0c729",
+    "revision": "0aeb3514c494128169691da4e3a5fbf9",
     "url": "/ValorantApp/index.html"
   },
   {
-    "revision": "6cccc9f0891947a1bc12",
+    "revision": "49564a9b6987813e0298",
     "url": "/ValorantApp/static/css/13.d97600f8.chunk.css"
   },
   {
-    "revision": "140c25e3f861b779de33",
-    "url": "/ValorantApp/static/css/main.5e40f1c0.chunk.css"
+    "revision": "aebfe83fa7e9e4d42ffd",
+    "url": "/ValorantApp/static/css/main.5b5ee8f8.chunk.css"
   },
   {
-    "revision": "6cccc9f0891947a1bc12",
-    "url": "/ValorantApp/static/js/13.036a61df.chunk.js"
+    "revision": "49564a9b6987813e0298",
+    "url": "/ValorantApp/static/js/13.6e6b5ae3.chunk.js"
   },
   {
     "revision": "6abb5a67755620e4d853a93f15b1493d",
-    "url": "/ValorantApp/static/js/13.036a61df.chunk.js.LICENSE.txt"
+    "url": "/ValorantApp/static/js/13.6e6b5ae3.chunk.js.LICENSE.txt"
   },
   {
     "revision": "1e371cc7d294aecfc77b",
     "url": "/ValorantApp/static/js/14.fcf7235c.chunk.js"
   },
   {
-    "revision": "140c25e3f861b779de33",
-    "url": "/ValorantApp/static/js/main.080742fc.chunk.js"
+    "revision": "aebfe83fa7e9e4d42ffd",
+    "url": "/ValorantApp/static/js/main.3a01a287.chunk.js"
   },
   {
-    "revision": "431681136884f16741dd",
-    "url": "/ValorantApp/static/js/reactPlayerDailyMotion.f046699c.chunk.js"
+    "revision": "0479a83d755a6158425b",
+    "url": "/ValorantApp/static/js/reactPlayerDailyMotion.7134b900.chunk.js"
   },
   {
     "revision": "4930c1509ee395b56d73",
     "url": "/ValorantApp/static/js/reactPlayerFacebook.8f86e0e3.chunk.js"
   },
   {
-    "revision": "74bc065cbea20214f53f",
-    "url": "/ValorantApp/static/js/reactPlayerFilePlayer.62953a08.chunk.js"
+    "revision": "bba7473c4a4033ab5a6d",
+    "url": "/ValorantApp/static/js/reactPlayerFilePlayer.7e883d2e.chunk.js"
   },
   {
-    "revision": "e6ed4f0e13cea0e099cd",
-    "url": "/ValorantApp/static/js/reactPlayerMixcloud.ad6c8652.chunk.js"
+    "revision": "ec0e3cce94a94ae6be75",
+    "url": "/ValorantApp/static/js/reactPlayerMixcloud.248e62dd.chunk.js"
   },
   {
     "revision": "5918fb2add14afa4364a",
     "url": "/ValorantApp/static/js/reactPlayerSoundCloud.2004a655.chunk.js"
   },
   {
-    "revision": "3afd34d5ecb3a5726aca",
-    "url": "/ValorantApp/static/js/reactPlayerStreamable.d06307fa.chunk.js"
+    "revision": "e60fd0b9fbad75a650f3",
+    "url": "/ValorantApp/static/js/reactPlayerStreamable.3c99adaa.chunk.js"
   },
   {
-    "revision": "eb75e20f01f7a3aa7659",
-    "url": "/ValorantApp/static/js/reactPlayerTwitch.31304058.chunk.js"
+    "revision": "a0b84abb22adc0053198",
+    "url": "/ValorantApp/static/js/reactPlayerTwitch.04dce63a.chunk.js"
   },
   {
-    "revision": "a91b72517aa7c07df359",
-    "url": "/ValorantApp/static/js/reactPlayerVidyard.2ce9100d.chunk.js"
+    "revision": "7c218f24be350842dc83",
+    "url": "/ValorantApp/static/js/reactPlayerVidyard.d38cfa0d.chunk.js"
   },
   {
     "revision": "8372e4ce57c1714a1b6d",
     "url": "/ValorantApp/static/js/reactPlayerVimeo.de7a1988.chunk.js"
   },
   {
-    "revision": "5ef567ea992842c77069",
-    "url": "/ValorantApp/static/js/reactPlayerWistia.74d05eeb.chunk.js"
+    "revision": "f8d2df56156d86e1fac2",
+    "url": "/ValorantApp/static/js/reactPlayerWistia.7164962c.chunk.js"
   },
   {
-    "revision": "e9847fd88197f027299f",
-    "url": "/ValorantApp/static/js/reactPlayerYouTube.a31ae0f6.chunk.js"
+    "revision": "7a17fe83957f46e323ee",
+    "url": "/ValorantApp/static/js/reactPlayerYouTube.98638274.chunk.js"
   },
   {
-    "revision": "ab4704a19e6aec0386ac",
-    "url": "/ValorantApp/static/js/runtime-main.f68b5e9e.js"
+    "revision": "136bff93f8120acb85c2",
+    "url": "/ValorantApp/static/js/runtime-main.d8e67d3d.js"
   },
   {
     "revision": "7e389c5e310dc537b083e0e25ea6eab5",

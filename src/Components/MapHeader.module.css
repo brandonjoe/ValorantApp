@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
 align-items: center;
+position: relative;
 }
 .map{
     border-bottom: 1px solid rgb(102, 102, 102);
@@ -50,13 +51,25 @@ align-items: center;
     margin-bottom: 0;
     line-height: 100%;
     padding-left: 2rem;
+    
 }
 .button{
-    width: 4rem;
-    height: 4rem;
+    width: 8rem;
+    height: fit-content;
     position: absolute;
     display: none;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2rem;
+
 }
+.icon {
+	width: 35px;
+	height: 5px;
+	background-color: rgb(246,68,82);
+	margin: 6px 0;
+	z-index: 5001;
+  }
 @media only screen and (max-width: 1000px) {
     .line{
         margin-left: 3rem;
@@ -69,4 +82,36 @@ align-items: center;
     .button{
         display: block;
     }
+   }
+   @media only screen and (max-width: 550px){
+    .line{
+        margin-left: 6rem;
+    }
+        .title{
+            font-size: 2rem;
+        }
+        .container{
+            height: 5rem
+        }
+        .icon{
+            width: 25px;
+        }
+        .button{
+            width: 5rem;
+        }
+   }
+   @media only screen and (max-width: 349px) {
+       .location{
+        padding-left: 0rem;
+        font-size: 1.2rem;
+       }
+       .title{
+           margin: 0;
+       }
+       .container{
+           height: 5rem;
+       }
+       .title{
+           font-size: 2.2rem;
+       }
    }

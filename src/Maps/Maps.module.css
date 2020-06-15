@@ -1,7 +1,7 @@
 .container{
     position: relative;
     box-sizing: border-box;
-height: 700px;
+height: fit-content;
 background: rgb(15,25,35);
 }
 
@@ -15,12 +15,32 @@ background: rgb(15,25,35);
 .right{
     position: relative;
     height: 100%;
-    min-width: 20%;
+    max-width: 20%;
+}
+.map_wrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+
+    margin-bottom: 10rem;
+}
+.map_wrapper::before{
+    content: "";
+    position: absolute;
+    bottom: 40%;
+    right: 2rem;
+    height: .3rem;
+    width: .3rem;
+    background: rgb(223, 220, 220)
 }
 .section_title{
     position: relative;
     height: 100%;
-    min-width: 20%;
+    width: 20%;
 }
 .section_title::before{
     content: "";
@@ -49,11 +69,42 @@ clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    width: 60%;
+    width: 60% !important;
     border-left: 2px solid rgb(119, 119, 119);
     border-right: 2px solid rgb(119, 119, 119);
     box-sizing: border-box;
     border-top: 1px solid rgb(131, 131, 131);
+}
+.map_title{
+    height: fit-content;
+    width: 100%;
+    
+}
+.title{
+    font-size: 8rem;
+    color: rgb(236,232,225);
+    font-family: "Tungsten-Bold", sans-serif;
+    margin-left: 7rem;
+    position: relative;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.map_title::before{
+    content: '';
+    position: absolute;
+    height: .3rem;
+    width: 1rem;
+    background: rgb(246, 68, 82);
+    left: 30%;
+    top: 5rem;
+}
+.map_title::after{
+    content: '';
+    position: absolute;
+    height: .3rem;
+    width: .3rem;
+    background: rgb(246, 68, 82);
+    left: 30%;
+    top: 6rem;
 }
 .map_container::before{
     position: absolute;
@@ -65,14 +116,14 @@ clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
 
 }
 .map_container{
-    margin-left: 7rem;
-    margin-right: 7rem;
     position: relative;
-    width: 100%;
+    width: 120%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .map_container::after{
     position: absolute;
@@ -104,34 +155,11 @@ clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
     bottom: 2rem;
     left: 20%;
 }
-.title{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    right: 10rem;
-    letter-spacing: 3px;
-    font-size: 10rem;
-    transform: rotate(-90deg) translate(50%, 100%);
-    text-align: center;
-    font-family: 'Tungsten-Bold', sans-serif;
-    color: rgb(236,232,225);
-    -webkit-text-stroke: 1px rgb(83, 83, 83)
-}
-.title::after{
-    position: absolute;
-    content: '';
-    height: 400rem;
-    top: -50rem;
-    width: 1px;
-    background: rgb(155, 155, 155);
-}
+
 .link{
     width: fit-content; 
-    margin-left: 4rem;
     transition: all 1s ease-out;
-    -webkit-box-shadow: 19px 24px 40px -9px rgba(0,0,0,0.6);
--moz-box-shadow: 19px 24px 40px -9px rgba(0,0,0,0.6);
-box-shadow: 19px 24px 40px -9px rgba(0, 0, 0, 0.473);
+height: fit-content;
 }
 
 .whiteline_left{
@@ -152,11 +180,35 @@ box-shadow: 19px 24px 40px -9px rgba(0, 0, 0, 0.473);
     left: 0;
     border-right: 1px solid rgb(194, 194, 194);
 }
-@media only screen and (max-width: 1600px) {
-    .right{
-        min-width: 7%;
+.whiteline_right::before{
+    content: "";
+    position: absolute;
+    height: .7rem;
+    width: .7rem;
+    background: rgb(255, 255, 255);
+    bottom: 2rem;
+    top: 0;
+    right: 0rem;
+}
+.whiteline_right::after{
+    content: "";
+    position: absolute;
+    height: .7rem;
+    width: .7rem;
+    background: rgb(136, 136, 136);
+    bottom: 2rem;
+    top: 80%;
+    left: 0rem;
+}
+@media only screen and (max-width: 580px){
+    .whiteline_left,
+    .whiteline_right{
+        display: none;
     }
-    .map_selection{
-        width: 86%;
+    .title{
+        margin-left: 0;
     }
-  }
+    .map_wrapper{
+        width: 100%;
+    }
+} 

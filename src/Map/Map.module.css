@@ -5,6 +5,7 @@
     z-index: 15;
     height: 47rem;
     width: 25rem;
+    margin: 1.5rem;
     -webkit-box-shadow: 8px 26px 40px 75px rgba(0,0,0,1);
     -moz-box-shadow: 8px 26px 40px 75px rgba(0,0,0,1);
     box-shadow: 8px 26px 40px 75px rgba(0,0,0,1);
@@ -21,6 +22,7 @@
     text-align: right;
     transform: rotate(-90deg);
     border-right: 1px solid white;
+    position: relative;
     
 }
 .map_title{
@@ -97,4 +99,19 @@
     left: calc(50% - .5rem);
     border: 1px solid #ece8e1;
   }
-  
+  @media only screen and (max-width: 700px) {
+    .info{
+      transform: rotate(0);
+      margin-right: 2rem;
+    }
+    .container{
+      height: 25rem;
+    }
+    .map_title{
+      font-size: 3rem;
+    }
+    .map_location{
+      font-size: 1.6rem;
+    }
+  }
+ 

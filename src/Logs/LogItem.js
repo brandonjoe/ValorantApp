@@ -1,12 +1,10 @@
 import React from 'react';
 import classes from './LogItem.module.css';
-import { withRouter } from 'react-router-dom';
-import { _getProperty } from 'gsap/gsap-core';
-import { nominalTypeHack } from 'prop-types';
+
 
 const LogItem = (props) => {
     let style;
-   if(props.logs.id%2 == 0){
+   if(props.logs.id%2 === 0){
     style={
         backgroundColor: "rgba(68, 68, 68, 0.473)"
     }

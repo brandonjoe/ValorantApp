@@ -4,7 +4,7 @@ import LogsContainer from './LogsContainer.js';
 class Logs extends Component {
     render() {
         return (
-            <div>
+            <div style={{height: "100%"}}>
                 <Nav />
                 <LogsContainer />
             </div>

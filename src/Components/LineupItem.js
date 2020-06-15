@@ -11,7 +11,7 @@ class LineupItem extends Component {
 			let newTitle = [];
 			if (title.length > limit) {
 				title.split(' ').reduce((acc, cur) => {
-					if (acc + cur.length <= limit || acc == 0) {
+					if (acc + cur.length <= limit || acc === 0) {
 						newTitle.push(cur);
 					}
 					return acc + cur.length;

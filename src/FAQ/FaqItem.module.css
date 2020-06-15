@@ -1,0 +1,30 @@
+.container{
+    margin-left: 10%;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 4rem;
+    padding-right: 6rem;
+}
+.question{
+    font-size: 2.2rem;
+    
+    letter-spacing: 1px;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+}
+.answer{
+    margin-top: 1rem;
+    color: rgb(122, 122, 122);
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+@media only screen and (max-width: 600px){
+    .question{
+        font-size: 1.6rem;
+    }
+    .answer{
+        font-size: 1.3rem;
+    }
+    .container{
+        padding-right: 1rem;
+    }
+}

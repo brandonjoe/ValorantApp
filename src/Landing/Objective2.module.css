@@ -42,6 +42,7 @@
     color: rgb(126, 125, 121);
     line-height: 3rem;
     letter-spacing: 1px;
+    margin-bottom: 4rem;
 }
 .right::before{
     content: '';
@@ -140,4 +141,73 @@
     background: rgb(255,70,85);
     -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
     clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 50%);
+}
+@media only screen and (max-width: 1700px){
+    .bow_text{
+        right: 0rem;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .text{
+        font-size: 1.4rem;
+        
+    }
+    .container{
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 1085px){
+    .bow_text{
+        right: -3rem;
+    }
+}
+@media only screen and (max-width: 950px){
+    .container{
+        top: 5rem;
+        box-sizing: border-box;
+        margin-bottom: 8rem;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        margin-left: 7rem;
+        width: 100%;
+    }
+    .text{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+    .bow_text{
+        top: 0;
+        right: 0;
+    }
+}
+@media only screen and (max-width: 700px){
+    .text{
+        margin-right: .5rem;
+    }
+    .text::before{
+        content: '';
+        height: .7rem;
+        width: .3rem;
+        bottom: -2rem;
+        right: 5rem;
+        position: absolute;
+        background:rgb(255,70,85);
+    }
+    .text::after{
+        content: '';
+        height: .3rem;
+        width: 2rem;
+        bottom: -3rem;
+        right: 5rem;
+        position: absolute;
+        background:rgb(255,70,85);
+    }
+}
+@media only screen and (max-width: 450px){
+    .right{
+        margin-left: 3rem;
+    }
 }

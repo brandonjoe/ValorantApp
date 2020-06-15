@@ -1,12 +1,14 @@
 export const bind_data = [
 	{
 		id: 1,
-		title: 'BIND 1',
+		title: 'Hookah from main',
 		isActive: true,
 		difficulty: 'Easy',
 		side: 'Attacking',
 		essential: true,
 		video: '418734606',
+		bounces: 1,
+		charges: 1,
 		image1: 'https://i.imgur.com/ItcMZBM.png',
 		image2: '',
 		map: 'https://i.imgur.com/IKazxbr.jpg',
@@ -21,6 +23,8 @@ export const bind_data = [
 		side: 'Defending',
 		essential: false,
 		video: '418358446',
+		bounces: 0,
+		charges: 3,
 		image1: 'https://i.imgur.com/ItcMZBM.png',
 		image2: 'https://i.imgur.com/quhSNu0.png',
 		map: 'https://i.imgur.com/IKazxbr.jpg',
@@ -34,6 +38,8 @@ export const bind_data = [
 		difficulty: 'Medium',
 		side: 'neither',
 		essential: false,
+		bounces: 2,
+		charges: 0,
 		video: '419342441',
 		image1: 'https://i.imgur.com/p0CWF5T.png',
 		image2: 'https://i.imgur.com/UkPTPi7.png',
@@ -48,6 +54,8 @@ export const bind_data = [
 		difficulty: 'Easy',
 		side: 'Attacking',
 		essential: true,
+		bounces: 0,
+		charges: 2,
 		video: '418358446',
 		image1: 'https://i.imgur.com/uCi8MgD.png',
 		image2: '',
@@ -62,6 +70,8 @@ export const bind_data = [
 		difficulty: 'Medium',
 		side: 'Attacking',
 		essential: false,
+		bounces: 2,
+		charges: 3,
 		video: '418358446',
 		map: 'https://i.imgur.com/IKazxbr.jpg',
 		info:
@@ -73,6 +83,8 @@ export const bind_data = [
 		isActive: false,
 		difficulty: 'Medium',
 		side: 'Defending',
+		bounces: 1,
+		charges: 1,
 		essential: false,
 		video: 'https://player.vimeo.com/video/418734606',
 		info:
@@ -85,6 +97,8 @@ export const bind_data = [
 		difficulty: 'Easy',
 		side: 'Attacking',
 		essential: true,
+		bounces: 1,
+		charges: 1,
 		video: 'https://player.vimeo.com/video/419342441',
 		info:
 			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
@@ -96,6 +110,9 @@ export const bind_data = [
 		difficulty: 'Hard',
 		side: 'Defending',
 		essential: false,
+		bounces: 2,
+		charges: 1,
+		video: 'https://player.vimeo.com/video/419342441',
 		info:
 			'Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur.'
 	},
@@ -106,18 +123,23 @@ export const bind_data = [
 		difficulty: 'Medium',
 		side: 'neither',
 		essential: true,
+		bounces: 2,
+		charges: 1,
+		video: 'https://player.vimeo.com/video/419342441',
 		info:
 			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
 	}
 ];
 export const bind_detail = {
 	id: 1,
-	title: 'BIND 1',
+	title: 'Hookah from main',
 	isActive: true,
 	difficulty: 'Easy',
 	side: 'Attacking',
 	essential: true,
 	video: '418734606',
+	bounces: 1,
+	charges: 1,
 	image1: 'https://i.imgur.com/ItcMZBM.png',
 	image2: '',
 	map: 'https://i.imgur.com/IKazxbr.jpg',

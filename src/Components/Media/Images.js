@@ -1,6 +1,4 @@
-import React, {useRef, useEffect} from 'react';
-import { AppConsumer } from '../../State/context.js';
-import ModalImage from 'react-modal-image';
+import React, {useRef} from 'react';
 import classes from './Images.module.css';
 import {TweenLite, Expo} from 'gsap';
 
@@ -62,7 +60,7 @@ let onLeave2 = () => {
 				<div className={classes.main}>
                     <div ref={el => {background = el}}className={classes.image_wrapper}>
                     </div>
-					<img className={classes.image}  onload={() => imagesloaded()} src={props.image2} />
+					<img className={classes.image} alt='image2' onLoad={() => imagesloaded()} src={props.image2} />
                     <div ref={el => {box = el}} className={classes.box} />
 				</div>
                 
@@ -75,7 +73,7 @@ let onLeave2 = () => {
 				<div className={classes.main}>
                     <div ref={el => {background2 = el}}className={classes.image_wrapper}>
                     </div>
-					<img className={classes.image} onLoad={() => imagesloaded()} src={props.image1} />
+					<img className={classes.image} alt='image2' onLoad={() => imagesloaded()} src={props.image1} />
                     <div ref={el => {box2 = el}} className={classes.box} />
 				</div>
                 

@@ -4,6 +4,7 @@ import Nav from '../Nav/Nav.js'
 import Maps from '../Maps/Maps.js'
 import classes from './Landing.module.css';
 import Objective from './Objective.js'
+import Footer from '../Footer/Footer.js'
 
 const Landing = () => {
     return (
@@ -14,6 +15,7 @@ const Landing = () => {
             <Intro />
             <Objective />
             <Maps />
+            <Footer />
         </div>
     );
 };

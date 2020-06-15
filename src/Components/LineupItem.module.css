@@ -82,3 +82,11 @@
 	font-weight: 300;
 	font-size: 1.4rem;
 }
+
+	@media only screen and (max-width: 600px){
+		.container{
+			height: fit-content !important;
+	max-height: 165px !important;
+
+		}
+	}

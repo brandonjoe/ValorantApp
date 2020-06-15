@@ -1,5 +1,4 @@
-import React, { Component, useEffect  } from 'react';
-
+import React, { Component } from 'react';
 import { bind_data, bind_detail } from '../Data/bind_data.js';
 import { haven_data, haven_detail } from '../Data/haven_data.js';
 import { split_data, split_detail } from '../Data/split_data.js';
@@ -58,7 +57,7 @@ class AppProvider extends Component {
 			setStateMap = 'Ascent';
 			setStateDetail = ascent_detail;
 		}
-		if(direct != 0) {
+		if(direct !== 0) {
 			setStateDetail = tempLineups[direct]
 		}
 		
@@ -84,7 +83,6 @@ class AppProvider extends Component {
 	setLogs = () => {
 		let tempLogs = [];
 		logs_data.forEach((item) => {
-			console.log(item)
 			tempLogs.push(item)
 		})
 		this.setState(() => {
@@ -106,7 +104,6 @@ class AppProvider extends Component {
 			}
 			tempLineups.push(item);
 		});
-		console.log(this.state.detailLineup.title)
 		this.setState(() => {
 			return {
 				lineups: tempLineups,
@@ -240,11 +237,11 @@ class AppProvider extends Component {
 		}
 	};
 	resetPage = () => {
-		if (this.state.currentMap == 'Bind' || window.location.pathname.includes('bind')) {
+		if (this.state.currentMap === 'Bind' || window.location.pathname.includes('bind')) {
 			this.updateMap('bind', 0);
-		} else if (this.state.currentMap == 'Haven' || window.location.pathname.includes('haven')) {
+		} else if (this.state.currentMap === 'Haven' || window.location.pathname.includes('haven')) {
 			this.updateMap('haven', 0);
-		} else if (this.state.currentMap == 'Split' || window.location.pathname.includes('split')) {
+		} else if (this.state.currentMap === 'Split' || window.location.pathname.includes('split')) {
 			this.updateMap('split', 0);
 		}
 	};
@@ -260,7 +257,6 @@ class AppProvider extends Component {
 		})
 	}
 	lineupsToggleClickHandler = () => {
-		console.log('aaaa')
 		this.setState(prevState => {
 			return{ 
 				sideLineupsOpen: !prevState.sideLineupsOpen
@@ -268,7 +264,6 @@ class AppProvider extends Component {
 		})
 	}
 	backdropClickHandler = () => {
-		console.log('bbb')
 		this.setState({
 			sideLineupsOpen: false
 		})
@@ -280,7 +275,6 @@ class AppProvider extends Component {
 	//gets the current map name based off of state, or the path title. state doesn't get updated on a link change when you might need the new map
 	//so that's why we also check the location. might break if there's bad path management, but there should never be 2 different maps in a single path
 	getCurrentMap = () => {
-		console.log(this.state.currentMap)
 		let data_points;
 		if (window.location.pathname.includes('bind')) {
 			data_points = bind_data;

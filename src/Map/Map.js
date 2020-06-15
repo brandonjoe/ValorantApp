@@ -1,6 +1,6 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef} from 'react';
 import classes from './Map.module.css';
-import { TweenLite, CSSPlugin, Expo } from 'gsap/all';
+import { TweenLite, Expo } from 'gsap/all';
 
 const Map = (props) => {
 	let map = useRef(null);

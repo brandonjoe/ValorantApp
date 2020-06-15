@@ -5,14 +5,11 @@ import App from './App';
 import {BrowserRouter as Router} from  'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import {AppProvider} from './State/context.js'
-import { ParallaxProvider } from 'react-scroll-parallax';
-
+// "homepage": "https://brandonjoe.github.io/ValorantApp/",
 ReactDOM.render(  
   <AppProvider>
   <Router basename={process.env.PUBLIC_URL}>
-    <ParallaxProvider>
       <App />
-      </ParallaxProvider>
   </Router>
 </AppProvider>,
 document.getElementById('root'));

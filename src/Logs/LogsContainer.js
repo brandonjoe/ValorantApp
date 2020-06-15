@@ -4,7 +4,7 @@ import { AppConsumer, AppContext } from '../State/context.js';
 import LogItem from '../Logs/LogItem.js'
 
 class LogsContainer extends Component {
-    componentWillMount = () => {
+    componentDidMount = () => {
         this.context.setLogs();
     }
     render() {
@@ -18,18 +18,12 @@ class LogsContainer extends Component {
                     <div className={classes.header}>Logs</div>
                     <div className={classes.content}>
                         <div className={classes.content_info}>
-                            Consectetur quis et eiusmod duis eiusmod excepteur adipisicing cupidatat minim non
-                            labore laboris consectetur. Aute proident et ex quis occaecat irure reprehenderit quis
-                            cillum tempor anim incididunt incididunt est. Id voluptate sint duis minim proident ut
-                            laborum. Ex laboris officia id irure labore officia in minim exercitation sunt
-                            consectetur. Eu anim proident consectetur qui dolor. Dolor nisi fugiat excepteur sint
-                            tempor adipisicing.
+                           Here you'll find updates and changes to the site regarding content. Any additions of new darts, maps or more content in general (shock darts/ultimates) will all be listed below. Although many of the darts here avoid relying on the in game HUD, darts that are altered due to this will either be removed/updated accordingly. Any logs that are more than 30 days old will also be removed. Site bugs will be listed to a minimum unless they ruin or prevent the UI/UX. 
                         </div>
                         <div className={classes.content_logs}>
                             <div className={classes.log_container}>
                             <AppConsumer>
                             {(value) => {
-                                console.log(value.logs)
                                 return value.logs.map((item) => {
                                     return <LogItem className={classes.lineupItem} key={item.id} logs={item} />;
                                 });

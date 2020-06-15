@@ -12,7 +12,7 @@ const Nav = () => {
 					<ul className={classes.nav_buttons}>
 						<li className={classes.home_btn}>
 							<Link to={'/'}>
-								<img src={home_icon} />
+								<img src={home_icon} alt={'valorant logo'} />
 							</Link>
 						</li>
 						<li>
@@ -50,7 +50,7 @@ const Nav = () => {
 							</Link>
 							
 
-							<Link  className={classes.links} style={{ textDecoration: 'none' }}>
+							<Link className={classes.links} to={'/faq'} style={{ textDecoration: 'none' }}>
 								<div className={classes.links_text}>FAQ</div>
 							</Link>
 					</ul>

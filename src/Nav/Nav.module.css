@@ -113,3 +113,18 @@ ul, li{
     color: tomato;
     transition: .7s all ease;
   }
+  @media only screen and (max-width: 400px){
+    .nav_buttons{
+      padding-left: 0;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .container{
+      height: 45px;
+    }
+  }
+  @media only screen and (max-width: 350px){
+    .links{
+      margin: 1rem;
+    }
+  }

@@ -7,7 +7,8 @@ import Filter from './Filter.js';
 import MapHeader from './MapHeader.js';
 import Backdrop from './Backdrop'
 import '../Animation/detail.css';
-import { TweenLite, CSSPlugin, Expo } from 'gsap/all';
+import { TweenLite, Expo } from 'gsap/all';
+
 
 class Lineups extends Component {
 	constructor(props) {
@@ -33,6 +34,13 @@ class Lineups extends Component {
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
+		window.addEventListener("resize", this.resize.bind(this));
+		this.resize();
+	}
+	resize = () => {
+		if(window.innerWidth >= 700 && window.innerWidth <= 750){
+			this.context.backdropClickHandler()
+		}
 	}
 
 	state = {

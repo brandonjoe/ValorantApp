@@ -20,15 +20,15 @@ const MapHeader = (props) => {
 	if (props.mapTitle === 'Bind') {
 		map = bind_map;
 		location = 'Morocco';
-	} else if (props.mapTitle == 'Haven') {
+	} else if (props.mapTitle === 'Haven') {
 		map = haven_map;
 		location = 'Bhutan';
-	} else if (props.mapTitle == 'Split') {
+	} else if (props.mapTitle === 'Split') {
 		map = split_map;
 		location = 'Tokyo';
-	} else if (props.mapTitle == 'Ascent') {
+	} else if (props.mapTitle === 'Ascent') {
 		map = ascent_map;
-		location = 'Ascent';
+		location = 'Venice';
 	}
 	let background = {
 		backgroundImage: `url(${map})`
@@ -45,9 +45,9 @@ const MapHeader = (props) => {
 				<AppConsumer>
 					{(value) => (
 						<div className={classes.button} onClick={() => value.lineupsToggleClickHandler()}>
-							<div className="toggle-button__line" />
-							<div className="toggle-button__line" />
-							<div className="toggle-button__line" />
+							<div className={classes.icon} />
+							<div className={classes.icon} />
+							<div className={classes.icon} />
 						</div>
                     )}
 				</AppConsumer>

@@ -16,7 +16,7 @@
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background-image: linear-gradient(to bottom right, rgba(15, 25, 35, 0.726), rgb(5, 16, 34));
+	background-image: linear-gradient(to bottom, rgba(15, 25, 35, 0.363), rgb(5, 16, 34));
 }
 .header_left {
 	z-index: 10;
@@ -54,7 +54,7 @@
 	width: .5rem;
 	bottom: 0;
 	right: 0;
-	background: rgb(246, 68, 82);
+	background: rgb(255, 70, 85);
 }
 .header_title::after {
 	content: '';
@@ -69,7 +69,6 @@
 	height: 100%;
 	display: flex;
 	position: relative;
-	
 }
 .left {
 	position: relative;
@@ -90,26 +89,23 @@
 	position: absolute;
 	height: 2rem;
 	width: 3px;
-    background: rgb(185, 185, 185);
-    right: 0;
-    top: 50rem;
-
+	background: rgb(185, 185, 185);
+	right: 0;
+	top: 50rem;
 }
 .right {
 	position: relative;
 	width: 20%;
 	height: 100%;
-
 }
 .right::after {
 	content: '';
 	position: absolute;
 	height: 5px;
 	width: 5px;
-    background: rgb(246, 68, 82);
-    left: -.5rem;
-    top: 30rem;
-
+	background: rgb(255, 70, 85);
+	left: -.5rem;
+	top: 30rem;
 }
 .middle {
 	width: 60%;
@@ -129,7 +125,7 @@
 	background: rgb(15, 25, 35);
 	-webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
 	clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
-	border-bottom: 1px solid rgb(246, 68, 82);
+	border-bottom: 1px solid rgb(255, 70, 85);
 }
 .background_text {
 	position: absolute;
@@ -155,7 +151,7 @@
 	position: absolute;
 	height: .4rem;
 	width: 2rem;
-	background: rgb(246, 68, 82);
+	background: rgb(255, 70, 85);
 	-webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
 	clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
 }
@@ -173,36 +169,34 @@
 	top: 5rem;
 	box-sizing: border-box;
 }
-@media only screen and (max-width: 1100px){
-	.header_middle{
+@media only screen and (max-width: 1100px) {
+	.header_middle {
 		width: 80%;
 	}
-	.header_left{
+	.header_left {
 		width: 10%;
 	}
-	.header_right{
+	.header_right {
 		width: 10%;
 	}
-	.middle{
+	.middle {
 		width: 80%;
 	}
-	.left{
+	.left {
 		width: 10%;
 	}
-	.right{
+	.right {
 		width: 10%;
 	}
-
 }
-@media only screen and (max-width: 600px){
-	.header_title{
+@media only screen and (max-width: 600px) {
+	.header_title {
 		font-size: 4rem;
 	}
-	.header{
+	.header {
 		height: 20rem;
 	}
-	.header_title{
+	.header_title {
 		padding-top: 0rem;
 	}
-
 }

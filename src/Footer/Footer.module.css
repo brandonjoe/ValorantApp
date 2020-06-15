@@ -1,47 +1,58 @@
-.container{
-    position: relative;
-    border-top: 1px solid rgb(133, 133, 133);
-    width: 100%;
-    background: rgb(15,25,35);
-    color: rgb(214, 202, 202);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
+.container {
+	position: relative;
+	border-top: 1px solid rgb(133, 133, 133);
+	width: 100%;
+	height: 4rem;
+	background: rgb(15, 25, 35);
+	color: rgb(214, 202, 202);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
 }
-.container::before{
-    content: '';
-    position: absolute;
-    height: .2rem;
-    width: 6rem;
-    background: rgb(246, 68, 82);
-    top: 0;
-    right: 25%;
+.container::before {
+	content: '';
+	position: absolute;
+	height: .2rem;
+	width: 6rem;
+	background: rgb(255, 70, 85);
+	top: 0;
+	right: 25%;
 }
-.container::after{
-    content: '';
-    position: absolute;
-    height: .4rem;
-    width: .4rem;
-    color: rgb(235, 235, 235);
-    bottom: 0;
-    left: 17%;
+.container::after {
+	content: '';
+	position: absolute;
+	height: .4rem;
+	width: .4rem;
+	color: rgb(235, 235, 235);
+	bottom: 0;
+	left: 17%;
 }
-.line1{
-    font-size: 1rem;
-    margin: .3rem;
-    
+.line1 {
+	font-size: 1rem;
+	margin: .3rem;
 }
-.line2{
-    margin: .3rem;
-    text-align: center;
+.line2 {
+	margin: .3rem;
+	text-align: center;
 }
-a { color:rgb(246, 68, 82) } /* Globally */
+a {
+	color: rgb(255, 70, 85);
+} /* Globally */
 
 /* Each state */
 
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none;  }
-a:focus { text-decoration: none;  }
-a:hover, a:active { text-decoration: none; }
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: none;
+}

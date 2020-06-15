@@ -1,214 +1,210 @@
-.container{
-    position: relative;
-    box-sizing: border-box;
-height: fit-content;
-background: rgb(15,25,35);
+.container {
+	position: relative;
+	box-sizing: border-box;
+	height: fit-content;
+	background: rgb(15, 25, 35);
 }
 
-.main{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
-.right{
-    position: relative;
-    height: 100%;
-    max-width: 20%;
+.right {
+	position: relative;
+	height: 100%;
+	max-width: 20%;
 }
-.map_wrapper{
-    display: flex;
-    position: relative;
-    width: 100%;
-    max-width: 1300px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 100%;
+.map_wrapper {
+	display: flex;
+	position: relative;
+	width: 100%;
+	max-width: 1300px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 100%;
 
-    margin-bottom: 10rem;
+	margin-bottom: 10rem;
 }
-.map_wrapper::before{
-    content: "";
-    position: absolute;
-    bottom: 40%;
-    right: 2rem;
-    height: .3rem;
-    width: .3rem;
-    background: rgb(223, 220, 220)
+.map_wrapper::before {
+	content: "";
+	position: absolute;
+	bottom: 40%;
+	right: 2rem;
+	height: .3rem;
+	width: .3rem;
+	background: rgb(223, 220, 220);
 }
-.section_title{
-    position: relative;
-    height: 100%;
-    width: 20%;
+.section_title {
+	position: relative;
+	height: 100%;
+	width: 20%;
 }
-.section_title::before{
-    content: "";
-    position: absolute;
-    bottom: 3rem;
-    right: 2rem;
-    height: .6rem;
-    width: 30%;
-    background: rgb(214, 211, 211);
+.section_title::before {
+	content: "";
+	position: absolute;
+	bottom: 3rem;
+	right: 2rem;
+	height: .6rem;
+	width: 30%;
+	background: rgb(214, 211, 211);
 }
-.section_title::after{
-    content: "";
-    position: absolute;
-    bottom: 5rem;
-    right: 2rem;
-    height: .6rem;
-    width: 10%;
-    background: rgb(255,70,85);
-    -webkit-clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
-clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
+.section_title::after {
+	content: "";
+	position: absolute;
+	bottom: 5rem;
+	right: 2rem;
+	height: .6rem;
+	width: 10%;
+	background: rgb(255, 70, 85);
+	-webkit-clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
+	clip-path: polygon(15% 0, 100% 0%, 100% 98%, 0 100%);
 }
-.map_selection{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-    width: 60% !important;
-    border-left: 2px solid rgb(119, 119, 119);
-    border-right: 2px solid rgb(119, 119, 119);
-    box-sizing: border-box;
-    border-top: 1px solid rgb(131, 131, 131);
+.map_selection {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 60% !important;
+	border-left: 2px solid rgb(119, 119, 119);
+	border-right: 2px solid rgb(119, 119, 119);
+	box-sizing: border-box;
+	border-top: 1px solid rgb(131, 131, 131);
 }
-.map_title{
-    height: fit-content;
-    width: 100%;
-    
+.map_title {
+	height: fit-content;
+	width: 100%;
 }
-.title{
-    font-size: 8rem;
-    color: rgb(236,232,225);
-    font-family: "Tungsten-Bold", sans-serif;
-    margin-left: 7rem;
-    position: relative;
-    border-bottom: 1px solid rgb(201, 201, 201);
+.title {
+	font-size: 8rem;
+	color: rgb(236, 232, 225);
+	font-family: "Tungsten-Bold", sans-serif;
+	margin-left: 7rem;
+	position: relative;
+	border-bottom: 1px solid rgb(201, 201, 201);
 }
-.map_title::before{
-    content: '';
-    position: absolute;
-    height: .3rem;
-    width: 1rem;
-    background: rgb(246, 68, 82);
-    left: 30%;
-    top: 5rem;
+.map_title::before {
+	content: '';
+	position: absolute;
+	height: .3rem;
+	width: 1rem;
+	background: rgb(255, 70, 85);
+	left: 30%;
+	top: 5rem;
 }
-.map_title::after{
-    content: '';
-    position: absolute;
-    height: .3rem;
-    width: .3rem;
-    background: rgb(246, 68, 82);
-    left: 30%;
-    top: 6rem;
+.map_title::after {
+	content: '';
+	position: absolute;
+	height: .3rem;
+	width: .3rem;
+	background: rgb(255, 70, 85);
+	left: 30%;
+	top: 6rem;
 }
-.map_container::before{
-    position: absolute;
-    content: '';
-    height: 6rem;
-    width: .2rem;
-    top: 30%; 
-    background: rgb(194, 194, 194);
-
+.map_container::before {
+	position: absolute;
+	content: '';
+	height: 6rem;
+	width: .2rem;
+	top: 30%;
+	background: rgb(194, 194, 194);
 }
-.map_container{
-    position: relative;
-    width: 120%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.map_container {
+	position: relative;
+	width: 120%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.map_container::after{
-    position: absolute;
-    content: '';
-    height: 1.2rem;
-    width: 1.2rem;
-    top: 10%; 
-    right: 0;
-    background: rgb(121, 121, 121);
-    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-
+.map_container::after {
+	position: absolute;
+	content: '';
+	height: 1.2rem;
+	width: 1.2rem;
+	top: 10%;
+	right: 0;
+	background: rgb(121, 121, 121);
+	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+	clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
-.map_selection::after{
-    content: "";
-    position: absolute;
-    height: .4rem;
-    width: .4rem;
-    background: rgb(255,70,85);
-    bottom: 2rem;
-    left: 20%;
+.map_selection::after {
+	content: "";
+	position: absolute;
+	height: .4rem;
+	width: .4rem;
+	background: rgb(255, 70, 85);
+	bottom: 2rem;
+	left: 20%;
 }
-.map_selection::before{
-    content: "";
-    position: absolute;
-    height: .1rem;
-    width: 20%;
-    background: rgb(155, 155, 155);
-    bottom: 2rem;
-    left: 20%;
+.map_selection::before {
+	content: "";
+	position: absolute;
+	height: .1rem;
+	width: 20%;
+	background: rgb(155, 155, 155);
+	bottom: 2rem;
+	left: 20%;
 }
 
-.link{
-    width: fit-content; 
-    transition: all 1s ease-out;
-height: fit-content;
+.link {
+	width: fit-content;
+	transition: all 1s ease-out;
+	height: fit-content;
 }
 
-.whiteline_left{
-    box-sizing: border-box;
-    z-index: 0;
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    margin-left: 7rem;
-    border-left: 1px solid rgb(194, 194, 194);
+.whiteline_left {
+	box-sizing: border-box;
+	z-index: 0;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	margin-left: 7rem;
+	border-left: 1px solid rgb(194, 194, 194);
 }
-.whiteline_right{
-    box-sizing: border-box;
-    z-index: 0;
-    position: absolute;
-    height: 100%;
-    width: 60%;
-    left: 0;
-    border-right: 1px solid rgb(194, 194, 194);
+.whiteline_right {
+	box-sizing: border-box;
+	z-index: 0;
+	position: absolute;
+	height: 100%;
+	width: 60%;
+	left: 0;
+	border-right: 1px solid rgb(194, 194, 194);
 }
-.whiteline_right::before{
-    content: "";
-    position: absolute;
-    height: .7rem;
-    width: .7rem;
-    background: rgb(255, 255, 255);
-    bottom: 2rem;
-    top: 0;
-    right: 0rem;
+.whiteline_right::before {
+	content: "";
+	position: absolute;
+	height: .7rem;
+	width: .7rem;
+	background: rgb(255, 255, 255);
+	bottom: 2rem;
+	top: 0;
+	right: 0rem;
 }
-.whiteline_right::after{
-    content: "";
-    position: absolute;
-    height: .7rem;
-    width: .7rem;
-    background: rgb(136, 136, 136);
-    bottom: 2rem;
-    top: 80%;
-    left: 0rem;
+.whiteline_right::after {
+	content: "";
+	position: absolute;
+	height: .7rem;
+	width: .7rem;
+	background: rgb(136, 136, 136);
+	bottom: 2rem;
+	top: 80%;
+	left: 0rem;
 }
-@media only screen and (max-width: 580px){
-    .whiteline_left,
-    .whiteline_right{
-        display: none;
-    }
-    .title{
-        margin-left: 0;
-    }
-    .map_wrapper{
-        width: 100%;
-    }
-} 
+@media only screen and (max-width: 580px) {
+	.whiteline_left,
+	.whiteline_right {
+		display: none;
+	}
+	.title {
+		margin-left: 0;
+	}
+	.map_wrapper {
+		width: 100%;
+	}
+}

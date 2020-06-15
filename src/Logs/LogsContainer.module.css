@@ -6,7 +6,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    min-height: calc(100vh - 8rem);
+    min-height: calc(100vh - 12.1rem);
     
 }
 .container::before{

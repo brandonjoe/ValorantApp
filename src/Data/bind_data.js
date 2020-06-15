@@ -1,19 +1,19 @@
 export const bind_data = [
 	{
 		id: 1,
-		title: 'Hookah from main',
+		title: 'Hookah from B short',
 		isActive: true,
-		difficulty: 'Easy',
+		difficulty: 'Medium',
 		side: 'Attacking',
 		essential: true,
-		video: '418734606',
-		bounces: 1,
-		charges: 1,
-		image1: 'https://i.imgur.com/ItcMZBM.png',
-		image2: '',
-		map: 'https://i.imgur.com/IKazxbr.jpg',
+		video: '429164524',
+		bounces: 2,
+		charges: 3,
+		image1: 'https://i.imgur.com/e8So83V.jpg',
+		image2: 'https://i.imgur.com/tS3QV6c.png',
+		map: 'https://i.imgur.com/WwcOGKt.png',
 		info:
-			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
+			"There are plenty of hookah darts out there but this one fully clears Hookah 100% of the time. Line up your character until the white space disappears in the first image. Then set 2 bounces and fully charge slightly to the right of the left side of the crate. It doesn't matter how high or below you aim it, but try to get it in the middle like shown in the 2nd image. It doesn't need to be fully percise, but practice before hand. This is a great dart for attacking because after a few rounds, they won't even bother holding hookah. If they continue to hold hookah, you can slow push and be ready to wall bang the couch. It's relatively safe since you're darting from the left hand side of B short. Careful red spot, it's an off angle and that's the only spot that won't be scanned. I've yet to see someone hold from there, but be careful."
 	},
 	{
 		id: 2,
@@ -130,19 +130,19 @@ export const bind_data = [
 			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
 	}
 ];
-export const bind_detail = {
+export const bind_detail = 	{
 	id: 1,
-	title: 'Hookah from main',
+	title: 'Hookah from B short',
 	isActive: true,
-	difficulty: 'Easy',
+	difficulty: 'Medium',
 	side: 'Attacking',
 	essential: true,
-	video: '418734606',
-	bounces: 1,
-	charges: 1,
-	image1: 'https://i.imgur.com/ItcMZBM.png',
-	image2: '',
-	map: 'https://i.imgur.com/IKazxbr.jpg',
+	video: '429164524',
+	bounces: 2,
+	charges: 3,
+	image1: 'https://i.imgur.com/e8So83V.jpg',
+	image2: 'https://i.imgur.com/tS3QV6c.png',
+	map: 'https://i.imgur.com/WwcOGKt.png',
 	info:
-		'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
+		"There are plenty of hookah darts out there but this one fully clears Hookah 100% of the time. Line up your character until the white space disappears in the first image. Then set 2 bounces and fully charge slightly to the right of the left side of the crate. It doesn't matter how high or below you aim it, but try to get it in the middle like shown in the 2nd image. It doesn't need to be fully percise, but practice before hand. This is a great dart for attacking because after a few rounds, they won't even bother holding hookah. If they continue to hold hookah, you can slow push and be ready to wall bang the couch. It's relatively safe since you're darting from the left hand side of B short. Careful red spot, it's an off angle and that's the only spot that won't be scanned. I've yet to see someone hold from there, but be careful."
 };

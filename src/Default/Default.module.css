@@ -1,0 +1,51 @@
+.main {
+	box-sizing: border-box;
+	height: fit-content;
+	background-image: url("../Media/default_background.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	height: calc(100vh - 8rem);
+    display: flex;
+    
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(241, 241, 241);
+}
+.tint{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-image: linear-gradient(to top, rgba(31, 35, 38, 0), rgb(31, 35, 38));
+}
+.error{
+    z-index: 10;
+    font-family: "Tungsten-Bold", sans-serif;
+    font-size: 13rem;
+    margin: 0;
+}
+.error2{
+    z-index: 10;
+    letter-spacing: 1px;
+    font-family: "Tungsten-Bold", sans-serif;
+    font-size: 3rem;
+}
+.error3{
+    z-index: 10;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    margin: 4px;
+}
+@media only screen and (max-width: 500px){
+    .main{
+        height: calc(100vh - 4.5rem);
+    }
+    .error{
+        font-size: 6rem;
+    }
+    .error2, .error3{
+        margin: 1rem;
+    }
+}

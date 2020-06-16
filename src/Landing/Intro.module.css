@@ -187,17 +187,17 @@
 .sova_image {
 	position: absolute;
 	bottom: -10rem;
-	width: 100rem;
+	width: 100%;
 
 	z-index: 1;
 }
 .block {
 	border-top: 1px solid rgb(238, 238, 238);
 	z-index: 10;
-	width: 40rem;
+	width: 50rem;
 	height: 15rem;
 	bottom: 0;
-	left: 29rem;
+	left: 25rem;
 	position: absolute;
 	background: rgb(15, 25, 35);
 	width: 100%;
@@ -230,11 +230,15 @@
 	background: rgb(15, 25, 35);
 }
 .video {
-	width: fit-content !important;
 	padding: 4px;
+	height: fit-content !important;
 }
-
-@media only screen and (max-height: 1090px) and (min-width: 600px){
+@media only screen and (min-height: 1700px) {
+	.main_title{
+		font-size: 10rem;
+	}
+}
+@media only screen and (max-height: 1200px) and (min-width: 600px){
 	.container {
 		min-height: 940px !important;
 	}

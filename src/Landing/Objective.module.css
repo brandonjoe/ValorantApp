@@ -1,6 +1,6 @@
 .container {
 	box-sizing: border-box;
-	height: 1900px;
+	height: fit-content;
 	position: relative;
 	background: rgb(236, 232, 225);
 	background-size: cover;
@@ -102,6 +102,7 @@
 	align-items: center;
 	height: 100%;
 	width: 80%;
+	padding-bottom: 7rem;
 	border-left: 2px solid rgb(155, 155, 155);
 	border-right: 2px solid rgb(167, 167, 167);
 	box-sizing: border-box;
@@ -387,8 +388,8 @@
 	content: '';
 	position: absolute;
 	height: 100%;
-	width: 1000px;
-	left: -1000px;
+	width: 200rem;
+	left: -200rem;
 	background: rgb(255, 70, 85);
 	z-index: 0;
 }
@@ -411,6 +412,16 @@
 }
 .video_textblock:hover::after {
 	background: rgb(236, 232, 225);
+}
+@media only screen and (min-height: 1700px) {
+	.title{
+		font-size: 20rem;
+	}
+	.first_text{
+		font-size: 2.2rem;
+		line-height: 3.6rem;
+
+	}
 }
 
 @media only screen and (max-width: 1650px) {

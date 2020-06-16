@@ -268,7 +268,7 @@
 }
 
 .map_container {
-	width: fit-content;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	align-self: center;
@@ -279,7 +279,7 @@
 }
 .map_wrapper {
 	border: 2px solid rgb(105, 105, 105);
-	height: fit-content;
+	width: 100%;
 	position: relative;
 }
 .map_wrapper::after {
@@ -301,11 +301,6 @@
 	top: calc(50% - 3rem);
 	left: -.5rem;
 	background-color: rgb(255, 70, 85);
-}
-.map_container {
-	height: fit-content;
-	width: 80%;
-	position: relative;
 }
 .map_container::before {
 	content: '';

@@ -1,7 +1,6 @@
 import React from 'react';
-import ScrollToTop from './Animation/ScrollToTop.js';
 import './App.css';
-import { Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Landing from './Landing/Landing.js';
 import Bind from './Maps/Bind/Bind.js';
 import Haven from './Maps/Haven/Haven.js';
@@ -13,7 +12,6 @@ import Default from './Default/Default.js'
 function App() {
 	return (
 		<div className="App">
-			<ScrollToTop>
 				<Switch>
 					<Route path={'/'} exact component={Landing} />
 					<Route path={'/bind'} component={Bind} />
@@ -24,7 +22,6 @@ function App() {
 					<Route path={'/faq'} component={Faq} />
 					<Route component={Default}/>
 				</Switch>
-			</ScrollToTop>
 		</div>
 	);
 }

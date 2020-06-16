@@ -28,7 +28,7 @@ const LineupDetail = (props) => {
 	let essential_icon;
 	let dart_side;
 	if (typeof video === 'undefined') {
-		video = '418734606';
+		video = '429164524';
 	}
 	let charge;
 	if (charges === 0) {

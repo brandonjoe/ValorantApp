@@ -56,8 +56,8 @@ let onLeave2 = () => {
 		image_2 = '';
 	} else {
 		image_2 = (
-			<div className={classes.image_container} onMouseEnter={() => onHover()} onMouseLeave={() => onLeave()} onClick={() => window.open(props.image2, '_blank')}>
-				<div className={classes.main}>
+			<div className={classes.image_container} >
+				<div className={classes.main}onMouseEnter={() => onHover()} onMouseLeave={() => onLeave()} onClick={() => window.open(props.image2, '_blank')} >
                     <div ref={el => {background = el}}className={classes.image_wrapper}>
                     </div>
 					<img className={classes.image} alt='image2' onLoad={() => imagesloaded()} src={props.image2} />
@@ -69,8 +69,8 @@ let onLeave2 = () => {
 	}
 	return (
 		<div className={classes.container} >
-			<div className={classes.image_container} onMouseEnter={() => onHover2()} onMouseLeave={() => onLeave2()} onClick={() => window.open(props.image1, '_blank')}>
-				<div className={classes.main}>
+			<div className={classes.image_container} >
+				<div className={classes.main} onMouseEnter={() => onHover2()} onMouseLeave={() => onLeave2()} onClick={() => window.open(props.image1, '_blank')}>
                     <div ref={el => {background2 = el}}className={classes.image_wrapper}>
                     </div>
 					<img className={classes.image} alt='image2' onLoad={() => imagesloaded()} src={props.image1} />

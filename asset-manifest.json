@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ValorantApp/static/css/main.92907595.chunk.css",
-    "main.js": "/ValorantApp/static/js/main.f8f1762a.chunk.js",
-    "main.js.map": "/ValorantApp/static/js/main.f8f1762a.chunk.js.map",
+    "main.js": "/ValorantApp/static/js/main.7563a61a.chunk.js",
+    "main.js.map": "/ValorantApp/static/js/main.7563a61a.chunk.js.map",
     "reactPlayerDailyMotion.js": "/ValorantApp/static/js/reactPlayerDailyMotion.a6b075d7.chunk.js",
     "reactPlayerDailyMotion.js.map": "/ValorantApp/static/js/reactPlayerDailyMotion.a6b075d7.chunk.js.map",
     "reactPlayerFacebook.js": "/ValorantApp/static/js/reactPlayerFacebook.8ea8b183.chunk.js",
@@ -27,15 +27,15 @@
     "reactPlayerYouTube.js.map": "/ValorantApp/static/js/reactPlayerYouTube.26ab2539.chunk.js.map",
     "runtime-main.js": "/ValorantApp/static/js/runtime-main.8106249b.js",
     "runtime-main.js.map": "/ValorantApp/static/js/runtime-main.8106249b.js.map",
-    "static/js/13.300ea54b.chunk.js": "/ValorantApp/static/js/13.300ea54b.chunk.js",
-    "static/js/13.300ea54b.chunk.js.map": "/ValorantApp/static/js/13.300ea54b.chunk.js.map",
+    "static/js/13.e87b0054.chunk.js": "/ValorantApp/static/js/13.e87b0054.chunk.js",
+    "static/js/13.e87b0054.chunk.js.map": "/ValorantApp/static/js/13.e87b0054.chunk.js.map",
     "static/js/14.54fa3d59.chunk.js": "/ValorantApp/static/js/14.54fa3d59.chunk.js",
     "static/js/14.54fa3d59.chunk.js.map": "/ValorantApp/static/js/14.54fa3d59.chunk.js.map",
     "index.html": "/ValorantApp/index.html",
-    "precache-manifest.908d5ae8e07f80cf669a37489d4e3a0f.js": "/ValorantApp/precache-manifest.908d5ae8e07f80cf669a37489d4e3a0f.js",
+    "precache-manifest.3bbb2b5684445d59c1f3a1809912357c.js": "/ValorantApp/precache-manifest.3bbb2b5684445d59c1f3a1809912357c.js",
     "service-worker.js": "/ValorantApp/service-worker.js",
     "static/css/main.92907595.chunk.css.map": "/ValorantApp/static/css/main.92907595.chunk.css.map",
-    "static/js/13.300ea54b.chunk.js.LICENSE.txt": "/ValorantApp/static/js/13.300ea54b.chunk.js.LICENSE.txt",
+    "static/js/13.e87b0054.chunk.js.LICENSE.txt": "/ValorantApp/static/js/13.e87b0054.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ValorantApp/static/media/good-times.regular.39636dd7.ttf",
     "static/media/ascent_map.jpg": "/ValorantApp/static/media/ascent_map.05ff1d75.jpg",
     "static/media/bind_map.jpg": "/ValorantApp/static/media/bind_map.46907ec5.jpg",
@@ -56,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8106249b.js",
-    "static/js/13.300ea54b.chunk.js",
+    "static/js/13.e87b0054.chunk.js",
     "static/css/main.92907595.chunk.css",
-    "static/js/main.f8f1762a.chunk.js"
+    "static/js/main.7563a61a.chunk.js"
   ]
 }

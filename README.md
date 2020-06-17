@@ -5,12 +5,12 @@
 This site is made as a personal project, as well as help others learn important lineups in RiotGame's fps shooter, Valorant. It's a site build with React, and uses Context API for state management. Here you'll find update to date lineups across all the current maps. 
 
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3136dde7-1155-401a-83a5-19da2c14294f/deploy-status)](https://app.netlify.com/sites/sovalineups/deploys)
 ### Demo
 
 
 
-[Live Demo](https://brandonjoe.github.io/ValorantApp/)
+[Live Site](https://sovalineups.com/)
 
 ![alt Example](https://i.imgur.com/KFe5cFW.png)
 

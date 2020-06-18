@@ -29,7 +29,7 @@ export const bind_data = [
 		image2: 'https://i.imgur.com/IsmrdbC.png',
 		map: 'https://i.imgur.com/YLO6YtM.jpg',
 		info:
-			"Great dart for revealing A short while potentially revealing the staircase area. Align yourself so where the box is flush with the corner of the wall in the 1st image (same as market side dart). Then shoot right under the black metal box on the wall above it. It doesn't reavel the market side of A short, so be careful of that. It can scan the area, but they can easily lose line of sight. "
+			"Great dart for revealing A short while potentially revealing the staircase area. Align yourself so where the box is flush with the corner of the wall in the 1st image (same as market side dart). Then shoot right under the black metal box on the wall above it. It doesn't reveal the market side of A short, so be careful of that. It can scan the area, but they can easily lose line of sight. "
 	},
 	{
 		id: 3,
@@ -65,70 +65,83 @@ export const bind_data = [
 	},
 	{
 		id: 5,
-		title: 'BIND 5 bolt',
+		title: 'B short from hookah',
 		isActive: false,
-		difficulty: 'Medium',
-		side: 'Attacking',
-		essential: false,
-		bounces: 2,
-		charges: 3,
-		video: '418358446',
+		difficulty: 'Easy',
+		side: 'Defending',
+		essential: true,
+		bounces: 0,
+		charges: 2,
+		video: '429494715',
+		image1: 'https://i.imgur.com/uCi8MgD.png',
+		image2: '',
 		map: 'https://i.imgur.com/IKazxbr.jpg',
 		info:
-			'Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur.'
+			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
 	},
 	{
 		id: 6,
-		title: 'BIND 6 bolt',
+		title: 'Lamps from A lobby',
 		isActive: false,
-		difficulty: 'Medium',
+		difficulty: 'Easy',
 		side: 'Defending',
-		bounces: 1,
-		charges: 1,
-		essential: false,
-		video: 'https://player.vimeo.com/video/418734606',
+		essential: true,
+		bounces: 0,
+		charges: 2,
+		video: '429494765',
+		image1: 'https://i.imgur.com/uCi8MgD.png',
+		image2: '',
+		map: 'https://i.imgur.com/IKazxbr.jpg',
 		info:
-			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
+			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
 	},
 	{
 		id: 7,
-		title: 'BIND 7 sitebolt',
+		title: 'A lobby from tower',
 		isActive: false,
 		difficulty: 'Easy',
-		side: 'Attacking',
+		side: 'Defending',
 		essential: true,
-		bounces: 1,
-		charges: 1,
-		video: 'https://player.vimeo.com/video/419342441',
+		bounces: 0,
+		charges: 2,
+		video: '429499774',
+		image1: 'https://i.imgur.com/uCi8MgD.png',
+		image2: '',
+		map: 'https://i.imgur.com/IKazxbr.jpg',
 		info:
 			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
 	},
 	{
 		id: 8,
-		title: 'BIND 8 bolt',
+		title: 'B site from B long',
 		isActive: false,
-		difficulty: 'Hard',
+		difficulty: 'Easy',
 		side: 'Defending',
-		essential: false,
-		bounces: 2,
-		charges: 1,
-		video: 'https://player.vimeo.com/video/419342441',
+		essential: true,
+		bounces: 0,
+		charges: 2,
+		video: '429499814',
+		image1: 'https://i.imgur.com/uCi8MgD.png',
+		image2: '',
+		map: 'https://i.imgur.com/IKazxbr.jpg',
 		info:
-			'Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur.'
+			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
 	},
 	{
-		id: 9,
-		title: 'BIND 9 bolt',
+		title: 'Heaven from A lobby',
 		isActive: false,
-		difficulty: 'Medium',
-		side: 'neither',
+		difficulty: 'Easy',
+		side: 'Defending',
 		essential: true,
-		bounces: 2,
-		charges: 1,
-		video: 'https://player.vimeo.com/video/419342441',
+		bounces: 0,
+		charges: 2,
+		video: '429499853',
+		image1: 'https://i.imgur.com/uCi8MgD.png',
+		image2: '',
+		map: 'https://i.imgur.com/IKazxbr.jpg',
 		info:
-			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
-	}
+			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
+	},
 ];
 export const bind_detail = 	{
 	id: 1,

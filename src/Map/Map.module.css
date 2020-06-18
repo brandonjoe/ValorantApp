@@ -21,17 +21,20 @@
 	text-align: right;
 	transform: rotate(-90deg);
 	border-right: 1px solid white;
-	position: relative;
+	position: absolute;
+	width: 30rem;
+	top: -5rem;
+	right: 0;
 }
 .map_title {
 	text-decoration: none !important;
 	font-size: 5rem;
-	color: white;
 	color: rgba(0, 0, 0, 0);
 	font-family: "DrukWide", sans-serif;
-	-webkit-text-stroke: .5px rgb(226, 226, 226);
+	-webkit-text-stroke: 1.5px rgb(241, 241, 241);
 	margin: 0;
 	padding-right: 1rem;
+
 }
 .map_location {
 	padding-right: 1rem;
@@ -99,6 +102,7 @@ h1::before {
 	.info {
 		transform: rotate(0);
 		margin-right: 2rem;
+		top: 0;
 	}
 	.container {
 		height: 25rem;

@@ -43,13 +43,13 @@ const FaqContainer = () => {
 						<FaqItem
 							question={'I have a sick dart, can I show you and showcase it here?'}
 							answer={
-								["Of course, you can, if it meets the criteria above, feel free to send me screenshots of the location of where it lands, as well as how it lines up, to", <span style={{color: "rgb(246,68,82)"}}> contact@brandonjoe.com</span>, ". I would love to add your dart and credit you in the info."
+								["Of course, you can, if it meets the criteria above, feel free to send me screenshots of the location of where it lands, as well as how it lines up, to", <span style={{color: "rgb(246,68,82)"}}> contact@sovalineups.com</span>, ". I would love to add your dart and credit you in the info."
 								]}
 						/>
 						<FaqItem
 							question={"There's a bug on your site, is there a way I can tell you?"}
 							answer={
-								["I would highly appreciate it if you email me at", <span style={{color: "rgb(246,68,82)"}}> contact@brandonjoe.com </span>, "regarding it! I don't normally work in React.js, and I thought it would be a fun project for me using Context API. Thanks a ton!"]
+								["I would highly appreciate it if you email me at", <span style={{color: "rgb(246,68,82)"}}> contact@sovalineups.com </span>, "regarding it! I don't normally work in React.js, and I thought it would be a fun project for me using Context API. Thanks a ton!"]
 							}
 						/>
 						<FaqItem

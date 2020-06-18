@@ -27,6 +27,7 @@ const LineupDetail = (props) => {
 	} = props.lineupdetails;
 	let essential_icon;
 	let dart_side;
+	console.log(video);
 	if (typeof video === 'undefined') {
 		video = '429164524';
 	}

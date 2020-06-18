@@ -11,12 +11,76 @@
       content="Website for Sova darts"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="preload" as="font" href="./Fonts/Tungsten-Bold.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/Tungsten-Bold.woff2" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/Interstate-light.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/ValorantFont.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/Druk Wide Bold.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/Druk Wide Bold.woff2" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/Roboto-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./Fonts/good-times.regular.ttf" type="font/ttf" crossorigin="anonymous">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <style>
+      @font-face {  font-family: 'Tungsten-Bold';
+        font-weight: 400;
+          font-style: normal;
+            font-display: swap;
+             /* Read next point */  
+             unicode-range: U+000-5FF;
+              /* Download only latin glyphs */  
+              src: local('Custom Font'),      
+               url('./Fonts/Tungsten-Bold.woff2') format('woff2'), 
+              url('./Fonts/Tungsten-Bold.woff') format('woff');}
 
+              @font-face {  font-family: 'Interstate';
+        font-weight: 400;
+          font-style: normal;
+            font-display: swap;
+             /* Read next point */  
+             unicode-range: U+000-5FF;
+              /* Download only latin glyphs */  
+              src: local('Custom Font'),      
+              url('./Fonts/Interstate-light.ttf') format('truetype');}
+              @font-face {  font-family: 'ValorantFont';
+        font-weight: 400;
+          font-style: normal;
+            font-display: swap;
+             unicode-range: U+000-5FF;
+              src: local('Custom Font'),      
+              url('./Fonts/ValorantFont.ttf') format('truetype');}
+              @font-face {  font-family: 'DrukWide';
+        font-weight: 400;
+          font-style: normal;
+            font-display: swap;
+             /* Read next point */  
+             unicode-range: U+000-5FF;
+              /* Download only latin glyphs */  
+              src: local('Druk Wide'),      
+               url('./Fonts/Druk Wide Bold.woff2') format('woff2'), 
+              url('./Fonts/Druk Wide Bold.woff') format('woff');}
+              @font-face {  font-family: 'Roboto';
+        font-weight: 400;
+          font-style: normal;
+            font-display: swap;
+             /* Read next point */  
+             unicode-range: U+000-5FF;
+              /* Download only latin glyphs */  
+              src: local('Good Times'),      
+              url('./Fonts/Roboto-Regular.ttf') format('truetype');}
+@font-face {  font-family: 'GoodTimes';
+        font-weight: 400;
+          font-style: normal;
+            font-display: swap;
+             /* Read next point */  
+             unicode-range: U+000-5FF;
+              /* Download only latin glyphs */  
+              src: local('Good Times'),      
+              url('./Fonts/good-times.regular.ttf') format('truetype');}
+    </style>
     <title>Sova Lineups</title>
   </head>
   <body>

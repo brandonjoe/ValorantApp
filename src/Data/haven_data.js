@@ -6,7 +6,7 @@ export const haven_data = [
 		difficulty: 'Easy',
 		side: 'Attacking',
 		essential: true,
-		video: 'https://player.vimeo.com/video/419342441',
+		video: '429164524',
 		image1: 'https://i.imgur.com/uCi8MgD.png',
 		image2: '',
 		info:
@@ -19,7 +19,7 @@ export const haven_data = [
 		difficulty: 'Hard',
 		side: 'Defending',
 		essential: false,
-		video: 'https://player.vimeo.com/video/418734606',
+		video: '429164524',
 		image1: 'https://i.imgur.com/p0CWF5T.png',
 		image2: 'https://i.imgur.com/UkPTPi7.png',
 		info:
@@ -114,7 +114,7 @@ export const haven_detail = {
 	difficulty: 'Easy',
 	side: 'Attacking',
 	essential: true,
-	video: 'https://player.vimeo.com/video/419342441',
+	video: '',
 	image1: 'https://i.imgur.com/uCi8MgD.png',
 	image2: '',
 	map: 'https://i.imgur.com/IKazxbr.jpg',

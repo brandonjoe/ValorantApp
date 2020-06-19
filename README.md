@@ -34,7 +34,29 @@ Many future plans, the first one would be use Router to allow refreshing of dire
 
 
 
-This project was super fun for me, not only because I'm already passionate about the game, but because I learned much from this. Both from a design perspective, as well as learning a lot on how Riot makes their websites. Many hours were spent under the hood of Riot's own [website](https://playvalorant.com/en-us/), and I was always amazed on how efficient and clean their structure was. 
+This project was super fun for me, not only because I'm already passionate about the game, but because I learned much from this. Both from a design perspective, as well as learning a lot on how Riot makes their websites. Many hours were spent under the hood of Riot's own [website](https://playvalorant.com/en-us/), and I was always amazed on how efficient and clean their structure was. I'm really glad that all content comes seperate js files [here](https://github.com/brandonjoe/ValorantApp/tree/master/src/Data) is an array of Javascript objects. So updating and removing becomes really easy. 
+Here's an example of how simple the syntax is for adding, removing or editing: 
+```javascript
+{
+		id: 10,
+		title: 'Grass from C link',
+		isActive: false,
+		difficulty: 'Medium',
+		side: 'Defending',
+		essential: true,
+		video: "430529895",
+		bounces: 1,
+		charges: 2,
+		image1: "https://i.imgur.com/KykLPwu.png",
+		image2: "https://i.imgur.com/v8Xttiw.png",
+		map: "https://i.imgur.com/OwavSsG.jpg",
+		info:
+			'Very useful dart for catching the garage pushers off guard, while also holding courtyard for your mid player. It reveals a lot of grass, while also potentially revealing into their spawn. Move along the back wall until you see a small opening where you see the wall at mid. Aim very slightly above the shadow. Careful for the tiny red on the map, but this arrow lands so fast, it should get a pulse off before they move. '
+	}
+
+```
+I think having a very simple way to edit the site is important to keeping it updated.
+
 
 ### Inspiration
 

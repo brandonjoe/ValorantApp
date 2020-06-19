@@ -55,7 +55,7 @@ Here's an example of how simple the syntax is for adding, removing or editing:
 	}
 
 ```
-I think having a very simple way to edit the site is important to keeping it updated.
+I think having a very simple way to edit the site is important to keeping it updated, and I'm really glad it's structured this way. 
 
 
 ### Inspiration

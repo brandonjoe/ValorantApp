@@ -34,7 +34,7 @@ Many future plans, the first one would be use Router to allow refreshing of dire
 
 
 
-This project was super fun for me, not only because I'm already passionate about the game, but because I learned much from this. Both from a design perspective, as well as learning a lot on how Riot makes their websites. Many hours were spent under the hood of Riot's own [website](https://playvalorant.com/en-us/), and I was always amazed on how efficient and clean their structure was. I'm really glad that all content comes seperate js files [here](https://github.com/brandonjoe/ValorantApp/tree/master/src/Data) is an array of Javascript objects. So updating and removing becomes really easy. 
+This project was super fun for me, not only because I'm already passionate about the game, but because I learned much from this. Both from a design perspective, as well as learning a lot on how Riot makes their websites. Many hours were spent under the hood of Riot's own [website](https://playvalorant.com/en-us/), and I was always amazed on how efficient and clean their structure was. I'm glad that all the content froms [here](https://github.com/brandonjoe/ValorantApp/tree/master/src/Data), an array of Javascript objects. So updating and removing becomes really easy. 
 Here's an example of how simple the syntax is for adding, removing or editing: 
 ```javascript
 {

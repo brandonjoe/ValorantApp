@@ -3,14 +3,18 @@ export const haven_data = [
 		id: 1,
 		title: 'Garden from A site',
 		isActive: true,
-		difficulty: 'Easy',
+		difficulty: 'Medium',
 		side: 'Attacking',
 		essential: true,
 		video: '430192154',
-		image1: 'https://i.imgur.com/uCi8MgD.png',
-		image2: '',
+		bounces: 0,
+		charges: 1,
+		image1: 'https://i.imgur.com/miCS1RO.png',
+		image2: 'https://i.imgur.com/vzPjMSe.png',
+		map: 'https://i.imgur.com/4jZEq6i.jpg',
+		result: "https://i.imgur.com/cn7YdB3.png",
 		info:
-			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
+			"Pre round dart if you're holding sewers, it'll reach pretty deep back of spawn (I've scanned people holding C long angle), as well as covering garden pushes to A. Align yourself with again the big boxes in the first picture so that the edge of the box lines up with the edge corner of the intersecting wall. Then aim at the corner of the roof in the 2nd picture. Watch out of the red angles, especially the one next to the box since it won't scan those areas. It can scan window area, but don't count on it since losing line of sight is very easy. "
 	},
 	{
 		id: 2,
@@ -22,10 +26,12 @@ export const haven_data = [
 		video: '429846569',
 		bounces: 1,
 		charges: 2,
-		image1: 'https://i.imgur.com/p0CWF5T.png',
-		image2: 'https://i.imgur.com/UkPTPi7.png',
+		image1: 'https://i.imgur.com/sGRmHxN.png',
+		image2: '',
+		map: "https://i.imgur.com/4T6O1GL.jpg",
+		result: "https://i.imgur.com/DElp82Z.png",
 		info:
-			'Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur.'
+			"This dart lands on the window sill for mid window, which reveals a lot of mid/potentially grass, while also revealing window. Line up your crosshair with the bottom of the red text on the side of the metal container on B site. If you run, you should have enough time to peek with an awp. The great part about this dart is that if someone peeks up the courtyard, it will also spot them."
 	},
 	{
 		id: 3,
@@ -35,67 +41,81 @@ export const haven_data = [
 		side: 'Defending',
 		essential: true,
 		video: '429846506',
-		bounce: 0,
+		bounces: 0,
 		charges: 1,
-		image1: 'https://i.imgur.com/ItcMZBM.png',
-		image2: 'https://i.imgur.com/quhSNu0.png',
+		image1: 'https://i.imgur.com/hcW2puP.png',
+		image2: '',
+		map: "https://i.imgur.com/4T6O1GL.jpg",
+		result: "https://i.imgur.com/vPxGst0.png",
 		info:
-			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
+			"Very similar to the A connector side, this one will also land on the window sill at mid. This one you can use if you're coming into B from C side. Unlike the A connector side one, you're not exposed and safe from pushes. Just aim at the center of the wood that spans across the door. Unfortunately, this dart travels faster, and you won't have enough time to peek like the other dart. Use this dart if you're holding garage and your B guy needs help holding B site."
 	},
 	{
 		id: 4,
-		title: 'C site from C lobby',
+		title: 'A site/heaven from A lobby',
 		isActive: false,
-		difficulty: 'Medium',
-		side: 'neither',
+		difficulty: 'Hard',
+		side: 'Attacking',
 		essential: false,
-		video: '429846196',
-		bounce: '1',
-		charges: '2',
-		image1: 'https://i.imgur.com/ItcMZBM.png',
+		video: '429846086',
+		bounces: 0,
+		charges: 2,
+		image1: 'https://i.imgur.com/gUdmiR6.png',
 		image2: '',
-		map: 'https://i.imgur.com/IKazxbr.jpg',
+		result: "https://i.imgur.com/7wGQni2.png",
+		map: 'https://i.imgur.com/0kTUm0J.jpg',
 		info:
-			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
+			"This dart is great since it clears site while also clearing heaven. First line up the bottom if your hud with the black line on the yellow wall. Also line up the 2 little tips so they are in the center of those 2 intentions along the roof. There are a lot of red spots on the map to watch out for, but luckily no one defends the site from those angles. Requires material quality to be on medium. "
 	},
 	{
 		id: 5,
 		title: 'C lobby from C site',
 		isActive: false,
 		difficulty: 'Easy',
-		side: 'Attacking',
+		side: 'Defending',
 		essential: true,
 		video: '429846285',
-		bounce: 0,
+		bounces: 0,
 		charges: 1,
-		map: 'https://i.imgur.com/IKazxbr.jpg',
+		image1: "https://i.imgur.com/u40JUZ2.png",
+		image2: "",
+		result: "https://i.imgur.com/zYEhMW7.png",
+		map: 'https://i.imgur.com/mAJRN79.jpg',
 		info:
-			'Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur.'
+			'Great for teams with slow pushes into garage and C long, while being very quick to execute. Aim at the corner of roof in the picture.'
 	},
 	{
 		id: 6,
 		title: 'C long/C Lobby from C site',
 		isActive: false,
 		difficulty: 'Medium',
-		side: 'Attacking',
+		side: 'Defending',
 		essential: false,
 		video: '429846421',
-		map: 'https://i.imgur.com/IKazxbr.jpg',
+		bounces: 2,
+		charges: 3,
+		image1: "https://i.imgur.com/3BHbkOj.png",
+		image2: "",
+		map: 'https://i.imgur.com/SZ4B7UU.jpg',
+		result: "https://i.imgur.com/ksTLOxc.png",
 		info:
-			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
+			"This dart reveals C long while also getting C lobby. In order for this dart to land, you need to aim as close as possible to the corner of the small section protruding from the wall, and aim right below the brown wood. It doesn't reveal all of C lobby, but it reveals enough from slow pushers. "
 	},
 	{
 		id: 7,
-		title: 'Grass from C link',
+		title: 'Garage from attacker spawn',
 		isActive: false,
-		difficulty: 'Medium',
-		side: 'Defending',
+		difficulty: 'Easy',
+		side: 'Attacking',
 		essential: true,
 		video: "429846382",
-		bounce: 1,
-		charge: 1,
+		bounces: 2,
+		charges: 3,
+		image1: "https://i.imgur.com/whFPDLL.png",
+		result: "https://i.imgur.com/veMQLqe.png",
+		map: "https://i.imgur.com/gy0eKkM.jpg",
 		info:
-			'Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit.'
+			"This dart isn't meant to cover garage window, it's meant to cover the connector between the connector between garage and C site, while covering the rest of garage. Aim about half way up from the wall. Be careful for the red spot, since it won't scan that area, and it's a very common off angle hold spot. "
 	},
 	{
 		id: 8,
@@ -105,10 +125,14 @@ export const haven_data = [
 		side: 'Attacking',
 		essential: false,
 		video: "429845924",
-		bounce: 2,
+		bounces: 2,
 		charges: 2,
+		image1: "https://i.imgur.com/FSLaKE7.png",
+		image2: "",
+		map: "https://i.imgur.com/0BpWsWT.jpg",
+		result: "https://i.imgur.com/9PdI7eS.png",
 		info:
-			'Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur.'
+			"A very very difficult dart that I can't replicate 100% of the time, but I figure I add it because it's unique and very useful for someone who wants to master it. You can try to align yourself with the yellow spots on the image below, but it's still very difficul for me. It lands in the best spot on B, with almost not detection until it's too late. I won't even bother explaining how to do this one because I can't even consistently replicate it. But this dart with 2 brim smokes on either side of the metal container is a free entrance to B. Thanks to redditor u/KhigenNA for finding this dart!"
 	},
 	{
 		id: 9,
@@ -118,11 +142,82 @@ export const haven_data = [
 		side: 'Defending',
 		essential: false,
 		video: "429845998",
-		bounce: 0,
+		bounces: 0,
 		charges: 2,
+		image1: "https://i.imgur.com/r6UI8dl.png",
+		image2: "",
+		result: "https://i.imgur.com/fqYZ794.png",
+		map: "https://i.imgur.com/f1yeA0D.jpg",
 		info:
-			'Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat.'
+			"Great dart if you're holding sewers since it reveals A lobby, as well as some parts of garden. Align the tip of your shock dart icon on your HUD with the roof tile that protrudes out the most. Make sure the tip is exactly in the corner as shown in the image. As you can see in the map, it has a lot of blind spots, so be careful when using this dart not to bait your long player. Thanks to redditor u/KhigenNA for finding this dart!"
 	}
+	,
+	{
+		id: 10,
+		title: 'Grass from C link',
+		isActive: false,
+		difficulty: 'Medium',
+		side: 'Defending',
+		essential: true,
+		video: "430529895",
+		bounces: 1,
+		charges: 2,
+		image1: "https://i.imgur.com/KykLPwu.png",
+		image2: "https://i.imgur.com/v8Xttiw.png",
+		result: "https://i.imgur.com/TESgO2K.png",
+		map: "https://i.imgur.com/OwavSsG.jpg",
+		info:
+			'Very useful dart for catching the garage pushers off guard, while also holding courtyard for your mid player. It reveals a lot of grass, while also potentially revealing into their spawn. Move along the back wall until you see a small opening where you see the wall at mid. Aim very slightly above the shadow. Careful for the tiny red on the map, but this arrow lands so fast, it should get a pulse off before they move. '
+	},
+	{
+		id: 11,
+		title: 'Attacker spawn from C site',
+		isActive: false,
+		difficulty: 'Hard',
+		side: 'Defending',
+		essential: true,
+		video: "430529785",
+		bounces: 0,
+		charges: 2,
+		image1: "https://i.imgur.com/RLn7eFk.png",
+		image2: "https://i.imgur.com/VDB6Cg7.jpg",
+		result: "https://i.imgur.com/TESgO2K.png",
+		map: "https://i.imgur.com/wQbaVOx.jpg",
+		info:
+			"This dart reveals the entire back side of their spawn. You can reveal slow pushers from C, middle, garage, and A. It has a long travel time, but it comes down to fast, it's virtually undetected until it lands. Locate the small block in the 1st image, and align the tip of your shock bolt icon with the bottom right hand corner of that block. "
+	},
+	{
+		id: 12,
+		title: 'C site from C lobby (back C)',
+		isActive: false,
+		difficulty: 'Medium',
+		side: 'Attacking',
+		essential: true,
+		video: "430912690",
+		bounces: 1,
+		charges: 2,
+		image1: "https://i.imgur.com/bknngBE.jpg",
+		image2: "https://i.imgur.com/qQoPd0q.jpg",
+		result: "https://i.imgur.com/Ni44gGF.png",
+		map: "https://i.imgur.com/gy0eKkM.jpg",
+		info:
+			"This dart isn't meant to cover garage window, it's meant to cover the connector between the connector between garage and C site, while covering the rest of garage. Aim about 3/4 up from the wall. Be careful for the red spot, since it won't scan that area, and it's a very common off angle hold spot. "
+	},{
+		id: 13,
+		title: 'C site from C lobby (platform)',
+		isActive: false,
+		difficulty: 'Easy',
+		side: 'Attacking',
+		essential: true,
+		video: "430912759",
+		bounces: 0,
+		charges: 1,
+		image1: "https://i.imgur.com/YltdB0I.png",
+		result: "https://i.imgur.com/hPMoOBw.png",
+		map: "https://i.imgur.com/gy0eKkM.jpg",
+		info:
+			"This dart isn't meant to cover garage window, it's meant to cover the connector between the connector between garage and C site, while covering the rest of garage. Aim about 3/4 up from the wall. Be careful for the red spot, since it won't scan that area, and it's a very common off angle hold spot. "
+	},
 ];
 export const haven_detail = {
 	id: 1,
@@ -134,9 +229,10 @@ export const haven_detail = {
 	video: '430192154',
 	bounces: 0,
 	charges: 1,
-	image1: 'https://i.imgur.com/e8So83V.jpg',
-	image2: 'https://i.imgur.com/tS3QV6c.png',
-	map: 'https://i.imgur.com/BtBpdy6.jpg',
+	image1: 'https://i.imgur.com/miCS1RO.png',
+	image2: 'https://i.imgur.com/vzPjMSe.png',
+	map: 'https://i.imgur.com/4jZEq6i.jpg',
+	result: "https://i.imgur.com/cn7YdB3.png",
 	info:
-		"There are plenty of hookah darts out there but this one fully clears Hookah 100% of the time. Line up your character until the white space disappears in the first image. Then set 2 bounces and fully charge slightly to the right of the left side of the crate. It doesn't matter how high or below you aim it, but try to get it in the middle like shown in the 2nd image. It doesn't need to be fully percise, but practice before hand. This is a great dart for attacking because after a few rounds, they won't even bother holding hookah. If they continue to hold hookah, you can slow push and be ready to wall bang the couch. It's relatively safe since you're darting from the left hand side of B short. Careful red spot, it's an off angle and that's the only spot that won't be scanned. I've yet to see someone hold from there, but be careful."
+		"Pre round dart if you're holding sewers, it'll reach pretty deep back of spawn (I've scanned people holding C long angle), as well as covering garden pushes to A. Align yourself with again the big boxes in the first picture so that the edge of the box lines up with the edge corner of the intersecting wall. Then aim at the corner of the roof in the 2nd picture. Watch out of the red angles, especially the one next to the box since it won't scan those areas. It can scan window area, but don't count on it since losing line of sight is very easy. "
 };

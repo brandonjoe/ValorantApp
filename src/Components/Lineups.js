@@ -42,7 +42,7 @@ class Lineups extends Component {
 			this.context.backdropClickHandler()
 		}
 	}
-
+	
 	state = {
 		sideLineupsOpen: false
 	};
@@ -92,6 +92,7 @@ class Lineups extends Component {
 									return value.lineups.map((lineup) => {
 										return (
 											<LineupItem
+												onClick={() => {console.log('dasdasdasdsad')}}
 												className={classes.lineupItem}
 												key={lineup.id}
 												lineup={lineup}

@@ -21,13 +21,13 @@ const LineupDetail = (props) => {
 		side,
 		image1,
 		image2,
+		result, 
 		map,
 		bounces,
 		charges
 	} = props.lineupdetails;
 	let essential_icon;
 	let dart_side;
-	console.log(video);
 	if (typeof video === 'undefined') {
 		video = '429164524';
 	}
@@ -151,7 +151,7 @@ const LineupDetail = (props) => {
 									</div>
 								</div>
 								<div className={classes.images}>
-									<Images image1={image1} image2={image2} />
+									<Images image1={image1} image2={image2} image3={result}  />
 								</div>
 								<div className={classes.right_container}>
 									<div className={`${classes.videoWrapper} `}>

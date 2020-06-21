@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 code {
@@ -33,4 +35,5 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(63, 63, 63); 
 }
+
 a:visited { text-decoration: none !important;}

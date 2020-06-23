@@ -5,6 +5,28 @@ import { Link } from 'react-router-dom';
 import home_icon from '../Media/V_Logomark_White.png';
 
 const Nav = () => {
+	let logsButton;
+	let faqButton;
+	if(window.location.pathname.includes('logs')){
+		logsButton = (	<Link  className={classes.links} to={'/logs'} style={{ textDecoration: 'none', color: "tomato" }}>
+		<div className={classes.links_text}>Logs</div>
+	</Link>)
+	
+	} else {
+		logsButton = (	<Link  className={classes.links} to={'/logs'} style={{ textDecoration: 'none' }}>
+		<div className={classes.links_text}>Logs</div>
+	</Link>)
+	}
+	if(window.location.pathname.includes('faq')){
+		faqButton = (<Link className={classes.links} to={'/faq'} style={{ textDecoration: 'none', color: "tomato" }}>
+		<div className={classes.links_text}>FAQ</div>
+	</Link>)
+	
+	} else {
+		faqButton = (	<Link className={classes.links} to={'/faq'} style={{ textDecoration: 'none' }}>
+		<div className={classes.links_text}>FAQ</div>
+	</Link>)
+	}
 	return (
 		<AppConsumer>
 			{(value) => (
@@ -45,14 +67,10 @@ const Nav = () => {
 								</div>
 							</div>
 						</li>
-							<Link  className={classes.links} to={'/logs'} style={{ textDecoration: 'none' }}>
-								<div className={classes.links_text}>Logs</div>
-							</Link>
+							{logsButton}
 							
 
-							<Link className={classes.links} to={'/faq'} style={{ textDecoration: 'none' }}>
-								<div className={classes.links_text}>FAQ</div>
-							</Link>
+							{faqButton}
 					</ul>
 				</div>
 			)}

@@ -13,7 +13,6 @@ export const bind_data = [
 		image2: 'https://i.imgur.com/tS3QV6c.png',
 		result: 'https://i.imgur.com/tS3QV6c.png',
 		map: 'https://i.imgur.com/BtBpdy6.jpg',
-		result: "https://i.imgur.com/WOLFL7M.png",
 		info:
 			"There are plenty of hookah darts out there but this one fully clears Hookah 100% of the time. Line up your character until the white space disappears in the first image. Then set 2 bounces and fully charge slightly to the right of the left side of the crate. It doesn't matter how high or below you aim it, but try to get it in the middle like shown in the 2nd image. It doesn't need to be fully percise, but practice before hand. This is a great dart for attacking because after a few rounds, they won't even bother holding hookah. If they continue to hold hookah, you can slow push and be ready to wall bang the couch. It's relatively safe since you're darting from the left hand side of B short. Careful red spot, it's an off angle and that's the only spot that won't be scanned. I've yet to see someone hold from there, but be careful."
 	},

@@ -4,7 +4,7 @@ export const split_data = [
         title: "A ramp from A lobby",
         isActive: true,
         difficulty: "Easy",
-        side: "Attacking",
+        side: "Defending",
         essential: true,
         video: "430192580",
         bounces: 1,
@@ -12,14 +12,14 @@ export const split_data = [
         image1: "https://i.imgur.com/uuhO6bv.png",
         image2: "",
         map: "https://i.imgur.com/rcoHOOr.jpg",
-        info: "Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit."
+        info: "Many lineups either don't get close by cubby near the camp, or don't get either said of the box since. This dart will filly clear ramps A ramps every time, just jump on the ledge and aim at the left side of first line above the first building. You should time this dart so that a teammate can peek when they have to turn around and shoot it. "
     },
     {
         id:2,
         title: "A lobby from A heaven",
         isActive: false,
-        difficulty: "Medium",
-        side: "Defending",
+        difficulty: "Easy",
+        side: "Attacking",
         essential: true,
         video:"430243891",
         bounces: 0,
@@ -27,7 +27,7 @@ export const split_data = [
         image1: "https://i.imgur.com/N5jUuBY.png",
         image2: "",
         map: "https://i.imgur.com/s3DaX3X.jpg",
-        info: "Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur."
+        info: "Lands at A lobby, and also exposes the coffee shop cubby. Stand on heaven and align your crosshair with the top of the building, and align the bottom of your hud so that there's a tiny gap between your hud, and the light shining on the A ramp floor. Shooting a little to the left will clear cubby more, and shooting to the right will clear A lobby more. The goal is to land it directly in the middle so that it covers both. Watch out for the red spot on the cubby spot, and it won't always clear the guy hiding in sewer ropes. "
     },
     {
         id:3,
@@ -222,6 +222,7 @@ export const split_data = [
     },
 ]
 export const split_detail = {
+    id:1,
     title: "A ramp from A lobby",
     isActive: true,
     difficulty: "Easy",
@@ -233,5 +234,5 @@ export const split_detail = {
     image1: "https://i.imgur.com/uuhO6bv.png",
     image2: "",
     map: "https://i.imgur.com/rcoHOOr.jpg",
-    info: "Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit."
+    info: "Many lineups either don't get close by cubby near the camp, or don't get either said of the box since. This dart will filly clear ramps A ramps every time, just jump on the ledge and aim at the left side of first line above the first building. You should time this dart so that a teammate can peek when they have to turn around and shoot it. They can still hold ramps from the door, but it's very unlikely. "
 }

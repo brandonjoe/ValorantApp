@@ -122,7 +122,7 @@ I think having a very simple way to edit the site is important to keeping it upd
 
 
 
-The majority of the inspiration came from [playValorant.com](https://playvalorant.com/en-us/), as well as [Dmitry Kiiashco](https://dribbble.com/UnEpicKid). I took a few media assets from him to help with the design. A lot of inspiration for the content/darts inside the site came from u/KhigenNA, big thanks to them. 
+The majority of the inspiration came from [playValorant.com](https://playvalorant.com/en-us/), as well as [Dmitry Kiiashco](https://dribbble.com/UnEpicKid). I took a few media assets from him to help with the design. A lot of inspiration for the content/darts inside the site came from u/KhigenNA, big thanks to them. Also, big thanks to blitz.gg for the images of the map!
 
 
 

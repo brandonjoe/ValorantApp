@@ -108,7 +108,7 @@ export const haven_data = [
 		difficulty: 'Easy',
 		side: 'Attacking',
 		essential: true,
-		video: "429846382",
+		video: "432704455",
 		bounces: 2,
 		charges: 3,
 		image1: "https://i.imgur.com/whFPDLL.png",
@@ -164,7 +164,7 @@ export const haven_data = [
 		charges: 2,
 		image1: "https://i.imgur.com/KykLPwu.png",
 		image2: "https://i.imgur.com/v8Xttiw.png",
-		result: "https://i.imgur.com/TESgO2K.png",
+		result: "https://i.imgur.com/p2efeaf.png",
 		map: "https://i.imgur.com/OwavSsG.jpg",
 		info:
 			'Very useful dart for catching the garage pushers off guard, while also holding courtyard for your mid player. It reveals a lot of grass, while also potentially revealing into their spawn. Move along the back wall until you see a small opening where you see the wall at mid. Aim very slightly above the shadow. Careful for the tiny red on the map, but this arrow lands so fast, it should get a pulse off before they move. '
@@ -217,6 +217,37 @@ export const haven_data = [
 		map: "https://i.imgur.com/gy0eKkM.jpg",
 		info:
 			"This dart isn't meant to cover garage window, it's meant to cover the connector between the connector between garage and C site, while covering the rest of garage. Aim about 3/4 up from the wall. Be careful for the red spot, since it won't scan that area, and it's a very common off angle hold spot. "
+	},
+	{
+		id: 15,
+		title: "A site from A link",
+		isActive: false,
+		difficulty: 'Hard',
+		side: 'Defending',
+		essential: true,
+		video: "432707035",
+		bounces: 0,
+		charges: 0,
+		image1: "https://i.imgur.com/yTzHDW6.jpg",
+		result: "https://i.imgur.com/DKchKKq.png",
+		map: "https://i.imgur.com/XJRxsC0.jpg",
+		info:
+			"Very great retake dart that covers 100% of hell, as well as other hiding spots. "
+	},{
+		id: 14,
+		title: 'C site from C Link',
+		isActive: false,
+		difficulty: 'Easy',
+		side: 'Defending',
+		essential: true,
+		video: "432704497",
+		bounces: 1,
+		charges: 2,
+		image1: "https://i.imgur.com/jCjIlJh.png",
+		result: "https://i.imgur.com/jwTVHtb.png",
+		map: "https://i.imgur.com/Ih0Deha.jpg",
+		info:
+			"Easy retake arrow that lands in the back of C site when you're retaking. Aim along the wall about half way up from the shadow. "
 	},
 ];
 export const haven_detail = {

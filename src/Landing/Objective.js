@@ -101,8 +101,8 @@ const Objective = () => {
 									<Link
 										style={{ textDecoration: 'none' }}
 										className={classes.video_textblock}
-										to={'/bind'}
-										onClick={() => value.setDirectDetail(4)}
+										to={'/haven'}
+										onClick={() => value.setDirectDetail(13)}
 									>
 										<div className={classes.video_text}>How to... </div>
 										<div className={classes.arrow} />
@@ -110,7 +110,7 @@ const Objective = () => {
 									<ReactPlayer
 										className={classes.video}
 										style={style3}
-										url="https://i.imgur.com/3F5FB0a.mp4"
+										url="https://i.imgur.com/LyUfcpQ.mp4"
 										muted={true}
 										loop={true}
 										playing={true}

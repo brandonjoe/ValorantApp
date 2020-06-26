@@ -11,6 +11,7 @@ export const split_data = [
         charges: 1,
         image1: "https://i.imgur.com/uuhO6bv.png",
         image2: "",
+        result: "https://i.imgur.com/HTvHLDg.png",
         map: "https://i.imgur.com/rcoHOOr.jpg",
         info: "Many lineups either don't get close by cubby near the camp, or don't get either said of the box since. This dart will filly clear ramps A ramps every time, just jump on the ledge and aim at the left side of first line above the first building. You should time this dart so that a teammate can peek when they have to turn around and shoot it. "
     },
@@ -20,18 +21,19 @@ export const split_data = [
         isActive: false,
         difficulty: "Easy",
         side: "Attacking",
-        essential: true,
+        essential: false,
         video:"430243891",
         bounces: 0,
         charges: 1,
         image1: "https://i.imgur.com/N5jUuBY.png",
         image2: "",
+        result: "https://i.imgur.com/gGM3g20.png",
         map: "https://i.imgur.com/s3DaX3X.jpg",
         info: "Lands at A lobby, and also exposes the coffee shop cubby. Stand on heaven and align your crosshair with the top of the building, and align the bottom of your hud so that there's a tiny gap between your hud, and the light shining on the A ramp floor. Shooting a little to the left will clear cubby more, and shooting to the right will clear A lobby more. The goal is to land it directly in the middle so that it covers both. Watch out for the red spot on the cubby spot, and it won't always clear the guy hiding in sewer ropes. "
     },
     {
         id:3,
-        title: "A heaven from A lobby",
+        title: "A rafters from A lobby",
         isActive: false,
         difficulty: "Easy",
         side: "attacking",
@@ -39,10 +41,11 @@ export const split_data = [
         video: "430243934",
         bounces: 0,
         charges: 1,
+        result: "https://i.imgur.com/YkUle26.png",
         image1: "https://i.imgur.com/tJji4Ea.png",
         image2: "",
         map: "https://i.imgur.com/n8AWgXz.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        info: "A fast dart for getting rafters and site, and potentially heaven. It isn't good clearing either of those, and there are specific darts, but it's good for a quick scan of both. Point your crosshair at the light on the balcony. Doesn't get under rafters at all. "
     },
     {
         id:4,
@@ -56,7 +59,8 @@ export const split_data = [
         video:"430491836",
         image1: "https://i.imgur.com/9RNlAAv.png",
         map: "https://i.imgur.com/p91wrNs.jpg",
-        info: "Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit."
+        result: "https://i.imgur.com/WTSGRRN.png",
+        info: "This full clears the mid side of B heaven, it's very important that there are 2 bounces. Many people put no charges, but it doesn't get inside heaven which is the most important thing. Aim crosshair at the corner of the building. "
     },
     {
         id:5,
@@ -68,9 +72,10 @@ export const split_data = [
         video:"430491969",
         bounces: 0,
         charges: 1,
+        result: "https://i.imgur.com/vkS25pC.png",
         image1: "https://i.imgur.com/xmZCTWW.png",
         map: "https://i.imgur.com/TbnqsCg.jpg",
-        info: "Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur."
+        info: "This dart lands on B site, but it doesn't scan back of B. It will scan close left when you exit B main, and it'll also scan site. Aim at the corner of the building. "
     },
     {
         id:6,
@@ -78,14 +83,15 @@ export const split_data = [
         isActive: false,
         difficulty: "Medium",
         side: "Defending",
-        essential: true,
+        essential: false,
         video: "430492141",
         bounces: 2,
         charges: 2,
         image1:"https://i.imgur.com/Lwl7qvl.png",
         image2: "https://i.imgur.com/pVwha5n.png",
         map: "https://i.imgur.com/oAkCBhR.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/cVOPDsM.png",
+        info: "This dart lands in B main, but also exposes parts of B lobby if someone isn't paying attention. Downside of this dart is that you need to cross to the other side of B, and if you're caught there, you're in a bad spot. "
     },
     {
         id:7,
@@ -97,16 +103,18 @@ export const split_data = [
         video: "430492218",
         bounces: 1,
         charges: 1,
+        result: "https://i.imgur.com/mWT3ehG.png",
         image1: "https://i.imgur.com/GjhRlkO.png",
         image2: "https://i.imgur.com/4RZASPs.png",
         map: "https://i.imgur.com/n3ijGHR.jpg",
-        info: "Dolor et proident anim mollit occaecat proident ipsum irure ullamco enim. Ullamco magna cupidatat veniam pariatur et excepteur occaecat enim cupidatat sunt eu. Do elit est nostrud ex aliqua adipisicing deserunt irure sint. Incididunt dolor anim consequat ad sit mollit eiusmod anim voluptate aliquip sunt. Consequat ipsum eiusmod aliqua deserunt magna et magna cillum anim sunt cillum dolor dolore. Laborum labore non proident officia ipsum aliqua consequat ipsum veniam quis cillum eiusmod. Eu laboris elit id consequat incididunt velit."
+        info: "This dart will clear ramen, and also get bottom middle as well as scanning sewers. Shouldn't be used every around, so try to mix it up. Aim your crosshair at the corner of the '2' on the wall."
     },
     {
         id:8,
         title: "Mid vents from ramen",
         isActive: false,
-        difficulty: "Easy",
+        difficulty: "Medium",
+        result: "https://i.imgur.com/aLdPQbs.png",
         side: "Attacking",
         bounces: 1, 
         charges: 3,
@@ -115,7 +123,7 @@ export const split_data = [
         image1: "https://i.imgur.com/6k8VbNF.png",
         image2: "https://i.imgur.com/9WgQG3j.png",
         map: "https://i.imgur.com/dnwyM0o.jpg",
-        info: "Laborum ex in aute nostrud reprehenderit fugiat sunt ex laborum sit. Velit nulla ut est magna sunt elit laboris deserunt. Laborum do deserunt elit adipisicing. Est quis consectetur pariatur tempor id reprehenderit officia ea adipisicing excepteur ea. In excepteur tempor est labore mollit officia nostrud labore sunt exercitation deserunt tempor ipsum. Ad cillum eu eiusmod duis aliquip qui qui qui nulla sunt cupidatat pariatur."
+        info: "This dart lets you walk up the left side of mid when attacking for free. It'll clear all of vents, but won't clear someone holding ropes. You can put bounces if you want to maybe cover ropes, but 1 bounce makes it land faster. Aim right between these 2 lines on the wall that are inside the rectangle. Then aim right where the blue and brown wood meet. "
     },
     {
         id:9,
@@ -127,10 +135,11 @@ export const split_data = [
         video: "430492378",
         bounces: 1,
         charges: 3,
-        image1: "https://i.imgur.com/kXq0uC4.png",
+        image1: "https://i.imgur.com/PrHbj5S.jpg",
         image2: "https://i.imgur.com/4eR5QxK.png",
         map: "https://i.imgur.com/bLUpbGS.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/puszkTo.png",
+    info: "A strong lineup for once you have vent control and want to make a B push since it clears all of B heaven. I haven't been shot from mid vents while doing this, so I don't think your bow sticks out. Line up the corner of the wall with the corner of the metal box, and then line up the bottom left corner of the charge box with the small black box as shown in the picture. "
     },
     {
         id:10,
@@ -145,7 +154,8 @@ export const split_data = [
         image1: "https://i.imgur.com/P4sjDq0.png",
         image2: "https://i.imgur.com/hxz47vz.png",
         map: "https://i.imgur.com/H0aTcSB.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/y1MGIFP.png",
+        info: "This dart clears mail room only, it might scan heaven, but it's not reliable. Align in the corner of ramen, and aim your crosshair between the 2 lines shown in the first image. "
     },
     {
         id:11,
@@ -160,7 +170,8 @@ export const split_data = [
         image1: "https://i.imgur.com/Ccc3QP6.png",
         image2: "https://i.imgur.com/UtIYBZ0.png",
         map: "https://i.imgur.com/n3ijGHR.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/jR8FPD8.png",
+        info: "Similar to the one from mail room, this one also lands in the middle and scans the same spots except it's from vent side. Imagine a line coming out from the wood in the first image, and aim right between the door. "
     },
     {
         id:12,
@@ -174,7 +185,7 @@ export const split_data = [
         charges: 0,
         image1: "https://i.imgur.com/V82xsEV.png",
         map:"https://i.imgur.com/s3DaX3X.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        info: "This one lands on A lobby, and also tries to get as much as cubby as possible. Aim your crosshair at the corner of the building, but get as close as possible to the edge of the wall as you can without hitting it. "
     },
     {
         id:13,
@@ -189,21 +200,23 @@ export const split_data = [
         image1: "https://i.imgur.com/mFyBZVI.png",
         image2: "https://i.imgur.com/I2jnqph.png",
         map: "https://i.imgur.com/TbnqsCg.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/WXgFX12.png",
+        info: "This one is very difficult to perform correctly, and can miss if you fail. The goal of this dart is to land at the edge of the AC unit so that it covers part of back B. Aim slightly above the left hand side of the AC unit, but missing will cause it to go off the map and be useless. "
     },
     {
         id:14,
         title: "A site from A heaven",
         isActive: false,
         difficulty: "Easy",
-        side: "Attacking",
-        essential: false,
+        side: "Neither",
+        essential: true,
         video: "430493219",
         bounces: 0,
         charges: 2,
         image1: "https://i.imgur.com/JZG3tFS.png",
         map: "https://i.imgur.com/pLwz8p5.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/PiBq0dn.png",
+        info: "This is the best dart for revealing people on A site from heaven since it gets all the spots. Aim your crosshair as close as possible to the left side of the box. "
     },
     {
         id:15,
@@ -218,7 +231,8 @@ export const split_data = [
         image1: "https://i.imgur.com/WZ5EqmE.png",
         image2: "",
         map: "https://i.imgur.com/VpAlT10.jpg",
-        info: "Consectetur pariatur eiusmod proident amet do cillum officia cupidatat ea Lorem ea. Officia irure eu voluptate enim culpa eiusmod sit Lorem anim exercitation incididunt eu sint do. Fugiat sint enim nulla ut. Consequat aliqua do labore sit dolore Lorem esse occaecat non nisi fugiat non. Nostrud reprehenderit laboris proident est et quis amet dolor adipisicing laboris minim. Laboris aliqua officia magna enim non cupidatat."
+        result: "https://i.imgur.com/YkUle26.png",
+        info: "This should be a staple dart for pushing onto A site because below and top of rafters, as well as a good portion of A site. "
     },
 ]
 export const split_detail = {

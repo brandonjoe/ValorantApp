@@ -416,6 +416,11 @@
 .video_textblock:hover::after {
 	background: rgb(236, 232, 225);
 }
+@media only screen and (min-width: 2000px) {
+	.title{
+		font-size: 14rem;
+	}
+}
 @media only screen and (min-height: 1700px) {
 	.title{
 		font-size: 20rem;

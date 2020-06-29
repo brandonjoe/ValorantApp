@@ -235,18 +235,18 @@ export const ascent_data = [
 ];
 export const ascent_detail = {
 	id: 1,
-		title: 'B lobby/b main from B site',
-		isActive: true,
-		difficulty: 'Easy',
-		side: 'Defending',
-		essential: true,
-		video: '431576728',
-		image1: 'https://i.imgur.com/E4NbMfQ.png',
-		image2: '',
-		bounces: 1,
-		charges: 1,
-		map: 'https://i.imgur.com/L8bSkrL.jpg',
-		result: "https://i.imgur.com/b7rNGTg.png",
-		info:
-			"Can cover mid/B lobby, as well as parts of B main, but doesn't fully cover either of them. Aim at top corner of the roof. "
+	title: 'B lobby/b main from B site',
+	isActive: true,
+	difficulty: 'Easy',
+	side: 'Defending',
+	essential: true,
+	video: '431576728',
+	image1: 'https://i.imgur.com/E4NbMfQ.png',
+	image2: '',
+	bounces: 1,
+	charges: 1,
+	map: 'https://i.imgur.com/L8bSkrL.jpg',
+	result: "https://i.imgur.com/b7rNGTg.png",
+	info:
+		"Can cover mid/B lobby, as well as parts of B main, but doesn't fully cover either of them. Aim at top corner of the roof. "
 };

@@ -193,15 +193,15 @@ export const haven_data = [
 		difficulty: 'Medium',
 		side: 'Attacking',
 		essential: true,
-		video: "430912690",
+		video: "430912759",
 		bounces: 1,
 		charges: 2,
 		image1: "https://i.imgur.com/bknngBE.jpg",
 		image2: "https://i.imgur.com/qQoPd0q.jpg",
 		result: "https://i.imgur.com/Ni44gGF.png",
-		map: "https://i.imgur.com/gy0eKkM.jpg",
+		map: "https://i.imgur.com/KQvNrN8.jpg",
 		info:
-			"This dart isn't meant to cover garage window, it's meant to cover the connector between the connector between garage and C site, while covering the rest of garage. Aim about 3/4 up from the wall. Be careful for the red spot, since it won't scan that area, and it's a very common off angle hold spot. "
+			"Really solid dart that should be mixed in with your garage push and C long push. It covers back of site, but most importantly, it covers the back left of the site where an awper can hold. Watch where I move to at the end of the video, make sure your darts clear that spot, very common awp spot. Align yourself so that the box is flush with the wall in the first image. Aim so that the left of the owl drone icon is flush with the small mountain in the background. "
 	},{
 		id: 13,
 		title: 'C site from C lobby (platform)',
@@ -209,14 +209,14 @@ export const haven_data = [
 		difficulty: 'Easy',
 		side: 'Attacking',
 		essential: true,
-		video: "430912759",
+		video: "430912690",
 		bounces: 0,
 		charges: 1,
 		image1: "https://i.imgur.com/YltdB0I.png",
 		result: "https://i.imgur.com/hPMoOBw.png",
-		map: "https://i.imgur.com/gy0eKkM.jpg",
+		map: "https://i.imgur.com/mMXTgHg.jpg",
 		info:
-			"This dart isn't meant to cover garage window, it's meant to cover the connector between the connector between garage and C site, while covering the rest of garage. Aim about 3/4 up from the wall. Be careful for the red spot, since it won't scan that area, and it's a very common off angle hold spot. "
+			"Similar to the last one, but a faster travel time. It lands on plat, so someone can be awping from the right of the back box, and it won't scan there. Aim right where the blue flag is hanging."
 	},
 	{
 		id: 15,
@@ -232,7 +232,7 @@ export const haven_data = [
 		result: "https://i.imgur.com/DKchKKq.png",
 		map: "https://i.imgur.com/XJRxsC0.jpg",
 		info:
-			"Very great retake dart that covers 100% of hell, as well as other hiding spots. "
+			"Very great retake dart that covers 100% of hell, as well as other hiding spots. Align the corner of the box in the HUD with the corner of the window as shown in the picture below. Don't put it right next to it, make sure there's a very tiny gap. "
 	},{
 		id: 14,
 		title: 'C site from C Link',
@@ -248,6 +248,22 @@ export const haven_data = [
 		map: "https://i.imgur.com/Ih0Deha.jpg",
 		info:
 			"Easy retake arrow that lands in the back of C site when you're retaking. Aim along the wall about half way up from the shadow. "
+	},
+	{
+		id: 16,
+		title: 'A site/heaven from A long',
+		isActive: false,
+		difficulty: 'Medium',
+		side: 'Attacking',
+		essential: true,
+		video: "432752209",
+		bounces: 0,
+		charges: 1,
+		image1: "https://i.imgur.com/v9IwnSZ.jpg",
+		result: "https://i.imgur.com/cCpln7i.png",
+		map: "https://i.imgur.com/0kTUm0J.jpg",
+		info:
+			"Great dart for pushing into site, it clears heaven as well as a good portion of site. Make sure the top left corner of your charge bar lines up right in between the two rocks as shown in the image. Thanks to redditor u/jhn2 (discord JOHN#1154) for finding this dart!"
 	},
 ];
 export const haven_detail = {

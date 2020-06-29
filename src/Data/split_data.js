@@ -237,16 +237,17 @@ export const split_data = [
 ]
 export const split_detail = {
     id:1,
-    title: "A ramp from A lobby",
-    isActive: true,
-    difficulty: "Easy",
-    side: "Attacking",
-    essential: true,
-    video: "430192580",
-    bounces: 1,
-    charges: 1,
-    image1: "https://i.imgur.com/uuhO6bv.png",
-    image2: "",
-    map: "https://i.imgur.com/rcoHOOr.jpg",
-    info: "Many lineups either don't get close by cubby near the camp, or don't get either said of the box since. This dart will filly clear ramps A ramps every time, just jump on the ledge and aim at the left side of first line above the first building. You should time this dart so that a teammate can peek when they have to turn around and shoot it. They can still hold ramps from the door, but it's very unlikely. "
+        title: "A ramp from A lobby",
+        isActive: true,
+        difficulty: "Easy",
+        side: "Defending",
+        essential: true,
+        video: "430192580",
+        bounces: 1,
+        charges: 1,
+        image1: "https://i.imgur.com/uuhO6bv.png",
+        image2: "",
+        result: "https://i.imgur.com/HTvHLDg.png",
+        map: "https://i.imgur.com/rcoHOOr.jpg",
+        info: "Many lineups either don't get close by cubby near the camp, or don't get either said of the box since. This dart will filly clear ramps A ramps every time, just jump on the ledge and aim at the left side of first line above the first building. You should time this dart so that a teammate can peek when they have to turn around and shoot it. "
 }

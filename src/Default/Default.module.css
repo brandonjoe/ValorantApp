@@ -1,5 +1,9 @@
+
 .main {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
 	height: fit-content;
 	background-image: url("../Media/default_background.jpg");
 	background-size: cover;
@@ -7,17 +11,31 @@
 	background-repeat: no-repeat;
 	position: relative;
 	height: calc(100vh - 8rem);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+    
+	-webkit-box-direction: normal;
+    
+	    -ms-flex-direction: column;
+    
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	color: rgb(241, 241, 241);
 }
 .tint{
 	height: 100%;
 	width: 100%;
 	position: absolute;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(31, 35, 38, 0)), to(rgb(31, 35, 38)));
+	background-image: -o-linear-gradient(bottom, rgba(31, 35, 38, 0), rgb(31, 35, 38));
 	background-image: linear-gradient(to top, rgba(31, 35, 38, 0), rgb(31, 35, 38));
 }
 .error{

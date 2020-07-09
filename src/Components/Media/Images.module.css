@@ -1,20 +1,42 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .container {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	width: 100%;
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	position: relative;
 	left: -1px;
 	border-left: 1px solid rgb(145, 145, 145);
 }
 
 .image_container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	box-sizing: border-box;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	margin-bottom: 4rem;
 }
 .image {
@@ -30,7 +52,6 @@
 	overflow: hidden;
 	height: inherit;
 	-webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.59);
-	-moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.59);
 	box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.59);
 }
 .image_wrapper {
@@ -47,7 +68,8 @@
 	left: -150%;
 	display: block;
 	background: rgba(0, 0, 0, 0.63);
-	clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+	        clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
 }
 .container::after {
 	content: "";
@@ -82,17 +104,22 @@
 	bottom: 0;
 	position: absolute;
 	border: 1px solid #cfcfcf;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 70, 85)), to(rgb(255, 70, 85)));
+	background-image: -o-linear-gradient(rgb(255, 70, 85), rgb(255, 70, 85));
 	background-image: linear-gradient(rgb(255, 70, 85), rgb(255, 70, 85));
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: 0% 0%;
+	-webkit-transition: background-size .6s, color .6s;
+	-o-transition: background-size .6s, color .6s;
 	transition: background-size .6s, color .6s;
 }
 .container:hover + .box {
 	background-size: 100% 100%;
 }
 .box::before {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	content: "";
 	display: block;
 	position: absolute;
@@ -100,7 +127,8 @@
 	width: 100%;
 	border-top: 1px solid #b5b9b6;
 	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	    transform: rotate(45deg);
 	top: 50%;
 }
 .box::after {

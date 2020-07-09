@@ -1,3 +1,4 @@
+
 .container{
     height: 13rem;
     background-position: center;
@@ -8,9 +9,16 @@
 }
 .main{
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 position: relative;
 }
 .map{
@@ -55,11 +63,15 @@ position: relative;
 }
 .button{
     width: 8rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     position: absolute;
     display: none;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     margin-left: 2rem;
 
 }

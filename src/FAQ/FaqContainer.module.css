@@ -1,5 +1,7 @@
+
 .header {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	overflow: visible;
 	position: relative;
 	height: 30rem;
@@ -8,6 +10,8 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	z-index: 100;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	z-index: 0;
 }
@@ -16,6 +20,8 @@
 	height: 100%;
 	width: 100%;
 	position: absolute;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 25, 35, 0.363)), to(rgb(5, 16, 34)));
+	background-image: -o-linear-gradient(top, rgba(15, 25, 35, 0.363), rgb(5, 16, 34));
 	background-image: linear-gradient(to bottom, rgba(15, 25, 35, 0.363), rgb(5, 16, 34));
 }
 .header_left {
@@ -27,12 +33,19 @@
 	height: 100%;
 }
 .header_middle {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	z-index: 10;
 	width: 60%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	border-right: 1px solid rgb(163, 163, 163);
 	border-left: 1px solid rgb(163, 163, 163);
 }
@@ -42,7 +55,8 @@
 	border-bottom: 1px solid grey;
 	padding-right: 7rem;
 	padding-top: 2rem;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	font-size: 6rem;
 	color: white;
 	font-family: "Tungsten-Bold", sans-serif;
@@ -67,6 +81,8 @@
 }
 .main {
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	position: relative;
 }
@@ -109,6 +125,8 @@
 }
 .middle {
 	width: 60%;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
 	height: fit-content;
 	min-height: calc(100vh - 38rem);
 	position: relative;
@@ -167,7 +185,8 @@
 .faqList {
 	position: relative;
 	top: 5rem;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 @media only screen and (max-width: 1100px) {
 	.header_middle {

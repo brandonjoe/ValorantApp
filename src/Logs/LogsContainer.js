@@ -7,6 +7,16 @@ class LogsContainer extends Component {
     componentDidMount = () => {
         this.context.setLogs();
     }
+    logFilter = (logItem) => {
+        let d = new Date();
+        if(logItem.date) {
+            let month = parseInt(logItem.date.substring(0,logItem.date.indexOf('/')))
+            if(month == d.getMonth()+1){
+                return true;
+            }
+           
+        }
+    }
     render() {
         return (
            
@@ -25,6 +35,7 @@ class LogsContainer extends Component {
                             <AppConsumer>
                             {(value) => {
                                 return value.logs.map((item) => {
+                                    this.logFilter(item);
                                     return <LogItem className={classes.lineupItem} key={item.id} logs={item} />;
                                 });
                             }}

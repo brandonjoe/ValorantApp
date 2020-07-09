@@ -1,6 +1,10 @@
+
 .container {
 	position: relative;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
 	height: fit-content;
 	background: rgb(15, 25, 35);
 }
@@ -8,9 +12,16 @@
 .main {
 	height: 100%;
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .right {
 	position: relative;
@@ -18,12 +29,16 @@
 	max-width: 20%;
 }
 .map_wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	position: relative;
 	width: 100%;
 	max-width: 1300px;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	height: 100%;
 
 	margin-bottom: 10rem;
@@ -64,18 +79,30 @@
 }
 .map_selection {
 	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	height: 100%;
 	width: 60% !important;
 	border-left: 2px solid rgb(119, 119, 119);
 	border-right: 2px solid rgb(119, 119, 119);
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	border-top: 1px solid rgb(131, 131, 131);
 }
 .map_title {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
 	height: fit-content;
 	width: 100%;
 }
@@ -117,10 +144,19 @@
 	position: relative;
 	width: 120%;
 	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .map_container::after {
 	position: absolute;
@@ -153,13 +189,20 @@
 }
 
 .link {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
 	width: fit-content;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
 	transition: all 1s ease-out;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
 	height: fit-content;
 }
 
 .whiteline_left {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	z-index: 0;
 	width: 100%;
 	position: absolute;
@@ -168,7 +211,8 @@
 	border-left: 1px solid rgb(194, 194, 194);
 }
 .whiteline_right {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	z-index: 0;
 	position: absolute;
 	height: 100%;

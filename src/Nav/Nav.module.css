@@ -1,130 +1,158 @@
+
 .container{
-    height: 80px;
-    background-color: rgb(31, 35, 38);
-    z-index: 4000;
+  height: 80px;
+  background-color: rgb(31, 35, 38);
+  z-index: 4000;
 }
 .nav_buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-    
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  
 }
 .home_btn{
-    padding-right: 3rem;
-    position: relative;
-    margin-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  margin-left: 3rem;
 }
 ul, li{
-  list-style-type: none;
-  font-family: "GoodTimes";
-  text-decoration: none;
+list-style-type: none;
+font-family: "GoodTimes";
+text-decoration: none;
 }
 .home_btn::after{
-  content: '';
-  height: 3rem;
-  width: .1rem;
-  position: absolute;
-  right: 0;
-  top: 1rem;
-  background: rgb(87, 87, 87);
+content: '';
+height: 3rem;
+width: .1rem;
+position: absolute;
+right: 0;
+top: 1rem;
+background: rgb(87, 87, 87);
 }
 .links{
-  margin: 2rem;
-  color: rgb(236, 236, 236);
-  height: 100%;
-  position: relative;
-  line-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+margin: 2rem;
+color: rgb(236, 236, 236);
+height: 100%;
+position: relative;
+line-height: 100%;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 .links:hover{
-  color: tomato;
-  transition: all 1s ease;
-  cursor: pointer;
+color: tomato;
+-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+cursor: pointer;
 }
 
 .links::after{
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%) scaleX(0);
-  -webkit-transform: translateX(-50%) scaleX(0);
-  transform-origin: 50% 50%;
-  -webkit-transform-origin: 50% 50%;
-  width: 100%;
-  height: 2px;
-  background-color: rgb(228, 228, 228);
-  transition: transform 250ms;
-  -webkit-transition: transform 250ms;
+content: '';
+position: absolute;
+left: 50%;
+bottom: 0;
+-ms-transform: translateX(-50%) scaleX(0);
+    transform: translateX(-50%) scaleX(0);
+-webkit-transform: translateX(-50%) scaleX(0);
+-ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+-webkit-transform-origin: 50% 50%;
+width: 100%;
+height: 2px;
+background-color: rgb(228, 228, 228);
+-webkit-transition: -webkit-transform 250ms;
+transition: -webkit-transform 250ms;
+-o-transition: transform 250ms;
+transition: transform 250ms;
+transition: transform 250ms, -webkit-transform 250ms;
+-webkit-transition: transform 250ms;
 }
 .links:hover::after{
-  -webkit-transform: translateX(-50%) scaleX(1);
-  transform: translateX(-50%) scaleX(1);
+-webkit-transform: translateX(-50%) scaleX(1);
+-ms-transform: translateX(-50%) scaleX(1);
+    transform: translateX(-50%) scaleX(1);
 }
 .links_text{
-  font-size: 1.2rem;
-  font-family: "GoodTimes"
+font-size: 1.2rem;
+font-family: "GoodTimes"
 }
 .dropbtn {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    padding: 16px;
-    font-size: 1.2rem;
-    border: none;
-    cursor: pointer;
-    font-family: "GoodTimes"
-  }
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 16px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  font-family: "GoodTimes"
+}
+.nav_buttons{
+    margin: 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {background-color: #ff5959}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: tomato;
+  -webkit-transition: .7s all ease;
+  -o-transition: .7s all ease;
+  transition: .7s all ease;
+}
+@media only screen and (max-width: 400px){
   .nav_buttons{
-      margin: 0;
+    padding-left: 0;
   }
-  .dropdown {
-    position: relative;
-    display: inline-block;
+}
+@media only screen and (max-width: 500px){
+  .container{
+    height: 45px;
   }
-  
-  .dropdowncontent {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 3px;
+}
+@media only screen and (max-width: 350px){
+  .links{
+    margin: 1rem;
   }
-  
-  .dropdowncontent a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdowncontent a:hover {background-color: #ff5959}
-  
-  .dropdown:hover .dropdowncontent {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    color: tomato;
-    transition: .7s all ease;
-  }
-  @media only screen and (max-width: 400px){
-    .nav_buttons{
-      padding-left: 0;
-    }
-  }
-  @media only screen and (max-width: 500px){
-    .container{
-      height: 45px;
-    }
-  }
-  @media only screen and (max-width: 350px){
-    .links{
-      margin: 1rem;
-    }
-  }
+}

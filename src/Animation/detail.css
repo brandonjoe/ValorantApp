@@ -1,19 +1,40 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .alert-enter {
   opacity: 0;
-  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
 }
 .alert-enter-active {
   opacity: 1;
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: opacity 2000ms, -webkit-transform 2000ms;
+  transition: opacity 2000ms, -webkit-transform 2000ms;
+  -o-transition: opacity 2000ms, transform 2000ms;
   transition: opacity 2000ms, transform 2000ms;
+  transition: opacity 2000ms, transform 2000ms, -webkit-transform 2000ms;
 }
 .alert-exit {
   opacity: 1;
 }
 .alert-exit-active {
   opacity: 0;
-  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: opacity 2000ms, -webkit-transform 2000ms;
+  transition: opacity 2000ms, -webkit-transform 2000ms;
+  -o-transition: opacity 2000ms, transform 2000ms;
   transition: opacity 2000ms, transform 2000ms;
+  transition: opacity 2000ms, transform 2000ms, -webkit-transform 2000ms;
 }
 .alert{
   background-color: white;

@@ -4,7 +4,7 @@
 
 
 
-
+UPDATE Nov 2023 - site is currently being updated locally
 
 This site is made as a personal project, as well as help others learn important lineups in RiotGame's fps shooter, Valorant. It's a site build with React, and uses Context API for state management. Here you'll find updates to date lineups across all the current maps. 
 
